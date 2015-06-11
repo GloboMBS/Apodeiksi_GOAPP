@@ -1,0 +1,354 @@
+<project pid="54c1b593-fbad-4e4a-852b-75a32bffa096" name="Apodeiksi_GOAPP" saveversion="2" path="C:\Users\vkyritsis\Desktop\Apodeiksi_GOAPP\" type="Server" conversion="2.5.0.17">
+  <appinfo appid="" devid="" versionid="" apptitle="Apodeiksi_GOAPP" appauthor="" appdescription="" appreleasenotes="" appversion="1.0.0.0" appcreationdate="11/6/2015 12:29:29 μμ" appicon="" apprequireslicense="False" appmenuvisible="True" defaultpage="Page1" requiresdomain="False" defaultstyles="True" extsrc="True" updmessage="" />
+  <languages>
+    <enabled type="False" />
+  </languages>
+  <file del="True" mov="True" ren="True">
+    <id>0</id>
+    <filename>Apodeiksi_GOAPP</filename>
+    <fullpath />
+    <isopen>False</isopen>
+    <imageid>1</imageid>
+    <location />
+    <parentid>-1</parentid>
+    <type>ft_Project</type>
+  </file>
+  <file del="False" mov="False" ren="False" drag="False">
+    <id>1</id>
+    <filename>Code Repository</filename>
+    <fullpath>Code Repository</fullpath>
+    <isopen>False</isopen>
+    <imageid>5</imageid>
+    <location />
+    <parentid>-1</parentid>
+    <type>ft_Folder</type>
+  </file>
+  <file del="False" mov="False" ren="False" drag="False">
+    <id>2</id>
+    <filename>CSS Files</filename>
+    <fullpath>CSS Files</fullpath>
+    <isopen>False</isopen>
+    <imageid>5</imageid>
+    <location />
+    <parentid>-1</parentid>
+    <type>ft_Folder</type>
+  </file>
+  <file del="True" mov="True" ren="True">
+    <id>2924da1afd2543059961189c43253892</id>
+    <filename>Dataset1</filename>
+    <fullpath>Dataset1</fullpath>
+    <isopen>False</isopen>
+    <imageid>3</imageid>
+    <location />
+    <parentid>-1</parentid>
+    <type>ft_Datamodule</type>
+  </file>
+  <file del="True" mov="True" ren="True">
+    <id>09281a7be5924d95824c4a49ceed254e</id>
+    <filename>Page1</filename>
+    <fullpath>Page1</fullpath>
+    <isopen>True</isopen>
+    <imageid>2</imageid>
+    <location />
+    <parentid>-1</parentid>
+    <type>ft_Designer</type>
+  </file>
+  <userparams useaccounting="False" method="(None)" bindings="" tokenfield="" expiration="4320" screenmessage="Please provide values to the following fields in order to validate your profile" validationmessage="The data that you provided is invalid. Please try again." validationsuccessmessage="Settings saved." />
+  <buildsettings winphonelang="en" winstorelang="en" btntext="Accept" serverurl="" usedeployservice="false" androidversioncode="1" androidbundleid="" blackberryversioncode="1" blackberrybundleid="" blackberryappid="" blackberryppgurl="" blackberryppgurlserver="" blackberryppgurlserverpassword="" googleprojectnumber="" iosbundleid="" winphonebundleid="" winstorebundleid="" embed="False" login="False" backimage="False" startsettings="False" disclaimer="False" useencrypt="False" useoffice="False" usebarcode="False" displayprogressbar="none">
+    <theme>
+      <android>
+        <background color="#FFFFFF" />
+        <menubackground color="#000000" />
+        <controlbackground color="#FFFFFF" />
+        <controlbuttonbackground color="#FFFFFF" />
+        <controlbuttonsecondaryforeColor color="#000000" />
+        <navigationbarforecolor color="#000000" />
+        <toolbarbackground color="#FFFFFF" />
+        <searchbarforecolor color="#000000" />
+        <bagdesforecolor color="#000000" />
+        <forecolor color="#000000" />
+        <menuforecolor color="#000000" />
+        <controlforecolor color="#000000" />
+        <controlbuttonforecolor color="#000000" />
+        <navigationbarbackground color="#FFFFFF" />
+        <toolbarforecolor color="#000000" />
+        <searchbarbackground color="#000000" />
+        <bagdesbackground color="#000000" />
+        <disclaimerforecolor color="#000000" />
+        <navbartransclusent value="False" />
+        <toolbartransclusent value="False" />
+        <statusbarlightcolor value="False" />
+      </android>
+      <ios>
+        <background color="#FFFFFF" />
+        <menubackground color="#000000" />
+        <controlbackground color="#FFFFFF" />
+        <controlbuttonbackground color="#FFFFFF" />
+        <controlbuttonsecondaryforeColor color="#000000" />
+        <navigationbarforecolor color="#000000" />
+        <toolbarbackground color="#FFFFFF" />
+        <searchbarforecolor color="#000000" />
+        <bagdesforecolor color="#000000" />
+        <forecolor color="#000000" />
+        <menuforecolor color="#000000" />
+        <controlforecolor color="#000000" />
+        <controlbuttonforecolor color="#000000" />
+        <navigationbarbackground color="#FFFFFF" />
+        <toolbarforecolor color="#000000" />
+        <searchbarbackground color="#000000" />
+        <bagdesbackground color="#000000" />
+        <disclaimerforecolor color="#000000" />
+        <navbartransclusent value="False" />
+        <toolbartransclusent value="False" />
+        <statusbarlightcolor value="False" />
+      </ios>
+      <windows>
+        <background color="#FFFFFF" />
+        <menubackground color="#000000" />
+        <controlbackground color="#FFFFFF" />
+        <controlbuttonbackground color="#FFFFFF" />
+        <controlbuttonsecondaryforeColor color="#000000" />
+        <navigationbarforecolor color="#000000" />
+        <toolbarbackground color="#FFFFFF" />
+        <searchbarforecolor color="#000000" />
+        <bagdesforecolor color="#000000" />
+        <forecolor color="#000000" />
+        <menuforecolor color="#000000" />
+        <controlforecolor color="#000000" />
+        <controlbuttonforecolor color="#000000" />
+        <navigationbarbackground color="#FFFFFF" />
+        <toolbarforecolor color="#000000" />
+        <searchbarbackground color="#000000" />
+        <bagdesbackground color="#000000" />
+        <disclaimerforecolor color="#000000" />
+        <navbartransclusent value="False" />
+        <toolbartransclusent value="False" />
+        <statusbarlightcolor value="False" />
+      </windows>
+      <blackberry>
+        <background color="#FFFFFF" />
+        <menubackground color="#000000" />
+        <controlbackground color="#FFFFFF" />
+        <controlbuttonbackground color="#FFFFFF" />
+        <controlbuttonsecondaryforeColor color="#000000" />
+        <navigationbarforecolor color="#000000" />
+        <toolbarbackground color="#FFFFFF" />
+        <searchbarforecolor color="#000000" />
+        <bagdesforecolor color="#000000" />
+        <forecolor color="#000000" />
+        <menuforecolor color="#000000" />
+        <controlforecolor color="#000000" />
+        <controlbuttonforecolor color="#000000" />
+        <navigationbarbackground color="#FFFFFF" />
+        <toolbarforecolor color="#000000" />
+        <searchbarbackground color="#000000" />
+        <bagdesbackground color="#000000" />
+        <disclaimerforecolor color="#000000" />
+        <navbartransclusent value="False" />
+        <toolbartransclusent value="False" />
+        <statusbarlightcolor value="False" />
+      </blackberry>
+    </theme>
+    <certificates>
+      <certificate type="Android_KeyStore" cert="" store="" pass="" alias="" aliaspass="" platform="Android" />
+      <certificate type="iOS_Private" cert="" store="" pass="" alias="" aliaspass="" platform="iOS" />
+      <certificate type="iOS_Dev" cert="" store="" pass="" alias="" aliaspass="" platform="iOS" />
+      <certificate type="iOS_DevProvisioning" cert="" store="" pass="" alias="" aliaspass="" platform="iOS" />
+      <certificate type="iOS_DevNotification" cert="" store="" pass="" alias="" aliaspass="" platform="iOS" />
+      <certificate type="iOS_Distrib" cert="" store="" pass="" alias="" aliaspass="" platform="iOS" />
+      <certificate type="iOS_DistribProvisioning" cert="" store="" pass="" alias="" aliaspass="" platform="iOS" />
+      <certificate type="iOS_DistribNotification" cert="" store="" pass="" alias="" aliaspass="" platform="iOS" />
+      <certificate type="iOS_Ent" cert="" store="" pass="" alias="" aliaspass="" platform="iOS" />
+      <certificate type="iOS_EntProvisioning" cert="" store="" pass="" alias="" aliaspass="" platform="iOS" />
+      <certificate type="iOS_EntNotification" cert="" store="" pass="" alias="" aliaspass="" platform="iOS" />
+      <certificate type="Win_StoreCertificate" cert="" store="" pass="" alias="" aliaspass="" platform="WindowsStore" />
+      <certificate type="BB10_TokenId" cert="" store="" pass="" alias="" aliaspass="" platform="BlackBerry" />
+      <certificate type="BB10_DeveloperCertificate" cert="" store="" pass="" alias="" aliaspass="" platform="BlackBerry" />
+    </certificates>
+    <resources>
+      <resource id="1" value="" />
+      <resource id="2" value="" />
+      <resource id="3" value="" />
+      <resource id="4" value="" />
+      <resource id="5" value="" />
+      <resource id="6" value="" />
+      <resource id="7" value="" />
+      <resource id="8" value="" />
+      <resource id="9" value="" />
+      <resource id="10" value="" />
+      <resource id="11" value="" />
+      <resource id="12" value="" />
+      <resource id="13" value="" />
+      <resource id="26" value="" />
+      <resource id="27" value="" />
+      <resource id="28" value="" />
+      <resource id="29" value="" />
+      <resource id="30" value="" />
+      <resource id="31" value="" />
+      <resource id="32" value="" />
+      <resource id="33" value="" />
+      <resource id="34" value="" />
+      <resource id="35" value="" />
+      <resource id="36" value="" />
+      <resource id="37" value="" />
+      <resource id="38" value="" />
+      <resource id="39" value="" />
+      <resource id="40" value="" />
+      <resource id="41" value="" />
+      <resource id="42" value="" />
+      <resource id="43" value="" />
+      <resource id="44" value="" />
+      <resource id="45" value="" />
+      <resource id="46" value="" />
+      <resource id="47" value="" />
+      <resource id="48" value="" />
+      <resource id="49" value="" />
+      <resource id="50" value="" />
+      <resource id="51" value="" />
+      <resource id="52" value="" />
+      <resource id="53" value="" />
+      <resource id="54" value="" />
+      <resource id="55" value="" />
+      <resource id="56" value="" />
+      <resource id="57" value="" />
+      <resource id="58" value="" />
+      <resource id="59" value="" />
+      <resource id="60" value="" />
+      <resource id="61" value="" />
+      <resource id="62" value="" />
+      <resource id="63" value="" />
+      <resource id="64" value="" />
+      <resource id="65" value="" />
+      <resource id="66" value="" />
+      <resource id="67" value="" />
+      <resource id="68" value="" />
+      <resource id="70" value="" />
+      <resource id="71" value="" />
+      <resource id="72" value="" />
+      <resource id="73" value="" />
+      <resource id="74" value="" />
+      <resource id="75" value="" />
+      <resource id="76" value="" />
+      <resource id="77" value="" />
+      <resource id="78" value="" />
+      <resource id="79" value="" />
+      <resource id="80" value="" />
+      <resource id="81" value="" />
+      <resource id="82" value="" />
+      <resource id="83" value="" />
+      <resource id="84" value="" />
+      <resource id="85" value="" />
+      <resource id="91" value="" />
+      <resource id="92" value="" />
+      <resource id="93" value="" />
+      <resource id="94" value="" />
+      <resource id="95" value="" />
+      <resource id="96" value="" />
+      <resource id="97" value="" />
+      <resource id="98" value="" />
+      <resource id="99" value="" />
+      <resource id="100" value="" />
+      <resource id="102" value="" />
+      <resource id="103" value="" />
+      <resource id="104" value="" />
+      <resource id="105" value="" />
+      <resource id="106" value="" />
+      <resource id="107" value="" />
+      <resource id="108" value="" />
+      <resource id="109" value="" />
+      <resource id="113" value="" />
+      <resource id="114" value="" />
+      <resource id="115" value="" />
+      <resource id="116" value="" />
+      <resource id="117" value="" />
+      <resource id="118" value="" />
+      <resource id="119" value="" />
+      <resource id="120" value="" />
+      <resource id="121" value="" />
+      <resource id="122" value="" />
+      <resource id="123" value="" />
+      <resource id="124" value="" />
+      <resource id="125" value="" />
+      <resource id="126" value="" />
+      <resource id="127" value="" />
+      <resource id="128" value="" />
+      <resource id="129" value="" />
+      <resource id="130" value="" />
+      <resource id="131" value="" />
+      <resource id="132" value="" />
+      <resource id="133" value="" />
+      <resource id="134" value="" />
+      <resource id="135" value="" />
+      <resource id="136" value="" />
+      <resource id="137" value="" />
+      <resource id="138" value="" />
+      <resource id="139" value="" />
+      <resource id="140" value="" />
+      <resource id="141" value="" />
+      <resource id="142" value="" />
+      <resource id="143" value="" />
+      <resource id="144" value="" />
+      <resource id="145" value="" />
+      <resource id="146" value="" />
+      <resource id="147" value="" />
+      <resource id="148" value="" />
+      <resource id="149" value="" />
+      <resource id="150" value="" />
+      <resource id="151" value="" />
+      <resource id="162" value="" />
+      <resource id="163" value="" />
+      <resource id="164" value="" />
+      <resource id="165" value="" />
+      <resource id="166" value="" />
+      <resource id="167" value="" />
+      <resource id="168" value="" />
+      <resource id="169" value="" />
+      <resource id="170" value="" />
+      <resource id="171" value="" />
+      <resource id="172" value="" />
+      <resource id="173" value="" />
+      <resource id="174" value="" />
+      <resource id="175" value="" />
+      <resource id="176" value="" />
+      <resource id="177" value="" />
+      <resource id="178" value="" />
+      <resource id="179" value="" />
+      <resource id="180" value="" />
+      <resource id="181" value="" />
+      <resource id="182" value="" />
+      <resource id="183" value="" />
+      <resource id="184" value="" />
+      <resource id="197" value="" />
+      <resource id="198" value="" />
+      <resource id="199" value="" />
+      <resource id="200" value="" />
+      <resource id="201" value="" />
+      <resource id="202" value="" />
+      <resource id="203" value="" />
+      <resource id="204" value="" />
+      <resource id="205" value="" />
+      <resource id="206" value="" />
+      <resource id="207" value="" />
+      <resource id="208" value="" />
+      <resource id="209" value="" />
+      <resource id="210" value="" />
+      <resource id="211" value="" />
+      <resource id="212" value="" />
+      <resource id="213" value="" />
+      <resource id="214" value="" />
+      <resource id="215" value="" />
+      <resource id="216" value="" />
+      <resource id="217" value="" />
+      <resource id="218" value="" />
+      <resource id="219" value="" />
+      <resource id="220" value="" />
+      <resource id="221" value="" />
+      <resource id="222" value="" />
+      <resource id="223" value="" />
+      <resource id="224" value="" />
+      <resource id="225" value="" />
+      <resource id="226" value="" />
+      <resource id="227" value="" />
+    </resources>
+  </buildsettings>
+</project>
