@@ -1,4 +1,4 @@
-<project pid="54c1b593-fbad-4e4a-852b-75a32bffa096" name="Apodeiksi_GOAPP" saveversion="2" path="C:\GitProjects\Apodeiksi_GOAPP\GoApp\" type="Server" conversion="2.5.0.17">
+<project pid="54c1b593-fbad-4e4a-852b-75a32bffa096" name="Apodeiksi_GOAPP" saveversion="2" path="C:\GitApps\hackathon\GoApp\" type="Server" conversion="2.5.0.17">
   <appinfo appid="" devid="" versionid="" apptitle="Apodeiksi_GOAPP" appauthor="" appdescription="" appreleasenotes="" appversion="1.0.0.0" appcreationdate="11/6/2015 12:29:29 μμ" appicon="" apprequireslicense="False" appmenuvisible="True" defaultpage="pgApodeiksiGOAPP" requiresdomain="False" defaultstyles="False" extsrc="True" updmessage="" />
   <languages>
     <enabled type="False" />
@@ -242,6 +242,26 @@
     <location>Code Repository\</location>
     <parentid>1</parentid>
     <type>ft_CodeLib</type>
+  </file>
+  <file del="True" mov="False" ren="True">
+    <id>45a23bf448d146318f2fb62386779d43</id>
+    <filename>generalJs</filename>
+    <fullpath>Code Repository\generalJs</fullpath>
+    <isopen>True</isopen>
+    <imageid>6</imageid>
+    <location>Code Repository\</location>
+    <parentid>1</parentid>
+    <type>ft_CodeLib</type>
+  </file>
+  <file del="True" mov="False" ren="True">
+    <id>002d44c65d7b4e699839b6d3d31b76c4</id>
+    <filename>cssGeneral</filename>
+    <fullpath>CSS Files\cssGeneral</fullpath>
+    <isopen>True</isopen>
+    <imageid>4</imageid>
+    <location>CSS Files\</location>
+    <parentid>2</parentid>
+    <type>ft_CSS</type>
   </file>
   <userparams useaccounting="False" method="(None)" bindings="" tokenfield="" expiration="4320" screenmessage="Please provide values to the following fields in order to validate your profile" validationmessage="The data that you provided is invalid. Please try again." validationsuccessmessage="Settings saved.">
     <userparam id="cgo.udv.token" caption="" name="ValidationToken" datatype="string" default="" description="" enumvalues="" order="1" ispassword="False" />

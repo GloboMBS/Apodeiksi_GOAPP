@@ -42,12 +42,12 @@ html, body {
 }
 body {
     font-family:OpenSans-Regular;
-    background-color: rgb(9, 64, 118);
-    background-image: url("backgroundmenuimage.png");   
+/*    background-color: rgb(9, 64, 118);
+    background-image: url("");   
     background-repeat: no-repeat;
     background-attachment: inherit;
     background-position: 100% 100%;
-    background-size: cover;
+    background-size: cover;*/
    
 }
 
