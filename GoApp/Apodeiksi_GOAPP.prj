@@ -57,7 +57,7 @@
     <id>a0b27a9e34fe438d80f568afa88ca94f</id>
     <filename>cssReset</filename>
     <fullpath>CSS Files\cssReset</fullpath>
-    <isopen>True</isopen>
+    <isopen>False</isopen>
     <imageid>4</imageid>
     <location>CSS Files\</location>
     <parentid>2</parentid>
@@ -247,7 +247,7 @@
     <id>45a23bf448d146318f2fb62386779d43</id>
     <filename>generalJs</filename>
     <fullpath>Code Repository\generalJs</fullpath>
-    <isopen>True</isopen>
+    <isopen>False</isopen>
     <imageid>6</imageid>
     <location>Code Repository\</location>
     <parentid>1</parentid>
@@ -263,6 +263,16 @@
     <parentid>2</parentid>
     <type>ft_CSS</type>
   </file>
+  <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\Icons_Main_Bar\On\p02_Landing_Icon_Archive.png" name="p02_Landing_Icon_Archive_1.png" type="rt_Image" />
+  <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\Icons_Main_Bar\p02_Landing_Icon_QR.png" name="p02_Landing_Icon_QR.png" type="rt_Image" />
+  <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\Icons_Main_Bar\On\p02_Landing_Icon_Badges.png" name="p02_Landing_Icon_Badges_1.png" type="rt_Image" />
+  <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\Icons_Main_Bar\On\p02_Landing_Icon_Offers.png" name="p02_Landing_Icon_Offers_1.png" type="rt_Image" />
+  <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\Icons_Main_Bar\Off\p02_Landing_Icon_Archive.png" name="p02_Landing_Icon_Archive.png" type="rt_Image" />
+  <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\Icons_Main_Bar\On\p02_Landing_Icon_Photo.png" name="p02_Landing_Icon_Photo_1.png" type="rt_Image" />
+  <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\Icons_Main_Bar\Off\p02_Landing_Icon_Offers.png" name="p02_Landing_Icon_Offers.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\etsiori\Desktop\OpenSans-Regular.ttf" name="OpenSans-Regular.ttf" type="rt_File" />
+  <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\Icons_Main_Bar\Off\p02_Landing_Icon_Photo.png" name="p02_Landing_Icon_Photo.png" type="rt_Image" />
+  <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\Icons_Main_Bar\Off\p02_Landing_Icon_Badges.png" name="p02_Landing_Icon_Badges.png" type="rt_Image" />
   <userparams useaccounting="False" method="(None)" bindings="" tokenfield="" expiration="4320" screenmessage="Please provide values to the following fields in order to validate your profile" validationmessage="The data that you provided is invalid. Please try again." validationsuccessmessage="Settings saved.">
     <userparam id="cgo.udv.token" caption="" name="ValidationToken" datatype="string" default="" description="" enumvalues="" order="1" ispassword="False" />
   </userparams>

@@ -1,1 +1,114 @@
 <go:file devused="True,True,True,True" xmlns:go='http://www.globoplc.com'></go:file>
+
+footer {
+    height: 10%;
+    width: 100%;
+    background: #f8f7f7;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid lightgrey;
+    font-size: 13px;
+}
+
+.scanDiv {
+    background: #dc143c;
+    padding: 6px 0px !important;
+}
+
+.scanLabel {
+     color: #fff !important;
+}
+
+.footerChild {
+    width: 20%;
+    text-align: center;
+    float: left;
+    padding: 19px 0px;
+    height: 100%;
+    color:  grey;
+}
+.footerChild div {
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 20%;
+    text-align: center;
+}
+
+.footerChild img {
+    width: 23px;
+    position: relative;
+}
+
+.footerPage {
+    background: #fff;
+}
+
+.footerChild_archive { 
+    background: url('p02_Landing_Icon_Archive.png');
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position-x: 50%;
+    background-position-y: 20%;
+}
+
+.footerChild_photo { 
+    background: url('p02_Landing_Icon_Photo.png');
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position-x: 50%;
+    background-position-y: 20%;
+}
+
+.footerChild_offers { 
+    background: url('p02_Landing_Icon_Offers.png');
+    background-repeat: no-repeat;
+     background-size: 30px;
+    background-position-x: 50%;
+    background-position-y: 25%;
+}
+
+.footerChild_badges {
+    background: url('p02_Landing_Icon_Badges.png');
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position-x: 50%;
+    background-position-y: 20%;
+} 
+
+.footerChild_archive:active {
+    color: #dc143c;
+    background: url('p02_Landing_Icon_Archive_1.png');
+    background-repeat: no-repeat;
+     background-size: 30px;
+     background-position-x: 50%;
+    background-position-y: 20%;
+}
+
+.footerChild_photo:active { 
+    background: url('p02_Landing_Icon_Photo_1.png');
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position-x: 50%;
+    background-position-y: 20%;
+    color: #dc143c;
+}
+
+ .footerChild_offers:active { 
+    background: url('p02_Landing_Icon_Offers_1.png');
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position-x: 50%;
+    background-position-y: 25%;
+    color: #dc143c;
+}
+ 
+  .footerChild_badges:active { 
+    background: url('p02_Landing_Icon_Badges_1.png');
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position-x: 50%;
+    background-position-y: 20%;
+    color: #dc143c;
+}
