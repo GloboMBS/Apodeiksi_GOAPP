@@ -1,4 +1,65 @@
-<go:file devused="True,True,True,True" xmlns:go='http://www.globoplc.com'></go:file>
+<go:file devused="True,True,True,True" xmlns:go='http://www.globoplc.com'></go:file>.hidden {
+    display: none;
+}
+
+#pgBadgesList {
+    height: 100%;
+}
+
+.navBar{
+    width:100%;
+    display: block;    
+    background-color: #fff;
+    height:50px;
+    position:relative;
+    z-index:160;
+    border-bottom: 1px solid lightgrey;
+}
+.iosBar {
+  
+    height: 20px;
+    width: 100%;
+}
+.menuItem {
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+}
+
+.logoImage,
+.alertImage,
+.backImage {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    vertical-align:middle;
+}
+
+ .alertImage{
+     background-image: url("alarm.png");
+     width: 22%;
+     height: inherit;
+    background-size: 25px;
+    background-position-x: 35px;
+    background-position-y: 16px;
+     
+}
+.logoImage {
+    width: 51%;
+    height: 50px;
+/*    background-image: url("Logo.png");*/
+}
+ .backImage{
+    background: url('home.png');
+    width: 24%;
+    height: inherit;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position-x: 13px;
+    background-position-y: 15px;
+ }
+
+
 
 footer {
     height: 10%;
@@ -112,3 +173,4 @@ footer {
     background-position-y: 20%;
     color: #dc143c;
 }
+
