@@ -25,14 +25,14 @@
 <go:page orientation="Portrait"  shownavigation="false"  id="pgApodeiksiGOAPP" title="pgApodeiksiGOAPP" >
  <content>
      <nav class="navBar"> 
-    <div class="iosBar hidden">
+
  <div class="iosBar hidden"></div>
             <div class="menuItem backImage"></div>
             <div class="menuItem logoImage" onclick="navigationFunctions.backToMainMenu()"></div>
             <div class="menuItem alertImage"></div>
-</div>
+
     </nav>
-    <article id="pgLogin" class="">
+    <article id="pgLogin" class="hidden">
         <section class="pgLoginLogo"></section>
         <section class="pgLoginText">Συνδεθείτε με τον <br>TAXISNET λογαριασμό σας</section>
         <section class="pgLoginInputSection">
@@ -105,5 +105,6 @@
     <article id="pgBadgesDetails"></article>
     
 </content>
+
 
 </go:page>
