@@ -1,3 +1,4 @@
+<go:include type="script" file="generalJs"/>
 <go:include type="script" file="jspgArchiveDetails"/>
 <go:include type="script" file="jspgArchivedList"/>
 <go:include type="script" file="jspgBadgesDetails"/>
@@ -8,6 +9,7 @@
 <go:include type="script" file="jspgOffersList"/>
 <go:include type="script" file="jspgQRCodeResolved"/>
 
+<go:include type="css" file="csspgArchiveDetails"/>
 <go:include type="css" file="csspgArchiveDetails"/>
 <go:include type="css" file="csspgArchivedList"/>
 <go:include type="css" file="csspgBadgesDetails"/>
@@ -21,7 +23,9 @@
 
 <go:page orientation="Portrait"  shownavigation="false"  id="pgApodeiksiGOAPP" title="pgApodeiksiGOAPP" >
  <content>
-    <nav></nav>
+     <nav class="navBar"> 
+    <div class="iosBar hidden"></div>
+    </nav>
     <article id="pgLogin"></article>
     <article id="pgLanding"></article>
     <article id=pgQRCodeResolved></article>
