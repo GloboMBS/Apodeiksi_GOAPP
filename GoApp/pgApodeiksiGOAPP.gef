@@ -38,7 +38,7 @@
         <section class="pgLoginInputSection">
             <input class="pgLoginInput" placeholder="Username"></input>
             <input class="pgLoginInput" placeholder="Password"></input>
-            <div class="pgLoginButton" onclick="qrCodeFunctions.openQRCode()">ΣΥΝΔΕΣΗ</div>
+            <div class="pgLoginButton" onclick="">ΣΥΝΔΕΣΗ</div>
         </section>
         <footer class="pgLoginFooter">
             <div class="bottomItemsContainer">
@@ -48,7 +48,7 @@
         </footer>
     </article>
    <article id="pgLanding" class="footerPage hidden">
-        <footer> <div class="footerChild footerChild_archive"> <div> Archive</div> </div><div class="footerChild footerChild_photo"> <div>Photo</div></div><div class="scanDiv footerChild"> <img src="p02_Landing_Icon_QR.png"><div class="scanLabel">Scan</div> </div><div class="footerChild footerChild_offers"> <div>Offers</div></div><div class="footerChild footerChild_badges"><div>Badges</div></div></footer>
+       <footer> <div class="footerChild footerChild_archive"> <div> Archive</div> </div><div class="footerChild footerChild_photo"> <div>Photo</div></div><div class="scanDiv footerChild" onclick="qrCodeFunctions.openQRCode()"> <img src="p02_Landing_Icon_QR.png"><div class="scanLabel">Scan</div> </div><div class="footerChild footerChild_offers"> <div>Offers</div></div><div class="footerChild footerChild_badges"><div>Badges</div></div></footer>
     </article>
      <article id="pgQRCodeResolved" class="hidden">
         <section class="qrCodePopUp">
@@ -100,7 +100,7 @@
         <div class="budge_item budge_sushi"></div>
         <div class="budge_item budge_crete"></div>
         </div>
-         <footer> <div class="footerChild footerChild_archive"> <div> Archive</div> </div><div class="footerChild footerChild_photo"> <div>Photo</div></div><div class="scanDiv footerChild"> <img src="p02_Landing_Icon_QR.png"><div class="scanLabel">Scan</div> </div><div class="footerChild footerChild_offers"> <div>Offers</div></div><div class="footerChild footerChild_badges"><div>Badges</div></div></footer>
+         <footer> <div class="footerChild footerChild_archive"> <div> Archive</div> </div><div class="footerChild footerChild_photo"> <div>Photo</div></div><div class="scanDiv footerChild"> <img src="p02_Landing_Icon_QR.png"><div class="scanLabel" onclick="qrCodeFunctions.openQRCode()">Scan</div> </div><div class="footerChild footerChild_offers"> <div>Offers</div></div><div class="footerChild footerChild_badges"><div>Badges</div></div></footer>
     </article>
     <article id="pgBadgesDetails"></article>
     
