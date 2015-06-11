@@ -30,7 +30,7 @@
             <div class="menuItem logoImage" onclick="navigationFunctions.backToMainMenu()"></div>
             <div class="menuItem alertImage"></div>
     </nav>
-    <article id="pgLogin" class="">
+        <article id="pgLogin" class="">
         <section class="pgLoginLogo"></section>
         <section class="pgLoginText">Συνδεθείτε με τον <br>TAXISNET λογαριασμό σας</section>
         <section class="pgLoginInputSection">
@@ -47,7 +47,7 @@
     </article>
    
 
-   <article id="pgLanding" class="footerPage">
+   <article id="pgLanding" class="footerPage"  class="hidden">
         <footer> <div class="footerChild footerChild_archive"> <div> Archive</div> </div><div class="footerChild footerChild_photo"> <div>Photo</div></div><div class="scanDiv footerChild"> <img src="p02_Landing_Icon_QR.png"><div class="scanLabel">Scan</div> </div><div class="footerChild footerChild_offers"> <div>Offers</div></div><div class="footerChild footerChild_badges"><div>Badges</div></div></footer>
     </article>
     <article id="pgQRCodeResolved" class="hidden">
@@ -82,4 +82,5 @@
     <article id="pgBadgesDetails"></article>
     
 </content>
+
 </go:page>
