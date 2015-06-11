@@ -14,23 +14,66 @@
 <go:include type="css" file="csspgArchivedList"/>
 <go:include type="css" file="csspgBadgesDetails"/>
 <go:include type="css" file="csspgBadgesList"/>
-<go:include type="css" file="csspgLanding"/>
+<go:include type="css" file="cssGeneral"/>
+<go:include type="css" file="csspgLogin"/>
 <go:include type="css" file="csspgLogin"/>
 <go:include type="css" file="csspgOffersDetails"/>
 <go:include type="css" file="csspgOffersList"/> 
 <go:include type="css" file="csspgQRCodeResolved"/> 
 <go:include type="css" file="cssReset"/>
 
-<go:page orientation="Portrait"  shownavigation="false"  id="pgApodeiksiGOAPP" title="pgApodeiksiGOAPP">
+<go:page orientation="Portrait"  shownavigation="false"  id="pgApodeiksiGOAPP" title="pgApodeiksiGOAPP" >
  <content>
-     <nav class="navBar"> 
-    <div class="iosBar hidden"></div>
+     <nav class="navBar hidden" >
+            <div class="iosBar hidden"></div>
+            <div class="menuItem backImage"></div>
+            <div class="menuItem logoImage" onclick="navigationFunctions.backToMainMenu()"></div>
+            <div class="menuItem alertImage"></div>
     </nav>
-    <article id="pgLogin"></article>
-    <article id="pgLanding" class="footerPage">
+    <article id="pgLogin" class="">
+        <section class="pgLoginLogo"></section>
+        <section class="pgLoginText">Συνδεθείτε με τον <br>TAXISNET λογαριασμό σας</section>
+        <section class="pgLoginInputSection">
+            <input class="pgLoginInput" placeholder="Username"></input>
+            <input class="pgLoginInput" placeholder="Password"></input>
+            <div class="pgLoginButton" onclick="qrCodeFunctions.openQRCode()">ΣΥΝΔΕΣΗ</div>
+        </section>
+        <footer class="pgLoginFooter">
+            <div class="bottomItemsContainer">
+                <div class="pgLoginBottomItem grImage" onclick="languageFunctionality.setLanguage('el')"></div>
+                <div class="pgLoginBottomItem enImage" onclick="languageFunctionality.setLanguage('en')"></div>
+            </div>
+        </footer>
+    </article>
+   
+
+   <article id="pgLanding" class="footerPage">
         <footer> <div class="footerChild footerChild_archive"> <div> Archive</div> </div><div class="footerChild footerChild_photo"> <div>Photo</div></div><div class="scanDiv footerChild"> <img src="p02_Landing_Icon_QR.png"><div class="scanLabel">Scan</div> </div><div class="footerChild footerChild_offers"> <div>Offers</div></div><div class="footerChild footerChild_badges"><div>Badges</div></div></footer>
     </article>
-    <article id=pgQRCodeResolved></article>
+    <article id="pgQRCodeResolved" class="hidden">
+        <section class="qrCodePopUp">
+            <div class="qrClosePopupBar" onclick="qrCodeFunctions.qrCodeCancelReceiptUpload()">
+                <div class="qrClosePopupIcon"></div>
+            </div>
+            <div class="qrCodeImageBar">
+                <div class="qrCodeIcon"></div>
+            </div>
+            <br>
+            <div class="qrCodeTextBar">
+                <div class="qrCodeText">
+                    <p>
+                        <strong>Receipt Data Received</strong>
+                    </p>
+                    <br>
+                    <div id="QRCodeText"></div>
+                </div>
+            </div>
+            <div class="qrApproval" onclick="">
+                <div class="qrApprovalButton cancel" onclick="qrCodeFunctions.qrCodeCancelReceiptUpload()">CANCEL</div>
+                <div class="qrApprovalButton submit" onclick="qrCodeFunctions.qrCodeScan();">SUBMIT</div>
+            </div>
+        </section>
+    </article>
     <article id="pgOffersList"></article>
     <article id="pgOffersDetails"></article>
     <article id="pgArchivedList"></article>

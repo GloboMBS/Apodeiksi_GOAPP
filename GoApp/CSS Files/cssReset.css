@@ -37,11 +37,11 @@ html, body {
     user-select: none;
 }
 @font-face{
-    font-family:OpenSans-Regular;
-    src:url('OpenSans-Regular.ttf');
+    font-family:Roboto-Regular;
+    src:url('Roboto-Regular.ttf');
 }
 body {
-    font-family:OpenSans-Regular;
+    font-family:Roboto-Regular;
 /*    background-color: rgb(9, 64, 118);
     background-image: url("");   
     background-repeat: no-repeat;

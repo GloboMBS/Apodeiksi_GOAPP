@@ -112,3 +112,53 @@ footer {
     background-position-y: 20%;
     color: #dc143c;
 }
+
+
+
+.hidden{
+    display:none;
+}
+.navBar{
+    width:100%;
+   background-color: #464646;
+    height:50px;
+    position:relative;
+    z-index:160;
+}
+.iosBar {
+  
+    height: 20px;
+    width: 100%;
+}
+.menuItem {
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+}
+
+.logoImage,
+.alertImage,
+.backImage {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    
+    vertical-align:middle;
+}
+
+ .alertImage{
+/*     background-image: url("02_Search.png");*/
+     width: 22%;
+     height: 22px;
+     
+}
+.logoImage {
+    width: 51%;
+    height: 50px;
+/*    background-image: url("Logo.png");*/
+}
+ .backImage{
+/*     background-image: url("leftArrow.png");*/
+     width:24%;
+     height: 25px;
+ }
