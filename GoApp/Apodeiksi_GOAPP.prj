@@ -1,5 +1,5 @@
-<project pid="54c1b593-fbad-4e4a-852b-75a32bffa096" name="Apodeiksi_GOAPP" saveversion="2" path="C:\Users\vkyritsis\Desktop\Apodeiksi_GOAPP\" type="Server" conversion="2.5.0.17">
-  <appinfo appid="" devid="" versionid="" apptitle="Apodeiksi_GOAPP" appauthor="" appdescription="" appreleasenotes="" appversion="1.0.0.0" appcreationdate="11/6/2015 12:29:29 μμ" appicon="" apprequireslicense="False" appmenuvisible="True" defaultpage="Page1" requiresdomain="False" defaultstyles="True" extsrc="True" updmessage="" />
+<project pid="54c1b593-fbad-4e4a-852b-75a32bffa096" name="Apodeiksi_GOAPP" saveversion="2" path="C:\GitProjects\Apodeiksi_GOAPP\GoApp\" type="Server" conversion="2.5.0.17">
+  <appinfo appid="" devid="" versionid="" apptitle="Apodeiksi_GOAPP" appauthor="" appdescription="" appreleasenotes="" appversion="1.0.0.0" appcreationdate="11/6/2015 12:29:29 μμ" appicon="" apprequireslicense="False" appmenuvisible="True" defaultpage="pgApodeiksiGOAPP" requiresdomain="False" defaultstyles="False" extsrc="True" updmessage="" />
   <languages>
     <enabled type="False" />
   </languages>
@@ -7,7 +7,7 @@
     <id>0</id>
     <filename>Apodeiksi_GOAPP</filename>
     <fullpath />
-    <isopen>False</isopen>
+    <isopen>True</isopen>
     <imageid>1</imageid>
     <location />
     <parentid>-1</parentid>
@@ -45,15 +45,207 @@
   </file>
   <file del="True" mov="True" ren="True">
     <id>09281a7be5924d95824c4a49ceed254e</id>
-    <filename>Page1</filename>
-    <fullpath>Page1</fullpath>
+    <filename>pgApodeiksiGOAPP</filename>
+    <fullpath>pgApodeiksiGOAPP</fullpath>
     <isopen>True</isopen>
     <imageid>2</imageid>
     <location />
     <parentid>-1</parentid>
     <type>ft_Designer</type>
   </file>
-  <userparams useaccounting="False" method="(None)" bindings="" tokenfield="" expiration="4320" screenmessage="Please provide values to the following fields in order to validate your profile" validationmessage="The data that you provided is invalid. Please try again." validationsuccessmessage="Settings saved." />
+  <file del="True" mov="False" ren="True">
+    <id>a0b27a9e34fe438d80f568afa88ca94f</id>
+    <filename>cssReset</filename>
+    <fullpath>CSS Files\cssReset</fullpath>
+    <isopen>True</isopen>
+    <imageid>4</imageid>
+    <location>CSS Files\</location>
+    <parentid>2</parentid>
+    <type>ft_CSS</type>
+  </file>
+  <file del="True" mov="False" ren="True">
+    <id>7e2050f4013c4bf8a60e638213fd58ea</id>
+    <filename>csspgLogin</filename>
+    <fullpath>CSS Files\csspgLogin</fullpath>
+    <isopen>False</isopen>
+    <imageid>4</imageid>
+    <location>CSS Files\</location>
+    <parentid>2</parentid>
+    <type>ft_CSS</type>
+  </file>
+  <file del="True" mov="False" ren="True">
+    <id>dced48880cc24f9a8a449dd49c6d7b3f</id>
+    <filename>csspgArchivedList</filename>
+    <fullpath>CSS Files\csspgArchivedList</fullpath>
+    <isopen>False</isopen>
+    <imageid>4</imageid>
+    <location>CSS Files\</location>
+    <parentid>2</parentid>
+    <type>ft_CSS</type>
+  </file>
+  <file del="True" mov="False" ren="True">
+    <id>f1d1ef2b66f04c54babc0dc47cb178de</id>
+    <filename>csspgOffersDetails</filename>
+    <fullpath>CSS Files\csspgOffersDetails</fullpath>
+    <isopen>False</isopen>
+    <imageid>4</imageid>
+    <location>CSS Files\</location>
+    <parentid>2</parentid>
+    <type>ft_CSS</type>
+  </file>
+  <file del="True" mov="False" ren="True">
+    <id>f2939b25e7f945fc9f3f2a398301e0ca</id>
+    <filename>csspgOffersList</filename>
+    <fullpath>CSS Files\csspgOffersList</fullpath>
+    <isopen>False</isopen>
+    <imageid>4</imageid>
+    <location>CSS Files\</location>
+    <parentid>2</parentid>
+    <type>ft_CSS</type>
+  </file>
+  <file del="True" mov="False" ren="True">
+    <id>cb6c44c41a794c3ebce4403f47907a61</id>
+    <filename>csspgQRCodeResolved</filename>
+    <fullpath>CSS Files\csspgQRCodeResolved</fullpath>
+    <isopen>False</isopen>
+    <imageid>4</imageid>
+    <location>CSS Files\</location>
+    <parentid>2</parentid>
+    <type>ft_CSS</type>
+  </file>
+  <file del="True" mov="False" ren="True">
+    <id>6e3d623c32ff469a838ffad992f09fc8</id>
+    <filename>csspgLanding</filename>
+    <fullpath>CSS Files\csspgLanding</fullpath>
+    <isopen>False</isopen>
+    <imageid>4</imageid>
+    <location>CSS Files\</location>
+    <parentid>2</parentid>
+    <type>ft_CSS</type>
+  </file>
+  <file del="True" mov="False" ren="True">
+    <id>d2482ae1e7cf41f1b14b4bb4712a6209</id>
+    <filename>csspgBadgesList</filename>
+    <fullpath>CSS Files\csspgBadgesList</fullpath>
+    <isopen>False</isopen>
+    <imageid>4</imageid>
+    <location>CSS Files\</location>
+    <parentid>2</parentid>
+    <type>ft_CSS</type>
+  </file>
+  <file del="True" mov="False" ren="True">
+    <id>0b28bbfd337541939b410f01e1542a5a</id>
+    <filename>csspgArchiveDetails</filename>
+    <fullpath>CSS Files\csspgArchiveDetails</fullpath>
+    <isopen>False</isopen>
+    <imageid>4</imageid>
+    <location>CSS Files\</location>
+    <parentid>2</parentid>
+    <type>ft_CSS</type>
+  </file>
+  <file del="True" mov="False" ren="True">
+    <id>67bfef3811d04bb8b3c8c0c2875b259d</id>
+    <filename>csspgBadgesDetails</filename>
+    <fullpath>CSS Files\csspgBadgesDetails</fullpath>
+    <isopen>False</isopen>
+    <imageid>4</imageid>
+    <location>CSS Files\</location>
+    <parentid>2</parentid>
+    <type>ft_CSS</type>
+  </file>
+  <file del="True" mov="False" ren="True">
+    <id>ab09469e640e4a909ba07e2f1377f129</id>
+    <filename>jspgArchiveDetails</filename>
+    <fullpath>Code Repository\jspgArchiveDetails</fullpath>
+    <isopen>False</isopen>
+    <imageid>6</imageid>
+    <location>Code Repository\</location>
+    <parentid>1</parentid>
+    <type>ft_CodeLib</type>
+  </file>
+  <file del="True" mov="False" ren="True">
+    <id>7437fb8bafb84a6190ab858d602d6137</id>
+    <filename>jspgArchivedList</filename>
+    <fullpath>Code Repository\jspgArchivedList</fullpath>
+    <isopen>False</isopen>
+    <imageid>6</imageid>
+    <location>Code Repository\</location>
+    <parentid>1</parentid>
+    <type>ft_CodeLib</type>
+  </file>
+  <file del="True" mov="False" ren="True">
+    <id>a64f1502b9a5482db572ddd60fd9d35d</id>
+    <filename>jspgBadgesDetails</filename>
+    <fullpath>Code Repository\jspgBadgesDetails</fullpath>
+    <isopen>False</isopen>
+    <imageid>6</imageid>
+    <location>Code Repository\</location>
+    <parentid>1</parentid>
+    <type>ft_CodeLib</type>
+  </file>
+  <file del="True" mov="False" ren="True">
+    <id>e0cb4006eaff46d59914da95a4afdb0c</id>
+    <filename>jspgBadgesList</filename>
+    <fullpath>Code Repository\jspgBadgesList</fullpath>
+    <isopen>False</isopen>
+    <imageid>6</imageid>
+    <location>Code Repository\</location>
+    <parentid>1</parentid>
+    <type>ft_CodeLib</type>
+  </file>
+  <file del="True" mov="False" ren="True">
+    <id>f828a97b9d764777b28dcebcda942b9f</id>
+    <filename>jspgLanding</filename>
+    <fullpath>Code Repository\jspgLanding</fullpath>
+    <isopen>False</isopen>
+    <imageid>6</imageid>
+    <location>Code Repository\</location>
+    <parentid>1</parentid>
+    <type>ft_CodeLib</type>
+  </file>
+  <file del="True" mov="False" ren="True">
+    <id>3e5a09fa93854b859e83a2ff018a536a</id>
+    <filename>jspgLogin</filename>
+    <fullpath>Code Repository\jspgLogin</fullpath>
+    <isopen>False</isopen>
+    <imageid>6</imageid>
+    <location>Code Repository\</location>
+    <parentid>1</parentid>
+    <type>ft_CodeLib</type>
+  </file>
+  <file del="True" mov="False" ren="True">
+    <id>fa61782558ef413aa3838fd609265231</id>
+    <filename>jspgOffersDetails</filename>
+    <fullpath>Code Repository\jspgOffersDetails</fullpath>
+    <isopen>False</isopen>
+    <imageid>6</imageid>
+    <location>Code Repository\</location>
+    <parentid>1</parentid>
+    <type>ft_CodeLib</type>
+  </file>
+  <file del="True" mov="False" ren="True">
+    <id>8116568314844930aea03b2e0f27735a</id>
+    <filename>jspgOffersList</filename>
+    <fullpath>Code Repository\jspgOffersList</fullpath>
+    <isopen>False</isopen>
+    <imageid>6</imageid>
+    <location>Code Repository\</location>
+    <parentid>1</parentid>
+    <type>ft_CodeLib</type>
+  </file>
+  <file del="True" mov="False" ren="True">
+    <id>79eefac854ae4bc891f3516b436cbb44</id>
+    <filename>jspgQRCodeResolved</filename>
+    <fullpath>Code Repository\jspgQRCodeResolved</fullpath>
+    <isopen>False</isopen>
+    <imageid>6</imageid>
+    <location>Code Repository\</location>
+    <parentid>1</parentid>
+    <type>ft_CodeLib</type>
+  </file>
+  <userparams useaccounting="False" method="(None)" bindings="" tokenfield="" expiration="4320" screenmessage="Please provide values to the following fields in order to validate your profile" validationmessage="The data that you provided is invalid. Please try again." validationsuccessmessage="Settings saved.">
+    <userparam id="cgo.udv.token" caption="" name="ValidationToken" datatype="string" default="" description="" enumvalues="" order="1" ispassword="False" />
+  </userparams>
   <buildsettings winphonelang="en" winstorelang="en" btntext="Accept" serverurl="" usedeployservice="false" androidversioncode="1" androidbundleid="" blackberryversioncode="1" blackberrybundleid="" blackberryappid="" blackberryppgurl="" blackberryppgurlserver="" blackberryppgurlserverpassword="" googleprojectnumber="" iosbundleid="" winphonebundleid="" winstorebundleid="" embed="False" login="False" backimage="False" startsettings="False" disclaimer="False" useencrypt="False" useoffice="False" usebarcode="False" displayprogressbar="none">
     <theme>
       <android>
