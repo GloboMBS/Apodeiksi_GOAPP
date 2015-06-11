@@ -1,4 +1,7 @@
+$( document ).ready(function() {
+    generalFunctions.getHeight('.badges_list',180);
 
+});
 
 /* General Scripts
 -------------------------------------------------*/

@@ -24,13 +24,15 @@
 
 <go:page orientation="Portrait"  shownavigation="false"  id="pgApodeiksiGOAPP" title="pgApodeiksiGOAPP" >
  <content>
-     <nav class="navBar hidden" >
-            <div class="iosBar hidden"></div>
+     <nav class="navBar"> 
+    <div class="iosBar hidden">
+ <div class="iosBar hidden"></div>
             <div class="menuItem backImage"></div>
             <div class="menuItem logoImage" onclick="navigationFunctions.backToMainMenu()"></div>
             <div class="menuItem alertImage"></div>
+</div>
     </nav>
-        <article id="pgLogin" class="">
+    <article id="pgLogin" class="">
         <section class="pgLoginLogo"></section>
         <section class="pgLoginText">Συνδεθείτε με τον <br>TAXISNET λογαριασμό σας</section>
         <section class="pgLoginInputSection">
@@ -45,12 +47,10 @@
             </div>
         </footer>
     </article>
-   
-
-   <article id="pgLanding" class="footerPage"  class="hidden">
+   <article id="pgLanding" class="footerPage hidden">
         <footer> <div class="footerChild footerChild_archive"> <div> Archive</div> </div><div class="footerChild footerChild_photo"> <div>Photo</div></div><div class="scanDiv footerChild"> <img src="p02_Landing_Icon_QR.png"><div class="scanLabel">Scan</div> </div><div class="footerChild footerChild_offers"> <div>Offers</div></div><div class="footerChild footerChild_badges"><div>Badges</div></div></footer>
     </article>
-    <article id="pgQRCodeResolved" class="hidden">
+     <article id="pgQRCodeResolved" class="hidden">
         <section class="qrCodePopUp">
             <div class="qrClosePopupBar" onclick="qrCodeFunctions.qrCodeCancelReceiptUpload()">
                 <div class="qrClosePopupIcon"></div>
@@ -73,12 +73,35 @@
                 <div class="qrApprovalButton submit" onclick="qrCodeFunctions.qrCodeScan();">SUBMIT</div>
             </div>
         </section>
-    </article>
-    <article id="pgOffersList"></article>
+    </article>    <article id="pgOffersList"></article>
     <article id="pgOffersDetails"></article>
     <article id="pgArchivedList"></article>
     <article id="pgArchiveDetails"></article>
-    <article id="pgBadgesList"></article>
+   <article id="pgBadgesList" class="footerPage"> 
+        <div class="badges_desc"> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</div>
+        <div class="badges_list">
+        <div class="budge_item budge_kms"></div>
+        <div class="budge_item budge_school"></div>
+        <div class="budge_item budge_bouzoukia"></div>
+        <div class="budge_item budge_cheers"></div>
+        <div class="budge_item budge_cinephile"></div> 
+        <div class="budge_item budge_coffee"></div>
+        <div class="budge_item budge_fill"></div>
+        <div class="budge_item budge_10"></div>
+        <div class="budge_item budge_ball"></div>
+        <div class="budge_item budge_snack"></div>
+        <div class="budge_item budge_myconos"></div>
+        <div class="budge_item budge_newlook"></div>
+        <div class="budge_item budge_theatre"></div>
+        <div class="budge_item budge_pantheon"></div>
+        <div class="budge_item budge_pizza"></div>
+        <div class="budge_item budge_souvlaki"></div>
+        <div class="budge_item budge_summer"></div>
+        <div class="budge_item budge_sushi"></div>
+        <div class="budge_item budge_crete"></div>
+        </div>
+         <footer> <div class="footerChild footerChild_archive"> <div> Archive</div> </div><div class="footerChild footerChild_photo"> <div>Photo</div></div><div class="scanDiv footerChild"> <img src="p02_Landing_Icon_QR.png"><div class="scanLabel">Scan</div> </div><div class="footerChild footerChild_offers"> <div>Offers</div></div><div class="footerChild footerChild_badges"><div>Badges</div></div></footer>
+    </article>
     <article id="pgBadgesDetails"></article>
     
 </content>

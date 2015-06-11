@@ -1,1 +1,136 @@
-<go:file devused="True,True,True,True" xmlns:go='http://www.globoplc.com'></go:file>
+<go:file devused="True,True,True,True" xmlns:go='http://www.globoplc.com'></go:file>.badges_desc {
+    width: 100%;
+    height: 80px;
+}
+
+.badges_list {
+    position: relative;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.budge_item {
+    height: 20%;
+    width: 25%;
+    float: left;
+}
+
+.budge_kms {
+    background: url('504km_OFF.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.budge_school {
+    background: url('Back_to_School_OFF.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.budge_bouzoukia {
+    background: url('Bouzoukia_Night_OFF.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.budge_cheers {
+    background: url('Cheers_OFF.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.budge_cinephile {
+    background: url('Cinefile_OFF.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.budge_coffee {
+    background: url('Coffee_lovers_OFF.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.budge_fill {
+    background: url('Fill_her_up_OFF.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.budge_10 {
+    background: url('First_10_OFF.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.budge_ball {
+    background: url('Football_Cup_Final_OFF.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.budge_snack {
+    background: url('Midnight_Snack_OFF.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.budge_myconos {
+    background: url('MYKONOOOS_OFF.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.budge_newlook {
+    background: url('New_Look_OFF.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.budge_theatre {
+    background: url('Night_at_the_Theatre_OFF.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.budge_pantheon {
+    background: url('Parthenon-Visit_OFF.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.budge_pizza {
+    background: url('Pizza_dinner_OFF.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.budge_souvlaki {
+    background: url('Souvlaki_Champion_OFF.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.budge_summer {
+    background: url('Summertime_OFF.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.budge_sushi {
+    background: url('Sushi_Tonight_OFF.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.budge_crete {
+    background: url('The_Island_of_Crete_OFF.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
