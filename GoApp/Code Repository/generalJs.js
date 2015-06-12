@@ -4,14 +4,14 @@ $( document ).ready(function() {
 });
 
 /* General Scripts
--------------------------------------------------*/
+-------------------------------------------------*/ 
 var generalFunctions =  {};
 
 generalFunctions.getHeight = function(className,hght){ 
     var height = go.system.getHeight().value;
     if(generalFunctions.isIOS()){
        $(className).css('height',(height-(hght+20))+'px');
-     }
+     } 
     else{
         $(className).css('height',(height-hght)+'px');
     }
@@ -74,11 +74,19 @@ databaseConnectionFunctions.authenticateUser = function(username,password){
 var navigationFunctions = {};
     
 /*----keep navigation stack Script----*/
-var currentPage;     
+var currentPage = 'pgLogin';     
 navigationFunctions.openPage = function(pageId){
-    $('#pgLanding').addClass('hidden');
-    $('#'+pageId).removeClass('hidden');
-    currentPage = pageId;
+    if(currentPage == 'pgLogin'){
+        $('#pgLogin').addClass('hidden');
+        $('#pgLanding').removeClass('hidden');
+        currentPage = 'pgLanding';
+    }
+    else{
+        $('#pgLanding').addClass('hidden');
+        $('#'+pageId).removeClass('hidden');
+        currentPage = pageId;
+    }
+    
 }
 
 navigationFunctions.goBack = function(){ 
@@ -88,3 +96,4 @@ navigationFunctions.goBack = function(){
         $('#'+currentPage).addClass('hidden');
     }
 };
+

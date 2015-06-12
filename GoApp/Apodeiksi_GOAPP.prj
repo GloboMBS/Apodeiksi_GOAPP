@@ -35,8 +35,8 @@
   </file>
   <file del="True" mov="True" ren="True">
     <id>2924da1afd2543059961189c43253892</id>
-    <filename>Dataset1</filename>
-    <fullpath>Dataset1</fullpath>
+    <filename>LocalDB</filename>
+    <fullpath>LocalDB</fullpath>
     <isopen>False</isopen>
     <imageid>3</imageid>
     <location />
@@ -157,7 +157,7 @@
     <id>ab09469e640e4a909ba07e2f1377f129</id>
     <filename>jspgArchiveDetails</filename>
     <fullpath>Code Repository\jspgArchiveDetails</fullpath>
-    <isopen>False</isopen>
+    <isopen>True</isopen>
     <imageid>6</imageid>
     <location>Code Repository\</location>
     <parentid>1</parentid>
@@ -257,7 +257,7 @@
     <id>002d44c65d7b4e699839b6d3d31b76c4</id>
     <filename>cssGeneral</filename>
     <fullpath>CSS Files\cssGeneral</fullpath>
-    <isopen>True</isopen>
+    <isopen>False</isopen>
     <imageid>4</imageid>
     <location>CSS Files\</location>
     <parentid>2</parentid>
@@ -270,12 +270,12 @@
   <resource id="0" originalname="C:\backaps\hackathon\hackathon\hackathon_11_6\GoApp\Resources\Night_at_the_Theatre_OFF.png" name="Night_at_the_Theatre_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\backaps\hackathon\hackathon\hackathon_11_6\GoApp\Resources\First_10_OFF.png" name="First_10_OFF.png" type="rt_Image" />
   <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\Icons_Main_Bar\On\p02_Landing_Icon_Badges.png" name="p02_Landing_Icon_Badges_1.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\vkyritsis\Desktop\Apodeiksi\GoApp\Resources\enOff.png" name="enOff.png" type="rt_Image" />
   <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\Icons_Main_Bar\On\p02_Landing_Icon_Photo.png" name="p02_Landing_Icon_Photo_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\backaps\hackathon\hackathon\hackathon_11_6\GoApp\Resources\Cinefile_OFF.png" name="Cinefile_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\backaps\hackathon\hackathon\hackathon_11_6\GoApp\Resources\Fill_her_up_OFF.png" name="Fill_her_up_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\backaps\hackathon\hackathon\hackathon_11_6\GoApp\Resources\Football_Cup_Final_OFF.png" name="Football_Cup_Final_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\backaps\hackathon\hackathon\hackathon_11_6\GoApp\Resources\Souvlaki_Champion_OFF.png" name="Souvlaki_Champion_OFF.png" type="rt_Image" />
+  <resource id="0" originalname="C:\backaps\hackathon\hackathon\hackathon_11_6\GoApp\Resources\alarm.png" name="alarm.png" type="rt_Image" />
   <resource id="0" originalname="C:\backaps\hackathon\hackathon\hackathon_11_6\GoApp\Resources\The_Island_of_Crete_OFF.png" name="The_Island_of_Crete_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\backaps\hackathon\hackathon\hackathon_11_6\GoApp\Resources\Sushi_Tonight_OFF.png" name="Sushi_Tonight_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\backaps\hackathon\hackathon\hackathon_11_6\GoApp\Resources\Bouzoukia_Night_OFF.png" name="Bouzoukia_Night_OFF.png" type="rt_Image" />
@@ -284,6 +284,7 @@
   <resource id="0" originalname="C:\Users\etsiori\Desktop\OpenSans-Regular.ttf" name="OpenSans-Regular.ttf" type="rt_File" />
   <resource id="0" originalname="C:\Users\vkyritsis\Desktop\Apodeiksi\GoApp\Resources\grOff.png" name="grOff.png" type="rt_Image" />
   <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\Icons_Main_Bar\Off\p02_Landing_Icon_Badges.png" name="p02_Landing_Icon_Badges.png" type="rt_Image" />
+  <resource id="0" originalname="C:\backaps\hackathon\hackathon\hackathon_11_6\GoApp\Resources\504km_OFF.png" name="504km_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\backaps\hackathon\hackathon\hackathon_11_6\GoApp\Resources\Pizza_dinner_OFF.png" name="Pizza_dinner_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\backaps\hackathon\hackathon\hackathon_11_6\GoApp\Resources\Midnight_Snack_OFF.png" name="Midnight_Snack_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\backaps\hackathon\hackathon\hackathon_11_6\GoApp\Resources\Summertime_OFF.png" name="Summertime_OFF.png" type="rt_Image" />
@@ -293,13 +294,12 @@
   <resource id="0" originalname="C:\backaps\hackathon\hackathon\hackathon_11_6\GoApp\Resources\home.png" name="home.png" type="rt_Image" />
   <resource id="0" originalname="C:\backaps\hackathon\hackathon\hackathon_11_6\GoApp\Resources\Parthenon-Visit_OFF.png" name="Parthenon-Visit_OFF.png" type="rt_Image" />
   <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\Icons_Main_Bar\p02_Landing_Icon_QR.png" name="p02_Landing_Icon_QR.png" type="rt_Image" />
-  <resource id="0" originalname="C:\backaps\hackathon\hackathon\hackathon_11_6\GoApp\Resources\504km_OFF.png" name="504km_OFF.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\vkyritsis\Desktop\Apodeiksi\GoApp\Resources\enOff.png" name="enOff.png" type="rt_Image" />
   <resource id="0" originalname="C:\backaps\hackathon\hackathon\hackathon_11_6\GoApp\Resources\Coffee_lovers_OFF.png" name="Coffee_lovers_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\vkyritsis\Desktop\Apodeiksi\GoApp\Resources\03_Close.png" name="03_Close.png" type="rt_Image" />
   <resource id="0" originalname="C:\backaps\hackathon\hackathon\hackathon_11_6\GoApp\Resources\Welcome_to_apodeiksi_OFF.png" name="Welcome_to_apodeiksi_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\backaps\hackathon\hackathon\hackathon_11_6\GoApp\Resources\Cheers_OFF.png" name="Cheers_OFF.png" type="rt_Image" />
   <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\Icons_Main_Bar\On\p02_Landing_Icon_Archive.png" name="p02_Landing_Icon_Archive_1.png" type="rt_Image" />
-  <resource id="0" originalname="C:\backaps\hackathon\hackathon\hackathon_11_6\GoApp\Resources\alarm.png" name="alarm.png" type="rt_Image" />
   <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\Icons_Main_Bar\Off\p02_Landing_Icon_Photo.png" name="p02_Landing_Icon_Photo.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\vkyritsis\Desktop\Apodeiksi\GoApp\Resources\logo.png" name="logo.png" type="rt_Image" />
   <userparams useaccounting="False" method="(None)" bindings="" tokenfield="" expiration="4320" screenmessage="Please provide values to the following fields in order to validate your profile" validationmessage="The data that you provided is invalid. Please try again." validationsuccessmessage="Settings saved.">

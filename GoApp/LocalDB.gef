@@ -1,0 +1,18 @@
+<file id="2924da1afd2543059961189c43253892" filename="Dataset1" location="" imageid="3" type="ft_Datamodule" parentid="-1" isopen="True" isloaded="True">
+  <methods>
+    <method id="1" name="cgotable_isLoggedIn_cgotable" executiontype="Query" text="" connectiontype="LOCAL" connectionstring="" connectionid="-1" methodtype="Query" shared="False" datahandling="PushOffline" expire="NotCached" parentmethod="(None)" notificationmethod="(None)" senddatahandling="NoAction" displayname="" methoddescription="" isdetail="False" map="" belongsto="(None)" errormsg="" impersonate="False" disablenotifications="False" islocal="True" normalizedresult="True">
+      <params />
+      <bindings />
+      <tables>
+        <table id="0" name="isLoggedIn" width="200" height="250" top="10" left="10" ismain="False" hasnotification="False" notificationdescription="" notificationpage="" notificationmenu="" notificationheadertext="" notificationdetailtext="" recordelement="" tablename="isLoggedIn">
+          <fields>
+            <field name="id" originalname="" type="dtInt32" length="0" iskey="True" isgrouped="False" isexcluded="False" isdeleted="False" isautokey="False" ismerged="False" allownull="False" details="" />
+            <field name="username" originalname="" type="dtString" length="0" iskey="False" isgrouped="False" isexcluded="False" isdeleted="True" isautokey="False" ismerged="False" allownull="False" details="" />
+            <field name="Language" originalname="" type="dtString" length="0" iskey="False" isgrouped="False" isexcluded="False" isdeleted="False" isautokey="False" ismerged="False" allownull="False" details="" />
+          </fields>
+        </table>
+      </tables>
+      <relations />
+    </method>
+  </methods>
+</file>

@@ -28,7 +28,7 @@ qrCodeFunctions.qrCodeScan = function(){
     test = receiptJSON;
     console.log(receiptJSON);
 };
-
+ 
 //append the receipts details
 qrCodeFunctions.qrCodeShowReceiptDetails = function(receiptDetails){
     console.log(receiptDetails);
@@ -42,7 +42,7 @@ qrCodeFunctions.qrCodeCancelReceiptUpload = function(){
 }
 
 //confirm the receipt's details save to server
-qrCodeFunctions.confirmUploadToServer = function(){
+qrCodeFunctions.confirmUploadToServer = function(){ 
 
 } 
 
