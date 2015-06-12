@@ -32,7 +32,7 @@
             <div class="menuItem alertImage"></div>
 
     </nav>
-        <article id="pgLogin" class="hidden">
+    <article id="pgLogin" class="hidden">
         <section class="pgLoginLogo"></section>
         <section class="pgLoginText">Συνδεθείτε με τον <br>TAXISNET λογαριασμό σας</section>
         <section class="pgLoginInputSection">
@@ -47,9 +47,26 @@
             </div>
         </footer>
     </article>
-   <article id="pgLanding" class="footerPage hidden">
-       <footer> <div class="footerChild footerChild_archive"> <div> </div> </div><div class="footerChild footerChild_photo" onclick="qrCodeFunctions.takeReceiptPhoto()"> <div></div></div><div class="scanDiv footerChild" onclick="qrCodeFunctions.openQRCode()"> <img src="p02_Landing_Icon_QR.png"><div class="scanLabel">Scan</div> </div><div class="footerChild footerChild_offers"> <div></div></div><div class="footerChild footerChild_badges"><div>Badges</div></div></footer>
-    </article>
+   <article id="pgLanding" class="footerPage ">
+            <footer>
+                <div class="footerChild footerChild_archive" onclick="navigationFunctions.openPage('pgArchivedList')">
+                    <div> </div>
+                </div>
+                <div class="footerChild footerChild_photo" onclick="navigationFunctions.openPage('pgOffersList')">
+                    <div></div>
+                </div>
+                <div class="scanDiv footerChild">
+                    <img src="p02_Landing_Icon_QR.png"></img>
+                    <div class="scanLabel">Scan</div>
+                </div>
+                <div class="footerChild footerChild_offers" onclick="navigationFunctions.openPage('pgOffersList')">
+                    <div></div>
+                </div>
+                <div class="footerChild footerChild_badges" onclick="navigationFunctions.openPage('pgBadgesList')">
+                    <div>Badges</div>
+                </div>
+            </footer>
+        </article>
      <article id="pgQRCodeResolved" class="hidden">
         <section class="qrCodePopUp">
             <div class="qrClosePopupBar" onclick="qrCodeFunctions.qrCodeCancelReceiptUpload()">
@@ -77,7 +94,7 @@
     <article id="pgOffersDetails"></article>
     <article id="pgArchivedList"></article>
     <article id="pgArchiveDetails"></article>
-   <article id="pgBadgesList" class="footerPage hidden" > 
+   <article id="pgBadgesList" class="footerPage hidden"> 
         <div class="badges_desc"> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</div>
         <div class="badges_list">
         <div class="budge_item budge_kms"></div>
@@ -100,9 +117,49 @@
         <div class="budge_item budge_sushi"></div>
         <div class="budge_item budge_crete"></div>
         </div>
-         <footer> <div class="footerChild footerChild_archive"> <div> </div> </div><div class="footerChild footerChild_photo" onclick="qrCodeFunctions.takeReceiptPhoto()"> <div></div></div><div class="scanDiv footerChild"> <img src="p02_Landing_Icon_QR.png"><div class="scanLabel" onclick="qrCodeFunctions.openQRCode()">Scan</div> </div><div class="footerChild footerChild_offers"> <div></div></div><div class="footerChild footerChild_badges"><div>Badges</div></div></footer>
+         <footer>
+                <div class="footerChild footerChild_archive" onclick="navigationFunctions.openPage('pgArchivedList')">
+                    <div> </div>
+                </div>
+                <div class="footerChild footerChild_photo" onclick="navigationFunctions.openPage('pgOffersList')">
+                    <div></div>
+                </div>
+                <div class="scanDiv footerChild">
+                    <img src="p02_Landing_Icon_QR.png"></img>
+                    <div class="scanLabel">Scan</div>
+                </div>
+                <div class="footerChild footerChild_offers" onclick="navigationFunctions.openPage('pgOffersList')">
+                    <div></div>
+                </div>
+                <div class="footerChild footerChild_badges" onclick="navigationFunctions.openPage('pgBadgesList')">
+                    <div>Badges</div>
+                </div>
+            </footer>
     </article>
-    <article id="pgBadgesDetails"></article>
+   <article id="pgBadgesDetails" class="hidden">
+            <section class="budgePopUp">
+                <div class="budgePopUpBar" onclick="">
+                    <div class="budgeClosePopupIcon"></div>
+                </div>
+                <div class="budgeCodeImageBar">
+                    <div class="budgeCodeIcon"></div>
+                </div>
+                <br>
+                    <div class="budgeCodeTextBar">
+                        <div class="budgeCodeText">
+                        <p>
+                            <strong>Receipt Data Received</strong>
+                        </p>
+                        <br>
+                            <div id="budgeCodeText"></div>
+                    </div>
+                </div>
+                    <div class="budgeApproval" onclick="">
+                        <div class="budgeApprovalButton cancel" onclick="">CANCEL</div>
+                        <div class="budgeApprovalButton submit" onclick="">SUBMIT</div>
+                </div>
+            </section>
+        </article>
     
 </content>
 
