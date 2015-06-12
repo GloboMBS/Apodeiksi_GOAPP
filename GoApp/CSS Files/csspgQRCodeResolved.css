@@ -3,24 +3,41 @@
 #pgQRCodeResolved {
     z-index: 100000000;
     top: 0;
-    padding-top: 20px;
+ 
     position: absolute;
-    background: rgb(248, 247, 247);
+    background: #fff;
 }
 #pgQRCodeResolved,
 .qrCodePopUp {
     width: 100%;
     height: 100%;
 }
+.qrCodeWrapper{
+    width: 100%;
+    height: 90%;
+    overflow-y:auto;
+}
 .qrClosePopupBar {
-    height: 50px;
+    height: 30px;
     width: 100%;
     position: relative;
+    
+
+}
+.qrCodePopUpTitleText{
+    color: #dc143c;
+    text-align:center;
+    font-size:20px;
+    width:100%;
+    height:35px;
+     border-bottom:1px solid lightgrey;
+
 }
 .qrClosePopupIcon {
-    height: 25px;
-    width: 50px;
-    background: url('03_Close.png');
+    
+    height: 20px;
+    width: 30px;
+    background: url('close.png');
     background-size: contain;
     background-repeat: no-repeat;
     float: Right;
@@ -28,50 +45,97 @@
 .qrCodeImageBar,
 .qrApproval {
     position: relative;
-    padding-top: 50px;
- 
-    width: 80%;
+    padding-top: 5%;
+   
+    width: 70%;
     display: block;
      margin-left: auto;
     margin-right: auto;
 }
 .qrCodeIcon {
-    height: 50px;
-    width: 50px;
-    background: url('03_QR_Black.png');
+    height: 100px;
+    width: 100px;
+    background: url('priceBG.png');
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
     position: relative;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+    line-height: 100px;
+    font-size:20px;
+    color:#fff;
 }
 .qrCodeTextBar {
     position: relative;
-    color:#363636;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    font-size: 15px;
+    font-size: 20px;
 }
+.qrCodeText p{
+    font-size: 15px;
+     color:lightgrey;
+}
+ 
 .qrCodeText,
 .qrApprovalButton {
     position: relative;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    font-size: 16px;
+    color:black;
     
   
 }
-.qrCodeText p,
+
 .qrApprovalButton {
-    color: #009ada;
-}
-.qrApprovalButton {
-    border: 5px solid #009ada;;
+    border-radius: 4px;
     padding: 10px;
     display: inline-block;
-    width: 49%;
+    width: 100%;
+    color:white;
+    font-size: 20px;
     text-align: center;
-      position: relative;
+    position: relative;
+    background: #dc143c;
+   
+}
+.qrPhotoDiv{
+    margin-top:5%;
+}
+.qrCodePhotoText p{
+    font-size:15px;
+}
+
+.qrCodeTakePhoto{
+    height: 100px;
+    width: 100px;
+    background: url('cameraOff.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 100px;
+    font-size:20px;
+    color:#fff;
+
+}
+.qrCodeTakePhoto:active{
+    background: url('cameraOn.png');
+    height: 100px;
+    width: 100px;
+ 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
 /*!------QRCode Pop up styling------*/

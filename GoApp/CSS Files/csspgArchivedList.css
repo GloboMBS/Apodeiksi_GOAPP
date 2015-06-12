@@ -1,1 +1,12 @@
-<go:file devused="True,True,True,True" xmlns:go='http://www.globoplc.com'></go:file>
+<go:file devused="True,True,True,True" xmlns:go='http://www.globoplc.com'></go:file>#pgQRCodeResolved {
+    z-index: 100000000;
+    top: 0;
+    padding-top: 20px;
+    position: absolute;
+    background: #fff;
+}
+#pgQRCodeResolved
+ {
+    width: 100%;
+    height: 100%;
+}

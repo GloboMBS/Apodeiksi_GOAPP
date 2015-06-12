@@ -1,5 +1,7 @@
 $( document ).ready(function() {
     generalFunctions.getHeight('.badges_list',100); 
+    generalFunctions.getHeight('.offerList',100);
+    generalFunctions.getHeight('.pgOffersDetails',50);   
 
 });
 
@@ -9,7 +11,7 @@ var generalFunctions =  {};
 
 generalFunctions.getHeight = function(className,hght){ 
     var height = go.system.getHeight().value;
-    if(generalFunctions.isIOS()){
+    if(generalFunctions.isIOS()){ 
        $(className).css('height',(height-(hght+20))+'px');
      } 
     else{
@@ -17,7 +19,7 @@ generalFunctions.getHeight = function(className,hght){
     }
 }
 
-generalFunctions.isTablet = function(){
+generalFunctions.isTablet = function(){ 
     if(go.system.isIPad() || go.system.isAndroidTablet()){
         return true;
     }
@@ -59,13 +61,49 @@ generalFunctions.checkNetwork = function(myFunction) {
         } 
 } 
 
-    /* Database  Scripts
+      /* Database  Scripts
 -------------------------------------------------*/
    
 var databaseConnectionFunctions = {};
-    
+var isAuthenticatedUser = false;   
+var isAuthenticatedUserId;
+
+
+/*Authenticate User */
+var a ;
 databaseConnectionFunctions.authenticateUser = function(username,password){
-   
+    if(existsLanguage.language==''){
+            existsLanguage.language = existsLanguage.defaultLanguage;
+            languageFunctionality.setLanguage(existsLanguage.language);
+    }
+    if($('#usernameLogin').val()!=='' && $('#passwordLogin').val() !== ''){
+        go.services.executeQuery({
+             'method':'wsDataset.authenticateUser', 
+             'table':'authenticateUser',
+             'type':'online',
+             'callback':authenticateUserCallback, 
+             'parameters':{"username": username,"password": password} 
+          }
+        );
+    }
+    else{
+        go.alert(languageObject.AlertTextEmpty);
+    }
+    var a ={};
+    function authenticateUserCallback(rs){
+        
+        isAuthenticatedUser = parseJSON(rs.sqldata.data[0].resultset).success;
+        
+        console.log('parse ', parseJSON(rs.sqldata.data[0].resultset).userInfo.id);
+        if(isAuthenticatedUser){
+            isAuthenticatedUserId = parseJSON(rs.sqldata.data[0].resultset).userInfo.id;
+            languageFunctionality.saveUpdateLanguageToLocal(existsLanguage.language,isAuthenticatedUserId);
+        }
+        else{
+            go.alert(languageObject.AlertTextInvalid);
+        }
+    }
+
 }    
 
     
@@ -82,7 +120,7 @@ navigationFunctions.openPage = function(pageId){
         currentPage = 'pgLanding';
     }
     else{
-        $('#pgLanding').addClass('hidden');
+        $('#'+currentPage).addClass('hidden');
         $('#'+pageId).removeClass('hidden');
         currentPage = pageId;
     }
@@ -97,3 +135,28 @@ navigationFunctions.goBack = function(){
     }
 };
 
+/* Date Scripts
+-------------------------------------------------*/
+var dateTimeFunctions = {};
+
+dateTimeFunctions.ISOStringToDate = function(isoString) {
+    try {
+        return isoString.split('T')[0];
+    }
+    catch(err) {
+        return '';
+    }
+
+}
+
+dateTimeFunctions.ISOStringToGreekDate = function(isoString) {
+    try {
+        var yyyymmdd = isoString.split('T')[0];
+        var dateArray = yyyymmdd.split('-');
+        return dateArray[2] + '/' + dateArray[1] + '/' + dateArray[0];
+    }
+    catch(err) {
+        return ' - ';
+    }
+
+}

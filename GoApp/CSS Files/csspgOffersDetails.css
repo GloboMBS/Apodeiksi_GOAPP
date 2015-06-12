@@ -1,1 +1,36 @@
-<go:file devused="True,True,True,True" xmlns:go='http://www.globoplc.com'></go:file>
+<go:file devused="True,True,True,True" xmlns:go='http://www.globoplc.com'></go:file>#pgOffersDetails {
+    width: 100%;
+    height: 100%;
+}
+ 
+.offersHeadetImg {
+    width: 100%;
+    height: 20%;
+}
+
+.pieDetails {
+    height: 35%;
+}
+
+.offersDetailsInfo {
+    height: 45%;
+}
+
+.offersDetailsInfo_desc {
+    text-align: center;
+    color: #dc143c;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 5px 0px;
+}
+
+.offersDetailsInfo_title {
+    text-align: center;
+    padding: 5px 0px;
+}
+
+.offersDetailsInfo_text {
+    padding: 5px 10px;
+    text-align: justify;
+    color: grey;
+}

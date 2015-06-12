@@ -1,0 +1,19 @@
+<file id="a2719c61e9b74530910ea1ab586d275f" filename="wsDataset" location="" imageid="3" type="ft_Datamodule" parentid="-1" isopen="True" isloaded="True">
+  <methods>
+    <method id="1" name="authenticateUser" executiontype="RESTMethod" text="login" connectiontype="REST" connectionstring="login" connectionid="3" methodtype="Query" shared="False" datahandling="Online" expire="NotCached" parentmethod="(None)" notificationmethod="(None)" senddatahandling="NoAction" displayname="" methoddescription="" isdetail="False" map="3AMAAB+LCAAAAAAABAClU1FrwkAMfh/sP5S+z9PtTc6KbDhkOsZ0Y683jfXwvJZLbp3/fmmtra0MGSsULt8lX5IvOTn83pngCxzqxA7CXqcbDqPrKzkDUg+Kf8Cl0yklLmBHi/1v1INwQ5T2hciyrJPddRIXi9tutyc+ZtP5cgM7daMtkrJLCKuo1eWokBMHgVyoTwNYnI/WxK6TEmDoWe0gUp42YEkvFcEbgpOigCunqbZbDEQNjDWYFVb2EWlQ1/QO0BtCoBZv4THBJ9hHa2UQpDgYjftcuMU+hWi+R4JdZ05O21iKCm/m88bkTUbkPPNVZivlyFMSgwXHDa/q5E34pDtx3l6JVdqKprilfbiW99y/d1BKKF8Ur4iNRy6uwseKXRaJ4dyWyuqb2IG1HZpzsabES3ekegWkUaqri9awPQ/Y8qE95HdlPAS8kn1iWQchr1kfC7HDKN0qwsQbjVIUfnVYMYPHfLYn05DilyIuFZcqxCxxq78U1+PvX2UVqtYiSnH+YKMfp2FNJNwDAAA=" belongsto="(None)" errormsg="" impersonate="False" disablenotifications="False" islocal="False" normalizedresult="False">
+      <params>
+        <param name="username" direction="" type="System.String" />
+        <param name="password" direction="" type="System.String" />
+      </params>
+      <bindings />
+      <tables>
+        <table id="1" name="authenticateUser" width="200" height="250" top="10" left="10" ismain="True" hasnotification="False" notificationdescription="" notificationpage="" notificationmenu="" notificationheadertext="" notificationdetailtext="" recordelement="authenticateUser" tablename="authenticateUser">
+          <fields>
+            <field name="resultset" originalname="resultset" type="dtString" length="0" iskey="False" isgrouped="False" isexcluded="False" isdeleted="False" isautokey="False" ismerged="False" allownull="True" details="" />
+          </fields>
+        </table>
+      </tables>
+      <relations />
+    </method>
+  </methods>
+</file>

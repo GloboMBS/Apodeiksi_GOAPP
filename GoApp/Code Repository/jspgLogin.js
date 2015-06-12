@@ -14,23 +14,39 @@ languageFunctionality.setLanguage = function(lang){
             languageObject = {
                 Information:"Συνδεθείτε με τον <br> TAXISNET λογαριασμό σας", 
                 ButtonText:"ΣΥΝΔΕΣΗ",
-                QRButtonTextSubmit:"ΚΑΤΑΧΩΡΗΣΗ",
+                AlertTextEmpty:"Παρακαλώ συμπληρώστε τα πεδία",
+                AlertTextInvalid:"Λάθος Username/Password",
+                QRButtonTextSubmit:"ΚΑΤΑΧΩΡΗΣΗ", 
+                QRButtonTextSubmited:"ΚΑΤΑΧΩΡΗΘΗΚΕ",
                 QRButtonTextCancel:"ΑΚΥΡΩΣΗ",
-                ArchiveText:"Αρχείο",
+                ArchiveText:"Αρχείο", 
                 PhotoText:"Φωτο/φία",
-                ScanText:"Προσφορές"
-            }
+                ScanText:"Προσφορές",
+                DateTimeConvert:dateTimeFunctions.ISOStringToGreekDate,
+                TinText:"Α.Φ.Μ.  ",
+                DateText:"Ημερομηνία: ",
+                VATText:"Φ.Π.Α. (23%): ",
+                qrCodePhotoText:" τραβήξτε μια φωτογραφία της απόδειξης για το αρχείο σας"
+            } 
             
-        }
+        } 
         else{
             languageObject = {
                 Information:"Provide your Username <br>and Password",
                 ButtonText:"CONNECT",
                 QRButtonText:"SUBMIT",
+                QRButtonTextSubmited:"SUBMITTED",
+                AlertTextEmpty:"Please fill in all the fields",
+                AlertTextInvalid:"Invalid Username/Password",
                 QRButtonTextCancel:"CANCEL",
                 ArchiveText:"Archive",
                 PhotoText:"Photo",
-                ScanText:"Offers"
+                ScanText:"Offers",
+                DateTimeConvert:dateTimeFunctions.ISOStringToDate,
+                TinText:"Τ.Ι.Ν.: ",
+                DateText:"Date: ",
+                VATText:"V.A.T. (23%): ",
+                qrCodePhotoText:" take a photo of the receipt for your archive"
             }
         
         }
@@ -42,17 +58,20 @@ languageFunctionality.setLanguage = function(lang){
         $('.footerChild_archive div').text(languageObject.ArchiveText);
         $('.footerChild_photo div').text(languageObject.PhotoText);
         $('.footerChild_offers div').text(languageObject.ScanText);
+        
+        $('.qrCodePhotoText p').text(languageObject.qrCodePhotoText);
       
      
 }
     
 
     
-languageFunctionality.createAndExecuteQuery = function(statement,param){ 
+    languageFunctionality.createAndExecuteQuery = function(statement,param,userId){ 
     var valuesLanguage = {
-        Id:"NULL",
+        Id:userId,
         Language:param
     };
+    console.log(valuesLanguage);
     if(param == ''){
         valuesLanguage.Language = existsLanguage.defaultLanguage;
         existsLanguage.exists = true;
@@ -89,15 +108,12 @@ languageFunctionality.createAndExecuteQuery = function(statement,param){
 }
 
 /*save/update language pick to local database*/
-languageFunctionality.saveUpdateLanguageToLocal = function(lang){
-    
-    languageFunctionality.createAndExecuteQuery('insert',lang); 
-    $('.navBar').removeClass('hidden');
-    $('#pgLanding').removeClass('hidden');
-    
-   
-    navigationFunctions.openPage('pgLanding');
-    languageFunctionality.setLanguage(existsLanguage.language);
+languageFunctionality.saveUpdateLanguageToLocal = function(lang,userId){
+        languageFunctionality.createAndExecuteQuery('insert',lang,userId); 
+        $('.navBar').removeClass('hidden');
+        $('#pgLanding').removeClass('hidden');
+        navigationFunctions.openPage('pgLanding');
+        languageFunctionality.setLanguage(existsLanguage.language);
 };
 
 /*
@@ -127,6 +143,8 @@ languageFunctionality.checkLandingPage = function(){
         return false;
     }
 };
+
+
 
 
 

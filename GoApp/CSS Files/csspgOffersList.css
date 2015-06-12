@@ -1,1 +1,81 @@
-<go:file devused="True,True,True,True" xmlns:go='http://www.globoplc.com'></go:file>
+<go:file devused="True,True,True,True" xmlns:go='http://www.globoplc.com'></go:file>#pgOffersList {
+    width: 100%;
+ 
+}
+.offerList {
+    width: 100%;
+    overflow-y: scroll;
+}
+.offerRow {
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.imgDiv {
+    height: 70px;
+    width: 70px;
+    background-position-y: 40%;
+    margin: 5px;
+    float: left;    
+}
+
+.statusBarVertical {
+    height: inherit;
+    width: 10px;
+    float: left;
+}
+
+.infoDiv {
+    height: inherit;       
+    float: left;
+}
+
+.infoDivDesc {
+    padding: 5px 0px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+        overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp:2; /* number of lines to show */
+}
+
+.infoDivDet {
+     height: 40px;
+     font-size: 14px;
+     line-height: 30px; 
+}
+
+.infoDivDetAmount {
+    font-size: 18px;
+    padding-right: 5px;
+}
+
+.infoDivDet img {
+    padding-top: 5px;
+}
+
+.colorGrey {
+    color: light-grey;
+}
+
+.amountRight {
+float: right;
+}
+
+.infoDivDetName {
+    float:left;
+}
+@media only screen and (min-width: 768px) { 
+    .infoDivDesc,
+    .infoDivDet {
+        font-size: 18px;
+    }
+    
+    .infoDivDetAmount {
+        font-size: 20px;
+    }
+}
