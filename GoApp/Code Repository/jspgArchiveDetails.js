@@ -1,6 +1,6 @@
 var archiveFunctions = {};
 
 
-archiveFunctions.getLocalStoredPhotos = function(){ 
+archiveFunctions.getLocalStoredPhotos = function(){  
     go.system.io.getFiles(path, searchPattern, recursive)
 };

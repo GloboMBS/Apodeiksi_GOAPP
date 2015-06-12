@@ -1,10 +1,10 @@
 $( document ).ready(function() {
-    generalFunctions.getHeight('.badges_list',100);
+    generalFunctions.getHeight('.badges_list',100); 
 
 });
 
 /* General Scripts
--------------------------------------------------*/
+-------------------------------------------------*/ 
 var generalFunctions =  {};
 
 generalFunctions.getHeight = function(className,hght){ 
@@ -96,3 +96,4 @@ navigationFunctions.goBack = function(){
         $('#'+currentPage).addClass('hidden');
     }
 };
+

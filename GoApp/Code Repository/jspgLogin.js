@@ -1,7 +1,7 @@
 var languageObject = {}; 
 var languageFunctionality ={};
 
-//global flag that is being initiated after the first insert
+//global flag that is being initiated after the first insert 
 var existsLanguage = {
         exists:false,
         language:'',
@@ -12,7 +12,7 @@ languageFunctionality.setLanguage = function(lang){
         existsLanguage.language = lang;
         if(lang == 'el'){
             languageObject = {
-                Information:"Συνδεθείτε με τον <br> TAXISNET λογαριασμό σας",
+                Information:"Συνδεθείτε με τον <br> TAXISNET λογαριασμό σας", 
                 ButtonText:"ΣΥΝΔΕΣΗ",
                 QRButtonTextSubmit:"ΚΑΤΑΧΩΡΗΣΗ",
                 QRButtonTextCancel:"ΑΚΥΡΩΣΗ",
@@ -66,7 +66,8 @@ languageFunctionality.createAndExecuteQuery = function(statement,param){
         console.log(query);
         existsLanguage.language = valuesLanguage.Language;
         existsLanguage.exists = true;
-        result = db.execute(query);  
+        result = db.execute(query);
+      console.log(result)  ;
     
     }
     if(statement == "update"){
@@ -92,8 +93,8 @@ languageFunctionality.saveUpdateLanguageToLocal = function(lang){
     
     languageFunctionality.createAndExecuteQuery('insert',lang); 
     $('.navBar').removeClass('hidden');
-    $('#pgMainPage').removeClass('hidden');
-    $('#pgLanguage').addClass('hidden');
+    $('#pgLanding').removeClass('hidden');
+    
    
     navigationFunctions.openPage('pgLanding');
     languageFunctionality.setLanguage(existsLanguage.language);

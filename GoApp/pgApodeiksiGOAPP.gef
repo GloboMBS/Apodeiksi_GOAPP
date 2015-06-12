@@ -25,14 +25,12 @@
 <go:page onload="languageFunctionality.checkLandingPage()"  orientation="Portrait"  shownavigation="false"  id="pgApodeiksiGOAPP" title="pgApodeiksiGOAPP" >
  <content>
      <nav class="navBar"> 
-
- <div class="iosBar hidden"></div>
-            <div class="menuItem backImage"></div>
-            <div class="menuItem logoImage" onclick="navigationFunctions.backToMainMenu()"></div>
-            <div class="menuItem alertImage"></div>
-
+        <div class="iosBar hidden"></div>
+        <div class="menuItem backImage"> <img src="home.png"></div>
+        <div class="menuItem logoImage" onclick="navigationFunctions.backToMainMenu()"></div>
+        <div class="menuItem alertImage"><img src="alarm.png"></div>
     </nav>
-    <article id="pgLogin" class="hidden">
+     <article id="pgLogin" class="hidden">
         <section class="pgLoginLogo"></section>
         <section class="pgLoginText">Συνδεθείτε με τον <br>TAXISNET λογαριασμό σας</section>
         <section class="pgLoginInputSection">
@@ -47,17 +45,17 @@
             </div>
         </footer>
     </article>
-   <article id="pgLanding" class="footerPage ">
+   <article id="pgLanding" class="footerPage hidden ">
             <footer>
                 <div class="footerChild footerChild_archive" onclick="navigationFunctions.openPage('pgArchivedList')">
                     <div> </div>
                 </div>
-                <div class="footerChild footerChild_photo" onclick="navigationFunctions.openPage('pgOffersList')">
+                <div class="footerChild footerChild_photo"  onclick="qrCodeFunctions.takeReceiptPhoto()">
                     <div></div>
                 </div>
-                <div class="scanDiv footerChild">
+                <div class="scanDiv footerChild" onclick="qrCodeFunctions.openQRCode()">
                     <img src="p02_Landing_Icon_QR.png"></img>
-                    <div class="scanLabel">Scan</div>
+                    <div class="scanLabel" >Scan</div>
                 </div>
                 <div class="footerChild footerChild_offers" onclick="navigationFunctions.openPage('pgOffersList')">
                     <div></div>
@@ -95,7 +93,7 @@
     <article id="pgArchivedList"></article>
     <article id="pgArchiveDetails"></article>
    <article id="pgBadgesList" class="footerPage hidden"> 
-        <div class="badges_desc"> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</div>
+<!--        <div class="badges_desc"> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</div>-->
         <div class="badges_list">
         <div class="budge_item budge_kms"></div>
         <div class="budge_item budge_school"></div>
@@ -162,6 +160,7 @@
         </article>
     
 </content>
+
 
 
 </go:page>

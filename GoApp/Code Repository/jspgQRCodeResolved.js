@@ -22,7 +22,7 @@ qrCodeFunctions.qrCodeScan = function(){
                 receiptJSON += item.text;
           });
     }
-    receiptJSON='{"tin":"099569856","number":"1234","trdate":"2015-05-15τ14:23:12","amount":"128.25","vat":"23.98","ccn":"0"}';
+    receiptJSON='{"tin":"099569856","number":"1234","trdate":"2015-05-15τ14:23:12","amount":"128.25","vat":"23.98","ccn":"0"}';  
     receiptJSON = parseJSON(receiptJSON);
     qrCodeFunctions.qrCodeShowReceiptDetails(receiptJSON);
     test = receiptJSON;
