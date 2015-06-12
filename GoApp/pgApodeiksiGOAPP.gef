@@ -1,110 +1,173 @@
-<go:include type="script" file="generalJs"/>
-<go:include type="script" file="jspgArchiveDetails"/>
-<go:include type="script" file="jspgArchivedList"/>
-<go:include type="script" file="jspgBadgesDetails"/>
-<go:include type="script" file="jspgBadgesList"/>
-<go:include type="script" file="jspgLanding"/>
-<go:include type="script" file="jspgLogin"/>
-<go:include type="script" file="jspgOffersDetails"/>
-<go:include type="script" file="jspgOffersList"/>
-<go:include type="script" file="jspgQRCodeResolved"/>
-
-<go:include type="css" file="cssGeneral"/>
-<go:include type="css" file="csspgArchiveDetails"/>
-<go:include type="css" file="csspgArchivedList"/>
-<go:include type="css" file="csspgBadgesDetails"/>
-<go:include type="css" file="csspgBadgesList"/>
-<go:include type="css" file="cssGeneral"/>
-<go:include type="css" file="csspgLogin"/>
-<go:include type="css" file="csspgLogin"/>
-<go:include type="css" file="csspgOffersDetails"/>
-<go:include type="css" file="csspgOffersList"/> 
-<go:include type="css" file="csspgQRCodeResolved"/> 
-<go:include type="css" file="cssReset"/>
-
-<go:page orientation="Portrait"  shownavigation="false"  id="pgApodeiksiGOAPP" title="pgApodeiksiGOAPP" >
- <content>
-     <nav class="navBar"> 
-
- <div class="iosBar hidden"></div>
-            <div class="menuItem backImage"></div>
+<go:include type="script" file="generalJs"></go:include>
+<go:include type="script" file="jspgArchiveDetails"></go:include>
+<go:include type="script" file="jspgArchivedList"></go:include>
+<go:include type="script" file="jspgBadgesDetails"></go:include>
+<go:include type="script" file="jspgBadgesList"></go:include>
+<go:include type="script" file="jspgLanding"></go:include>
+<go:include type="script" file="jspgLogin"></go:include>
+<go:include type="script" file="jspgOffersDetails"></go:include>
+<go:include type="script" file="jspgOffersList"></go:include>
+<go:include type="script" file="jspgQRCodeResolved"></go:include>
+<go:include type="css" file="cssGeneral"></go:include>
+<go:include type="css" file="csspgArchiveDetails"></go:include>
+<go:include type="css" file="csspgArchivedList"></go:include>
+<go:include type="css" file="csspgBadgesDetails"></go:include>
+<go:include type="css" file="csspgBadgesList"></go:include>
+<go:include type="css" file="cssGeneral"></go:include>
+<go:include type="css" file="csspgLogin"></go:include>
+<go:include type="css" file="csspgLogin"></go:include>
+<go:include type="css" file="csspgOffersDetails"></go:include>
+<go:include type="css" file="csspgOffersList"></go:include>
+<go:include type="css" file="csspgQRCodeResolved"></go:include>
+<go:include type="css" file="cssReset"></go:include>
+<go:page orientation="Portrait" shownavigation="false" id="pgApodeiksiGOAPP" title="pgApodeiksiGOAPP">
+    <content>
+<!------------------------------------ nav bar  ----------------------------------------->        
+        <nav class="navBar">
+            <div class="iosBar hidden"></div>
+            <div class="menuItem backImage"> <img src="home.png"></div>
             <div class="menuItem logoImage" onclick="navigationFunctions.backToMainMenu()"></div>
-            <div class="menuItem alertImage"></div>
-
-    </nav>
-    <article id="pgLogin" class="hidden">
-        <section class="pgLoginLogo"></section>
-        <section class="pgLoginText">Συνδεθείτε με τον <br>TAXISNET λογαριασμό σας</section>
-        <section class="pgLoginInputSection">
-            <input class="pgLoginInput" placeholder="Username"></input>
-            <input class="pgLoginInput" placeholder="Password"></input>
-            <div class="pgLoginButton" onclick="qrCodeFunctions.openQRCode()">ΣΥΝΔΕΣΗ</div>
-        </section>
-        <footer class="pgLoginFooter">
-            <div class="bottomItemsContainer">
-                <div class="pgLoginBottomItem grImage" onclick="languageFunctionality.setLanguage('el')"></div>
-                <div class="pgLoginBottomItem enImage" onclick="languageFunctionality.setLanguage('en')"></div>
-            </div>
-        </footer>
-    </article>
-   <article id="pgLanding" class="footerPage hidden">
-        <footer> <div class="footerChild footerChild_archive"> <div> Archive</div> </div><div class="footerChild footerChild_photo"> <div>Photo</div></div><div class="scanDiv footerChild"> <img src="p02_Landing_Icon_QR.png"><div class="scanLabel">Scan</div> </div><div class="footerChild footerChild_offers"> <div>Offers</div></div><div class="footerChild footerChild_badges"><div>Badges</div></div></footer>
-    </article>
-     <article id="pgQRCodeResolved" class="hidden">
-        <section class="qrCodePopUp">
-            <div class="qrClosePopupBar" onclick="qrCodeFunctions.qrCodeCancelReceiptUpload()">
-                <div class="qrClosePopupIcon"></div>
-            </div>
-            <div class="qrCodeImageBar">
-                <div class="qrCodeIcon"></div>
-            </div>
-            <br>
-            <div class="qrCodeTextBar">
-                <div class="qrCodeText">
-                    <p>
-                        <strong>Receipt Data Received</strong>
-                    </p>
-                    <br>
-                    <div id="QRCodeText"></div>
+            <div class="menuItem alertImage"><img src="alarm.png"></div>
+        </nav>
+<!------------------------------------ login  ----------------------------------------->            
+        <article id="pgLogin" class="hidden">
+            <section class="pgLoginLogo"></section>
+            <section class="pgLoginText">
+                Συνδεθείτε με τον
+                <br>
+                TAXISNET λογαριασμό σας
+            </section>
+            <section class="pgLoginInputSection">
+                <input class="pgLoginInput" placeholder="Username">
+                <input class="pgLoginInput" placeholder="Password">
+                <div class="pgLoginButton" onclick="qrCodeFunctions.openQRCode()">ΣΥΝΔΕΣΗ</div>
+            </section>
+            <footer class="pgLoginFooter">
+                <div class="bottomItemsContainer">
+                    <div class="pgLoginBottomItem grImage" onclick="languageFunctionality.setLanguage('el')"></div>
+                    <div class="pgLoginBottomItem enImage" onclick="languageFunctionality.setLanguage('en')"></div>
                 </div>
+            </footer>
+        </article>
+<!------------------------------------ landing  ----------------------------------------->            
+        <article id="pgLanding" class="footerPage ">
+            <footer>
+                <div class="footerChild footerChild_archive" onclick="navigationFunctions.openPage('pgArchivedList')">
+                    <div> Archive</div>
+                </div>
+                <div class="footerChild footerChild_photo" onclick="navigationFunctions.openPage('pgOffersList')">
+                    <div>Photo</div>
+                </div>
+                <div class="scanDiv footerChild">
+                    <img src="p02_Landing_Icon_QR.png"></img>
+                    <div class="scanLabel">Scan</div>
+                </div>
+                <div class="footerChild footerChild_offers" onclick="navigationFunctions.openPage('pgOffersList')">
+                    <div>Offers</div>
+                </div>
+                <div class="footerChild footerChild_badges" onclick="navigationFunctions.openPage('pgBadgesList')">
+                    <div>Badges</div>
+                </div>
+            </footer>
+        </article>
+<!------------------------------------ QR code  ----------------------------------------->            
+        <article id="pgQRCodeResolved" class="hidden">
+            <section class="qrCodePopUp">
+                <div class="qrClosePopupBar" onclick="qrCodeFunctions.qrCodeCancelReceiptUpload()">
+                    <div class="qrClosePopupIcon"></div>
+                </div>
+                <div class="qrCodeImageBar">
+                    <div class="qrCodeIcon"></div>
+                </div>
+                <br>
+                <div class="qrCodeTextBar">
+                    <div class="qrCodeText">
+                        <p>
+                            <strong>Receipt Data Received</strong>
+                        </p>
+                        <br>
+                        <div id="QRCodeText"></div>
+                    </div>
+                </div>
+                <div class="qrApproval" onclick="">
+                    <div class="qrApprovalButton cancel" onclick="qrCodeFunctions.qrCodeCancelReceiptUpload()">CANCEL</div>
+                    <div class="qrApprovalButton submit" onclick="qrCodeFunctions.qrCodeScan();">SUBMIT</div>
+                </div>
+            </section>
+        </article>
+<!------------------------------------ offers  ----------------------------------------->            
+        <article id="pgOffersList"></article>
+        <article id="pgOffersDetails"></article>
+<!------------------------------------ archive  ----------------------------------------->            
+        <article id="pgArchivedList"></article>
+        <article id="pgArchiveDetails"></article>
+<!---------------------------------------------------- badges  ------------------------------------------------------>            
+    <article id="pgBadgesList" class="footerPage hidden">
+<!--            <div class="badges_desc"> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</div>-->
+            <div class="badges_list">
+                <div class="budge_item budge_kms" onclick="budgesFunctions.popUpBudge()"></div>
+                <div class="budge_item budge_school"></div>
+                <div class="budge_item budge_bouzoukia"></div>
+                <div class="budge_item budge_cheers"></div>
+                <div class="budge_item budge_cinephile"></div>
+                <div class="budge_item budge_coffee"></div>
+                <div class="budge_item budge_fill"></div>
+                <div class="budge_item budge_10"></div>
+                <div class="budge_item budge_ball"></div>
+                <div class="budge_item budge_snack"></div>
+                <div class="budge_item budge_myconos"></div>
+                <div class="budge_item budge_newlook"></div>
+                <div class="budge_item budge_theatre"></div>
+                <div class="budge_item budge_pantheon"></div>
+                <div class="budge_item budge_pizza"></div>
+                <div class="budge_item budge_souvlaki"></div>
+                <div class="budge_item budge_summer"></div>
+                <div class="budge_item budge_sushi"></div>
+                <div class="budge_item budge_crete"></div>
             </div>
-            <div class="qrApproval" onclick="">
-                <div class="qrApprovalButton cancel" onclick="qrCodeFunctions.qrCodeCancelReceiptUpload()">CANCEL</div>
-                <div class="qrApprovalButton submit" onclick="qrCodeFunctions.qrCodeScan();">SUBMIT</div>
-            </div>
-        </section>
-    </article>    <article id="pgOffersList"></article>
-    <article id="pgOffersDetails"></article>
-    <article id="pgArchivedList"></article>
-    <article id="pgArchiveDetails"></article>
-   <article id="pgBadgesList" class="footerPage"> 
-        <div class="badges_desc"> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</div>
-        <div class="badges_list">
-        <div class="budge_item budge_kms"></div>
-        <div class="budge_item budge_school"></div>
-        <div class="budge_item budge_bouzoukia"></div>
-        <div class="budge_item budge_cheers"></div>
-        <div class="budge_item budge_cinephile"></div> 
-        <div class="budge_item budge_coffee"></div>
-        <div class="budge_item budge_fill"></div>
-        <div class="budge_item budge_10"></div>
-        <div class="budge_item budge_ball"></div>
-        <div class="budge_item budge_snack"></div>
-        <div class="budge_item budge_myconos"></div>
-        <div class="budge_item budge_newlook"></div>
-        <div class="budge_item budge_theatre"></div>
-        <div class="budge_item budge_pantheon"></div>
-        <div class="budge_item budge_pizza"></div>
-        <div class="budge_item budge_souvlaki"></div>
-        <div class="budge_item budge_summer"></div>
-        <div class="budge_item budge_sushi"></div>
-        <div class="budge_item budge_crete"></div>
-        </div>
-         <footer> <div class="footerChild footerChild_archive"> <div> Archive</div> </div><div class="footerChild footerChild_photo"> <div>Photo</div></div><div class="scanDiv footerChild"> <img src="p02_Landing_Icon_QR.png"><div class="scanLabel">Scan</div> </div><div class="footerChild footerChild_offers"> <div>Offers</div></div><div class="footerChild footerChild_badges"><div>Badges</div></div></footer>
-    </article>
-    <article id="pgBadgesDetails"></article>
-    
-</content>
-
-
+            <footer>
+                <div class="footerChild footerChild_archive" onclick="navigationFunctions.openPage('pgArchivedList')">
+                    <div> Archive</div>
+                </div>
+                <div class="footerChild footerChild_photo" onclick="navigationFunctions.openPage('pgOffersList')">
+                    <div>Photo</div>
+                </div>
+                <div class="scanDiv footerChild">
+                    <img src="p02_Landing_Icon_QR.png"></img>
+                    <div class="scanLabel">Scan</div>
+                </div>
+                <div class="footerChild footerChild_offers" onclick="navigationFunctions.openPage('pgOffersList')">
+                    <div>Offers</div>
+                </div>
+                <div class="footerChild footerChild_badges" onclick="navigationFunctions.openPage('pgBadgesList')">
+                    <div>Badges</div>
+                </div>
+            </footer>
+        </article>
+        <!------ budges pop-up ------>
+            <article id="pgBadgesDetails" class="hidden">
+            <section class="budgePopUp">
+                <div class="budgePopUpBar" onclick="">
+                    <div class="budgeClosePopupIcon"></div>
+                </div>
+                <div class="budgeCodeImageBar">
+                    <div class="budgeCodeIcon"></div>
+                </div>
+                <br>
+                    <div class="budgeCodeTextBar">
+                        <div class="budgeCodeText">
+                        <p>
+                            <strong>Receipt Data Received</strong>
+                        </p>
+                        <br>
+                            <div id="budgeCodeText"></div>
+                    </div>
+                </div>
+                    <div class="budgeApproval" onclick="">
+                        <div class="budgeApprovalButton cancel" onclick="">CANCEL</div>
+                        <div class="budgeApprovalButton submit" onclick="">SUBMIT</div>
+                </div>
+            </section>
+        </article>
+    </content>
 </go:page>

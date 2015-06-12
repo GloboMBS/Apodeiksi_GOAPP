@@ -30,37 +30,36 @@
 .alertImage,
 .backImage {
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center center; 
     background-size: contain;
     vertical-align:middle;
 }
 
- .alertImage{
-     background-image: url("alarm.png");
-     width: 22%;
-     height: inherit;
-    background-size: 25px;
-    background-position-x: 35px;
-    background-position-y: 16px;
-     
+ .alertImage { 
+     width: 10%;
+     height: inherit;     
+     float: right;
 }
+ 
+ .alertImage img {
+     width: 30px;
+     float: right;
+     margin: 12px 12px 0px 0px;
+ }
 .logoImage {
-    width: 51%;
+    width: 70%;
     height: 50px;
 /*    background-image: url("Logo.png");*/
 }
  .backImage{
-    background: url('home.png');
-    width: 24%;
+    width: 10%;
     height: inherit;
-    background-repeat: no-repeat;
-    background-size: 25px;
-    background-position-x: 13px;
-    background-position-y: 15px;
  }
-
-
-
+.backImage img {
+    width: 25px;
+    margin: 15px 0px 0px 10px;
+    float: left;
+}
 footer {
     height: 10%;
     width: 100%;
@@ -172,4 +171,16 @@ footer {
     background-position-x: 50%;
     background-position-y: 20%;
     color: #dc143c;
+}
+
+@media only screen and (min-width: 768px) { 
+    .backImage img {
+    width: 30px;
+    margin: 10px 0px 10px 15px;
+    }
+
+     .alertImage img {
+         width: 30px;
+         margin: 10px 15px 0px 0px;
+     }
 }
