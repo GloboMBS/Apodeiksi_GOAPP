@@ -1,7 +1,8 @@
 $( document ).ready(function() {
     generalFunctions.getHeight('.badges_list',100); 
     generalFunctions.getHeight('.offerList',100);
-    generalFunctions.getHeight('.pgOffersDetails',50);   
+    generalFunctions.getHeight('.pgOffersDetails',50);  
+    
      generalFunctions.getHeight('#pgArchivedList .pgArchivedList',180);    
     generalFunctions.getHeight('.pgArchiveListCategoriesList',65);  
     generalFunctions.getHeight('#pgRating',50);      
@@ -181,7 +182,7 @@ formFunctions={};
  var long;
  var lat;
 formFunctions.openForm = function() { 
-     $('.afmResult').html(languageObject.afm);
+     
      long='';
      lat='';
     go.location.getLocationAsync(locationCallback, true);

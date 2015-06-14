@@ -12,33 +12,48 @@ qrCodeFunctions.openQRCode = function(){
 };
 
 //scan the qr code take the result and parse into a JSON object
-var test={}; 
+var test={};  
   var receiptJSONToSend = '';
-qrCodeFunctions.qrCodeScan = function(){ 
-    var receiptJSON = '';
+qrCodeFunctions.qrCodeScan = function(){   
+  
   
     go.scanCode('all',scanCallback);
     function scanCallback(result)
     {
           var data = parseJSON(result); 
-          var receiptJSON = "";
+            var receiptJSON = {};
+          var receiptJSONString = "";
           $(data.data).each(function (i, item) {
               if (i > 0) url += ","; 
-                receiptJSON += item.text;
+              receiptJSONString += item.text;
           });
-    }
-        
-    receiptJSON='{"tin":"099569856","number":"1234","trdate":"2015-05-15T14:23:12","amount":"128.25","vat":"23.98","ccn":"0"}';   
+          receiptJSON='{"tin":"099569856","number":"1234","trdate":"2015-05-15T14:23:12","amount":"128.25","vat":"23.98","ccn":"0"}';   
     
-    receiptJSON = parseJSON(receiptJSON);
+
+/*              tmpReceiptJSON = receiptJSONString.split('#');
+          receiptJSON.tin = tmpReceiptJSON[0];
+          receiptJSON.trdate = tmpReceiptJSON[2];
+          receiptJSON.amount = tmpReceiptJSON[3];
+          receiptJSON.vat = tmpReceiptJSON[3]-tmpReceiptJSON[4];
+          receiptJSON.ccn = tmpReceiptJSON[5];*/
+          
+         
+           receiptJSON = parseJSON(receiptJSON);
     receiptJSON.userid = existsLanguage.id;
     receiptJSON.langid = (existsLanguage.language == 'el')?1:2;
     
-    qrCodeFunctions.qrCodeShowReceiptDetails(receiptJSON);
+ 
+   
     test = receiptJSON;
     receiptJSONToSend = JSON.stringify(receiptJSON);
 
     console.log(receiptJSONToSend);
+    
+     qrCodeFunctions.qrCodeShowReceiptDetails(receiptJSON);
+    }
+          
+        
+   
 };
 
 
@@ -83,6 +98,9 @@ qrCodeFunctions.confirmUploadToServer = function( ){
 
 } 
  
+var imagesInLine = 0;
+ var newUL = 0;
+ 
 //take photo of the receipt and save it locally
 qrCodeFunctions.takeReceiptPhoto = function(){
     
@@ -96,6 +114,33 @@ qrCodeFunctions.takeReceiptPhoto = function(){
           if (i > 0) _files += ",";
           _files += item.FullPath;
         });
-       
+      
+        if(imagesInLine < 4) {
+            $('#ul_'+newUL).append('<li><img class="panel-image" src="golocalfiles:/' + _files + '" style="width:60px;" ></li>');
+            imagesInLine++;  
+        }
+        else {
+            newUL++;
+            $("#photoGrid").append('<ul id="ul_'+newUL+'"></ul>');
+            $('#ul_'+newUL).append('<li><img class="panel-image" src="golocalfiles:/' + _files + '" style="width:60px;" ></li>');
+            imagesInLine = 1;
+        }
+      
     }
 }
+
+function studioUploadImage() {
+    if(imagesInLine < 4) {
+        $('#ul_'+newUL).append('<li><img class="panel-image" src="Bouzoukia_Night_OFF.png" style="width:60px;" ></li>');
+        imagesInLine++;  
+    }
+    else {
+        newUL++;
+        $("#photoGrid").append('<ul id="ul_'+newUL+'"></ul>');
+        $('#ul_'+newUL).append('<li><img class="panel-image" src="Bouzoukia_Night_OFF.png" style="width:60px;" ></li>');
+        imagesInLine = 1;
+    }
+
+}
+
+
