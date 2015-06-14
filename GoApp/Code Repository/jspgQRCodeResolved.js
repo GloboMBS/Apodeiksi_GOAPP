@@ -14,44 +14,31 @@ qrCodeFunctions.openQRCode = function(){
 //scan the qr code take the result and parse into a JSON object
 var test={}; 
   var receiptJSONToSend = '';
-qrCodeFunctions.qrCodeScan = function(){  
-  
+qrCodeFunctions.qrCodeScan = function(){ 
+    var receiptJSON = '';
   
     go.scanCode('all',scanCallback);
     function scanCallback(result)
     {
           var data = parseJSON(result); 
-            var receiptJSON = {};
-          var receiptJSONString = "";
+          var receiptJSON = "";
           $(data.data).each(function (i, item) {
               if (i > 0) url += ","; 
-              receiptJSONString += item.text;
+                receiptJSON += item.text;
           });
-              
-              tmpReceiptJSON = receiptJSONString.split('#');
-          receiptJSON.tin = tmpReceiptJSON[0];
-          receiptJSON.trdate = tmpReceiptJSON[2];
-          receiptJSON.amount = tmpReceiptJSON[3];
-          receiptJSON.vat = tmpReceiptJSON[3]-tmpReceiptJSON[4];
-          receiptJSON.ccn = tmpReceiptJSON[5];
-          
-         
-           receiptJSON = parseJSON(receiptJSON);
+    }
+        
+    receiptJSON='{"tin":"099569856","number":"1234","trdate":"2015-05-15T14:23:12","amount":"128.25","vat":"23.98","ccn":"0"}';   
+    
+    receiptJSON = parseJSON(receiptJSON);
     receiptJSON.userid = existsLanguage.id;
     receiptJSON.langid = (existsLanguage.language == 'el')?1:2;
     
- 
-   
+    qrCodeFunctions.qrCodeShowReceiptDetails(receiptJSON);
     test = receiptJSON;
     receiptJSONToSend = JSON.stringify(receiptJSON);
 
     console.log(receiptJSONToSend);
-     qrCodeFunctions.qrCodeShowReceiptDetails(receiptJSON);
-    }
-          
-        //receiptJSON='{"tin":"099569856","number":"1234","trdate":"2015-05-15T14:23:12","amount":"128.25","vat":"23.98","ccn":"0"}';   
-    
-   
 };
 
 
@@ -109,6 +96,6 @@ qrCodeFunctions.takeReceiptPhoto = function(){
           if (i > 0) _files += ",";
           _files += item.FullPath;
         });
-      loadImages();
+       
     }
 }

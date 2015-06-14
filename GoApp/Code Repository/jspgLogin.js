@@ -35,7 +35,8 @@ languageFunctionality.setLanguage = function(lang){
                 offersTitle:"Προσφορές",
                 complainMessage:"Η καταγγελία σας καταχωρήθηκε",
                 errorMesssageComplain:"Παρακαλούμε συμπληρώστε ημερομηνία και την καταγγελία σας",
-                afm:"ΑΦΜ: "
+                afm:"ΑΦΜ: ",
+                house:"#απόδειξη"
             } 
             
         } 
@@ -63,7 +64,8 @@ languageFunctionality.setLanguage = function(lang){
                 offersTitle:"Offers",
                 complainMessage:"Your complain has been sent",
                 errorMesssageComplain:"Please fill in the date and your complain",
-                afm:"ATI: "
+                afm:"ATI: ",
+                house:"#receipt"
             }
         
         }
@@ -138,7 +140,6 @@ languageFunctionality.saveUpdateLanguageToLocal = function(lang,userId){
         $('#pgLanding').removeClass('hidden');
         navigationFunctions.openPage('pgLanding');
         languageFunctionality.setLanguage(existsLanguage.language);
-                drawCharts(apostolisRS);
 };
 
 /*

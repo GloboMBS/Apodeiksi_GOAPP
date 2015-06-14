@@ -14,7 +14,7 @@ var generalFunctions =  {};
 
 generalFunctions.getHeight = function(className,hght){  
     var height = go.system.getHeight().value;
-    if(generalFunctions.isIOS()){  
+    if(generalFunctions.isIOS()){ 
         $(className).css('height',(height-(hght+20))+'px');
      } 
     else{
@@ -140,6 +140,8 @@ navigationFunctions.openPage = function(pageId){
 navigationFunctions.goBack = function(){ 
     var isLandingPage = $( "#pgLanding" ).hasClass( "hidden" ); 
     if(isLandingPage){
+        $('#navTitle').html(languageObject.house);
+        
         $('#pgLanding').removeClass('hidden');
         $('#'+currentPage).addClass('hidden');
         currentPage = "pgLanding";
@@ -262,28 +264,33 @@ formFunctions.openForm = function() {
                               'type':'online',
                               'callback':scanCompanyCallback, 
                                'parameters':{
-                                    afm: '065471585',
+                                    afm: '079458240',
                                     langid: (existsLanguage.language)=='el'?1:2  
                                }
                           });
-                          var a= {
-                              'method':'Dataset1.getCompanies', 
-                              'table':'getCompanies',
-                              'type':'online',
-                              'callback':scanCompanyCallback, 
-                               'parameters':{
-                                    afm: scanJsonRate,
-                                    langid: (existsLanguage.language)=='el'?1:2  
-                               }
-                            };
+
                            
                               function scanCompanyCallback(rs) {
+                                  console.log(rs);
                                   var rsresult= rs.sqldata.data[0].resultset; 
                                 var result= parseJSON(rsresult);
                                 console.log(result);
                                 $('.rtCodePopUpTitleText').html(result.company_name);
                                 $('.ratecategory').html(result.categoryname);
+                                   $('.country').html(result.categoryname);
+                                  $('.city').html(result.city);
+                                    $('.address').html(result.address);
+                                      $('.phone').html(result.phone);
+                                     
                                 $('#pgComRating').removeClass('hidden');
+                                
+                                
+
+
+
+
+
+
                               }
         }
   }

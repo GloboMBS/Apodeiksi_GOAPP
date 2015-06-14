@@ -327,6 +327,8 @@ footer {
 .rtCodePopUp {
     width: 100%;
     height: 100%;
+    text-align: center;
+    color: grey;
 }
 .rtCodeWrapper {
     width: 100%;
