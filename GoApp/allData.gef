@@ -1,0 +1,19 @@
+<file id="ce35e1f9d7db41e1b023804f9827b03d" filename="allData" location="" imageid="3" type="ft_Datamodule" parentid="-1" isopen="True" isloaded="True">
+  <methods>
+    <method id="1" name="getAllData" executiontype="RESTMethod" text="allData" connectiontype="REST" connectionstring="allData" connectionid="4" methodtype="Query" shared="False" datahandling="Online" expire="NotCached" parentmethod="(None)" notificationmethod="(None)" senddatahandling="NoAction" displayname="" methoddescription="" isdetail="False" map="xgMAAB+LCAAAAAAABAC9U8FugzAMvU/aPyDuI+12QykV2tSpWjtNazXtmhWXRgsBxWa0f79AaShUU287IMXP9rP9bPh0nynvBwzKXE/8cTDyp9HtDV8CiSdhP8CNkQXlxrOBGsM9yom/IypCxqqqCqqHIDcpux+NxuxzuVhtdpCJO6mRhN6A77KS61m+Lex5fC2+FGDzPllzvc1bwEKvIoMoBYqVqlvkrAGceyH1N3qsA2YSVILOPiE90o7YAJaKEGjA20TM8QUO0VYoBM6ORs9f97M+FBCtDkiQBSsyUqecObxfr1SqHi8iU1o+Zw5KxiXlKWgwgiDpivfhs+nY5Xgt5lRlfVlb++jmj3b+0kArIX8T9jh0GpvUpc+EDVnnytbW1Hbfx46sw9Say2pK9txOVO+AFBfSOQZrLhGMTIYr/hCqBM+eYkhW1IlvzyvERmo/GnPWuLvoRvjneqFnK+Dsj8rXOlJCp//ZUaNiJxpnl79m9AtKROQsxgMAAA==" belongsto="(None)" errormsg="" impersonate="False" disablenotifications="False" islocal="False" normalizedresult="False">
+      <params>
+        <param name="userid" direction="" type="System.String" />
+        <param name="langid" direction="" type="System.String" />
+      </params>
+      <bindings />
+      <tables>
+        <table id="1" name="getAllData" width="200" height="263" top="10" left="10" ismain="True" hasnotification="False" notificationdescription="" notificationpage="" notificationmenu="" notificationheadertext="" notificationdetailtext="" recordelement="getAllData" tablename="getAllData">
+          <fields>
+            <field name="resultset" originalname="resultset" type="dtString" length="0" iskey="False" isgrouped="False" isexcluded="False" isdeleted="False" isautokey="False" ismerged="False" allownull="True" details="" />
+          </fields>
+        </table>
+      </tables>
+      <relations />
+    </method>
+  </methods>
+</file>

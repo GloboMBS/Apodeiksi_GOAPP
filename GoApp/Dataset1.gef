@@ -1,0 +1,48 @@
+<file id="1e3bf0efaf6748c89c9908336f96883a" filename="Dataset1" location="" imageid="3" type="ft_Datamodule" parentid="-1" isopen="True" isloaded="True">
+  <methods>
+    <method id="1" name="getBudges" executiontype="RESTMethod" text="getBadges" connectiontype="REST" connectionstring="getBadges" connectionid="1" methodtype="Query" shared="False" datahandling="Online" expire="NotCached" parentmethod="(None)" notificationmethod="(None)" senddatahandling="NoAction" displayname="" methoddescription="" isdetail="False" map="xQMAAB+LCAAAAAAABAC9U8FOwzAMvSPxD1XvNBvcqqzTAA1NbAixCXENq9dFpGkVO5T9PVnXpWsntBuHSvGz/Ww/u3z8k6vgGwzKQo/CYTQIx8n1FV8AiUfhPsC1kSUVJnCBGuMflKNwS1TGjFVVFVV3UWEydjsYDNnHYr5cbyEXN1IjCb2G0Gell7NCVzgI+Ep8KsD6fbRmelM0gINeRA5JBnRv0wyQs9r23rnUXxiwFphKUCl6+4h0OFteA2gVIVCPt46Y4TPsko1QCJwdjI5/r9hqV0Ky3CFBHi3JSJ1x5vFuPavUfrqEjHV83uyVnFgqMtBgBEHaFu/CJ9Ox8/EazIvKuqo29sHNH9z81kAjIX8V7jZ0NjGZT58KF7IqlKutqem+ix1Y+6l7LqcpuWs7Ur0B0qSU3tHbskUwMu2v+F0oC4G7xJicqKPQXVeMtdRhMuSsdrfRtfBP+4WerICzPypf6kgJnf1nR7WKrWicnf+ZyS/MW22IxQMAAA==" belongsto="(None)" errormsg="" impersonate="False" disablenotifications="False" islocal="False" normalizedresult="False">
+      <params>
+        <param name="userid" direction="" type="System.String" />
+        <param name="langid" direction="" type="System.String" />
+      </params>
+      <bindings />
+      <tables>
+        <table id="1" name="getBudges" width="200" height="263" top="10" left="10" ismain="True" hasnotification="False" notificationdescription="" notificationpage="" notificationmenu="" notificationheadertext="" notificationdetailtext="" recordelement="getBudges" tablename="getBudges">
+          <fields>
+            <field name="resultset" originalname="resultset" type="dtString" length="0" iskey="False" isgrouped="False" isexcluded="False" isdeleted="False" isautokey="False" ismerged="False" allownull="True" details="" />
+          </fields>
+        </table>
+      </tables>
+      <relations />
+    </method>
+    <method id="3" name="offers" executiontype="RESTMethod" text="offers" connectiontype="REST" connectionstring="offers" connectionid="6" methodtype="Query" shared="False" datahandling="Online" expire="NotCached" parentmethod="(None)" notificationmethod="(None)" senddatahandling="NoAction" displayname="" methoddescription="" isdetail="False" map="vwMAAB+LCAAAAAAABACFU11vmzAUfZ+0/4D83GA+wtoihyra1KlbO01NVO3VCxdqzRhmm6VRtf++CyGm0Ep7AHHPuZ/nXtjVUyW9P6CNqNWKhH5ArrL379gdWP6J4wNmp0Vja+2hozLpkxEr8mhtk1K63+/9fezXuqRREIT0x93tZvcIFV8IZSxXOyAuKv9/FMHCnse2/KcE03+frBtV1AOA0DdeQVYXBTbNaG846laoX8ajI3AtQObG2SdkknBMqsG00hqws7y9x435Coes4NIAo0djwndybQ8NZJuDsVD5G6uFKhl1+LReK2U3WmZ1i/mcOSu5bm1dggLNLeRj8Sn8Yjr6erwBc4rSqaSDfaTZR5y/1TBIyL5zPAxVrnXpwq85umxribWVHbqfYses89AuF2pqcWunVPdg7LoRjpit+B5+t+jxxdRqvucHLlvw8BZTi8quCN5Xanq9SfZMWgNa5CT1wjPCiwo/SJQkFxdRHCbkjOTdTXdg1UjuuRcyslalsG0OHRuf+5cY8mEZdgy3johi/zwMlvFljARu9wgGYbIIkkWYbMNlGsVpGJG/jPaNjn33d/C5u68XF8Hom0L0Eo6KMfr6n8z+AepYxTm/AwAA" belongsto="(None)" errormsg="" impersonate="False" disablenotifications="False" islocal="False" normalizedresult="False">
+      <params>
+        <param name="RequestJson" direction="" type="System.String" />
+      </params>
+      <bindings />
+      <tables>
+        <table id="1" name="offers" width="200" height="263" top="10" left="430" ismain="True" hasnotification="False" notificationdescription="" notificationpage="" notificationmenu="" notificationheadertext="" notificationdetailtext="" recordelement="offers" tablename="offers">
+          <fields>
+            <field name="resultset" originalname="resultset" type="dtString" length="0" iskey="False" isgrouped="False" isexcluded="False" isdeleted="False" isautokey="False" ismerged="False" allownull="True" details="" />
+          </fields>
+        </table>
+      </tables>
+      <relations />
+    </method>
+    <method id="2" name="getOffers" executiontype="RESTMethod" text="getOffers" connectiontype="REST" connectionstring="getOffers" connectionid="2" methodtype="Query" shared="False" datahandling="Online" expire="NotCached" parentmethod="(None)" notificationmethod="(None)" senddatahandling="NoAction" displayname="" methoddescription="" isdetail="False" map="xQMAAB+LCAAAAAAABAC9U8FOwzAMvSPxD1XvNBvcqqzTBBqa2ACxCXENq9tFpGkVu5T9PWnXpWsntBuHSvGz/Ww/u3z6kynvGwzKXE/8cTDyp9H1FV8BiQdhP8CtkQXlxrOBGsMflBN/R1SEjFVVFVR3QW5SdjsajdnHarne7iATN1IjCb0F32XFl7N8W9jz+EZ8KsDmfbQWOslbwELPIoMoBXpJEts3Z43tvEupv9BjHTCXoGJ09hHpcXa8BrBUhEAD3iZigU+wjxKhEDg7GD1/rdhmX0C03iNBFqzJSJ1y5vB+vVKperqITGn5nDkoOSspT0GDEQRxV7wPn0zHzsdrMScq66va2gc3v7fzlwZaCfmrsLeh05lJXfpc2JBNrmxtTW33fezAOkytuaymZLd2pHoDpFkhnWOw5RLByHi44nehSvDsJYZkRZ349rpCbKT2ozFnjbuLboR/rBd6sgLO/qh8qSMldPqfHTUqdqJxdv5nRr/DTcKexQMAAA==" belongsto="(None)" errormsg="" impersonate="False" disablenotifications="False" islocal="False" normalizedresult="False">
+      <params>
+        <param name="userid" direction="" type="System.String" />
+        <param name="langid" direction="" type="System.String" />
+      </params>
+      <bindings />
+      <tables>
+        <table id="1" name="getOffers" width="200" height="263" top="10" left="220" ismain="True" hasnotification="False" notificationdescription="" notificationpage="" notificationmenu="" notificationheadertext="" notificationdetailtext="" recordelement="getOffers" tablename="getOffers">
+          <fields>
+            <field name="resultset" originalname="resultset" type="dtString" length="0" iskey="False" isgrouped="False" isexcluded="False" isdeleted="False" isautokey="False" ismerged="False" allownull="True" details="" />
+          </fields>
+        </table>
+      </tables>
+      <relations />
+    </method>
+  </methods>
+</file>

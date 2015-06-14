@@ -14,5 +14,20 @@
       </tables>
       <relations />
     </method>
+    <method id="2" name="cgotable_allDataSaved_cgotable" executiontype="Query" text="" connectiontype="LOCAL" connectionstring="" connectionid="-1" methodtype="Query" shared="False" datahandling="PushOffline" expire="NotCached" parentmethod="(None)" notificationmethod="(None)" senddatahandling="NoAction" displayname="" methoddescription="" isdetail="False" map="" belongsto="(None)" errormsg="" impersonate="False" disablenotifications="False" islocal="True" normalizedresult="True">
+      <params />
+      <bindings />
+      <tables>
+        <table id="0" name="allDataSaved" width="200" height="263" top="10" left="220" ismain="False" hasnotification="False" notificationdescription="" notificationpage="" notificationmenu="" notificationheadertext="" notificationdetailtext="" recordelement="" tablename="allDataSaved">
+          <fields>
+            <field name="userid" originalname="" type="dtInt32" length="0" iskey="True" isgrouped="False" isexcluded="False" isdeleted="False" isautokey="False" ismerged="False" allownull="False" details="" />
+            <field name="offersObj" originalname="" type="dtString" length="0" iskey="False" isgrouped="False" isexcluded="False" isdeleted="False" isautokey="False" ismerged="False" allownull="False" details="" />
+            <field name="receiptsObj" originalname="" type="dtString" length="0" iskey="False" isgrouped="False" isexcluded="False" isdeleted="False" isautokey="False" ismerged="False" allownull="False" details="" />
+            <field name="langid" originalname="" type="dtString" length="0" iskey="False" isgrouped="False" isexcluded="False" isdeleted="False" isautokey="False" ismerged="False" allownull="False" details="" />
+          </fields>
+        </table>
+      </tables>
+      <relations />
+    </method>
   </methods>
 </file>

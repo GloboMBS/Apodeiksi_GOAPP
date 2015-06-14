@@ -1,0 +1,18 @@
+<file id="a6ad193963764294826af388d7a417ba" filename="sendReceiptDataset" location="" imageid="3" type="ft_Datamodule" parentid="-1" isopen="True" isloaded="True">
+  <methods>
+    <method id="1" name="sendReceipt" executiontype="RESTMethod" text="sendReceipt" connectiontype="REST" connectionstring="sendReceipt" connectionid="7" methodtype="Query" shared="False" datahandling="Online" expire="NotCached" parentmethod="(None)" notificationmethod="(None)" senddatahandling="NoAction" displayname="" methoddescription="" isdetail="False" map="yQMAAB+LCAAAAAAABACFU01vm0AQvVfqf0BcuNQsYKNgtCayWqVKm1SVbUW9bmBCVl0Wdz/iWFH/eweMIZBIPSDte7PzZubtQC+fK+E8gdK8lis39AP3Mvv4gd6CYV8YfqBzxfemVg5elDp91nzlPhqzTwk5HA7+Ye7XqiRREITk1+3NNn+Eis241IbJHNw+q/h/louFHYfu2L0A3Z7P6Fo+1B2B1A9WQaZBFhvIAXujpGX6+A2Xv7VDBuKKgyh0j8/MSHVQVqCtMBqmuu2Na/0djtkDExooOYFRvPFsd9xDtj1qA5W/NYrLkpKeH9ezQjTzZUZZ1OvhpOTamroECYoZKIbiY/rVdOTteB3X20rGvnb4FKafcX6roLOQ/mS4HbJcq7JPv2J4ZVcLrC1N1/2YO6lOUxst9NTgvp2lNqDNes/7wOSdN/DH4o1vupbTd75jwoKDC5kadHbl4pKluvXbzV48w6WXesHFchEn0SLwPnnSVvegkAyXyUUQLRdJiKxRBfqHbBSE8SyIZ2G8CxdpNE/DCMOsqq00TVKU+FGMzBNrYDT3lwmiPG/L4MlqULzwnNTxUNfxBJMl4hb+paTtdmi+XYavzZK9WgtK3nWj9XGwjZK3f2f2D3mwK4DJAwAA" belongsto="(None)" errormsg="" impersonate="False" disablenotifications="False" islocal="False" normalizedresult="False">
+      <params>
+        <param name="RequestJson" direction="" type="System.String" />
+      </params>
+      <bindings />
+      <tables>
+        <table id="1" name="sendReceipt" width="200" height="263" top="10" left="10" ismain="True" hasnotification="False" notificationdescription="" notificationpage="" notificationmenu="" notificationheadertext="" notificationdetailtext="" recordelement="sendReceipt" tablename="sendReceipt">
+          <fields>
+            <field name="resultset" originalname="resultset" type="dtString" length="0" iskey="False" isgrouped="False" isexcluded="False" isdeleted="False" isautokey="False" ismerged="False" allownull="True" details="" />
+          </fields>
+        </table>
+      </tables>
+      <relations />
+    </method>
+  </methods>
+</file>

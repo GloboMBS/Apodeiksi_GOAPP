@@ -1,1 +1,125 @@
-<go:file devused="True,True,True,True" xmlns:go='http://www.globoplc.com'></go:file>
+<go:file devused="True,True,True,True" xmlns:go='http://www.globoplc.com'></go:file>#pgArchivedList{
+    height:100%;
+    width:100%;
+    position:absolute;
+    top:0;
+}
+.imagesWrapper{
+    display: inline-block;
+    width: 17%;
+    height: 50px;
+    vertical-align: sub;
+    text-align: right;
+}
+#pgArchivedList .menuItem.filterImage img,
+#pgArchivedList .menuItem.sortImage img{
+  
+    height:20px;
+}
+
+.pgArchivedTabs{
+    display:block;
+    position:relative;
+    height:30px;
+    width:100%;
+    border-bottom:1px solid lightgrey;
+    line-height:30px;
+}
+.allTab{
+    float:Left;
+    width:50%;
+    text-align:center;
+    color:lightgrey;
+    border-right:1px solid lightgrey;
+}
+.galleryTab{
+    float:right;
+    width:50%;
+    text-align:center;
+    color:lightgrey;
+}
+.pgArchivedSearch{
+    width:100%;
+    border-bottom:1px solid lightgrey;
+    height:50px;
+    line-height:50px;
+    background:rgb(248, 247, 247);
+}
+.searchIcon img{
+    float:Left;
+    margin: 10px 0px 0px 10px;
+    height:30px;
+}
+
+.pgArchivedSearch input{
+    height: 39px;
+    width: 80%;
+    border: 0;
+    text-align: left;
+    float: right;
+    font-size:18px;
+    background:rgb(248, 247, 247);
+    margin-right: 10px;
+
+}
+.pgArchivedList{
+    height:100%;
+    width:100%;
+    overflow-y:auto;
+}
+.pgArchivedItemListContainer{
+    width:100%;
+    height:70px;
+    position:relative;
+    display:block;
+    border-bottom:1px solid lightgrey;
+    line-height: 70px;
+}
+.pgArchivedPrice{
+    width:30%;
+    height:80%;
+    background: url('priceBG.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    font-size:12px;
+    color:#fff;
+    display:inline-block;
+    vertical-align: middle;
+    line-height: 30px;
+    
+}
+.pgArchivedEuroSign{
+    height:20px;
+}
+.pgArchivedInfoText{
+     display:inline-block;
+     width:50%;
+     text-align:left;
+     height:auto;
+     line-height:30px;
+     vertical-align: middle;
+    
+
+}
+ .pgArchivedInfoTitle{
+     font-size:17px;
+     color:#dc143c;
+ }
+.pgArchivedInfoCategory{
+     font-size:13px;
+     color:lightgrey;
+ }
+ .pgArchivedArrow{
+    width: 15%;
+    height: 45%;
+    background: url('Arrow.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display:inline-block;
+    vertical-align: middle;
+ }
