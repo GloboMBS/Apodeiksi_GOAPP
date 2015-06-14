@@ -29,14 +29,13 @@
 <go:page onload="generalFunctions.addIOSBar();languageFunctionality.checkLandingPage(); " orientation="Portrait" shownavigation="false" id="pgApodeiksiGOAPP" title="pgApodeiksiGOAPP">
     <content>
         <div class="iosBar hidden"></div>
-        <nav class="navBar">
-            
+        <nav class="navBar">            
             <div class="menuItem backImage" onclick="navigationFunctions.goBack()">
                 <img src="home.png"></img>
             </div>
             <div id="navTitle" class="menuItem logoImage"> <label> </label></div>
-            <div class="menuItem alertImage" onclick="formFunctions.openForm()">
-                <img src="alarm.png"></img>
+            <div class="menuItem alertImage">
+                <img class="rateimg" src="rateButton.png" onclick=" ratingfunction.scanCompany()"> </img>  <img src="alarm.png" onclick="formFunctions.openForm()"></img>
             </div>
         </nav>
         <article id="pgLogin" class="hidden">
@@ -346,6 +345,32 @@
                     <label> </label>
                 </div>
             </section>
+        </article>
+        <article id="pgComRating" class="hidden">
+            <section class="rtCodePopUp">
+                <div class="rtClosePopupBar" onclick="">
+                    <div class="rtClosePopupIcon" onclick=""></div>
+                </div>
+                <div class="rtCodePopUpTitleText">
+                    <strong>  </strong>
+                </div>
+                 <div class="ratecategory"> </div>
+                <div class="rateIconsDiv"><div> 
+                    <img src="star_filled.png"></div> 
+                <div> <img src="star_filled.png"></div> 
+            <div> <img src="star_filled.png"></div> 
+            <div> <img src="star_filled.png"></div> 
+            <div> <img src="star_filled.png"></div> 
+            <div> <img src="star_filled.png"></div> 
+            <div> <img src="star_filled.png"></div> 
+            <div> <img src="star_filled.png"></div> 
+            <div> <img src="star_filled.png"></div> 
+            <div> <img src="ster_halfFill.png"></div> 
+            </div> 
+        
+        <div class=""> </div>
+            </section>
+            
         </article>
     </content>
 

@@ -14,7 +14,7 @@ budgesFunctions.popUpBudge= function() {
          'callback':budgescallback, 
          'parameters':{
          userid:existsLanguage.id,
-         langid:(existsLanguage.language)=='el'?1:2
+         langid:(existsLanguage.language)=='el'?1:2  
          }  
  });
 }

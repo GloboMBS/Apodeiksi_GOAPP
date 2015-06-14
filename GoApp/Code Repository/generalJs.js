@@ -3,12 +3,13 @@ $( document ).ready(function() {
     generalFunctions.getHeight('.offerList',100);
     generalFunctions.getHeight('.pgOffersDetails',50);   
      generalFunctions.getHeight('#pgArchivedList .pgArchivedList',180);    
-    generalFunctions.getHeight('.pgArchiveListCategoriesList',65);     
+    generalFunctions.getHeight('.pgArchiveListCategoriesList',65);  
+    generalFunctions.getHeight('#pgRating',50);      
     
 });
 
 /* General Scripts
--------------------------------------------------*/  
+-------------------------------------------------*/    
 var generalFunctions =  {}; 
 
 generalFunctions.getHeight = function(className,hght){  
@@ -17,7 +18,7 @@ generalFunctions.getHeight = function(className,hght){
         $(className).css('height',(height-(hght+20))+'px');
      } 
     else{
-        $(className).css('height',(height-hght)+'px');
+        $(className).css('height',(height-hght)+'px'); 
     } 
 }
 
@@ -237,5 +238,57 @@ formFunctions.openForm = function() {
 
 }
 
+ //------------------------------------------- rating ------------------------------------------------------
+  var ratingfunction={};
+  ratingfunction.openRating= function() {
+      
+     
+ }
+  var rateAfm;
+  ratingfunction.scanCompany = function() {
+        go.scanCode('all',scanCallback);
+        function scanCallback(result)
+        {
+              var data = parseJSON(result); 
+              var scanJsonRate = "";
+              $(data.data).each(function (i, item) {
+                  if (i > 0) url += ","; 
+                    scanJsonRate += item.text;
+              });
+               
+                          go.services.executeQuery({
+                              'method':'Dataset1.getCompanies', 
+                              'table':'getCompanies',
+                              'type':'online',
+                              'callback':scanCompanyCallback, 
+                               'parameters':{
+                                    afm: '065471585',
+                                    langid: (existsLanguage.language)=='el'?1:2  
+                               }
+                          });
+                          var a= {
+                              'method':'Dataset1.getCompanies', 
+                              'table':'getCompanies',
+                              'type':'online',
+                              'callback':scanCompanyCallback, 
+                               'parameters':{
+                                    afm: scanJsonRate,
+                                    langid: (existsLanguage.language)=='el'?1:2  
+                               }
+                            };
+                           
+                              function scanCompanyCallback(rs) {
+                                  var rsresult= rs.sqldata.data[0].resultset; 
+                                var result= parseJSON(rsresult);
+                                console.log(result);
+                                $('.rtCodePopUpTitleText').html(result.company_name);
+                                $('.ratecategory').html(result.categoryname);
+                                $('#pgComRating').removeClass('hidden');
+                              }
+        }
+  }
 
+       
+ //------------------------------------------- END rating ---------------------------------------------------
+ 
 

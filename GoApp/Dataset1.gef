@@ -15,6 +15,21 @@
       </tables>
       <relations />
     </method>
+    <method id="4" name="getCompanies" executiontype="RESTMethod" text="getCompanies" connectiontype="REST" connectionstring="getCompanies" connectionid="8" methodtype="Query" shared="False" datahandling="Online" expire="NotCached" parentmethod="(None)" notificationmethod="(None)" senddatahandling="NoAction" displayname="" methoddescription="" isdetail="False" map="zQMAAB+LCAAAAAAABAClU1FLwzAQfhf8D6XvNq06lZJ1jMlkuIm4Ib7G9dYF07QkV7v9e7OuS9cOGeJDIffd3Xd3313pYJMK5xuU5pnsu4Hnu4Po8oLOANkjMx/opeI5ZsoxgVKHG8377hoxDwkpy9Irb7xMJeTa9wPyMZvOl2tI2RWXGplcgmuz4vNZrinsOHTBPgXo6n2wJnKV1YCBXlgKUQI4ytKcSQ6akgqyAVMuv7RDGmDMQcTa2gekRdtQK9CFQA3Y4a0iJvoZttGKCQ2U7I2WfyfaYptDNN9qhNSbo+IyocTi7XqFELsBI1SF4bNmp+SwwCwBCYohxE3xNnw0HTkdr8asrqQtbG3v3XRk5i8U1BLSV2bOQyZDldj0MTMhi0yY2hLr7tvYnrWbuuMymqI5uAPVG2gc5tw6Ootmq7S733cmCnDMJYZoFO275rpCXensRv5d7/Y+6D30KKnCmqxK/afdVo/2QMkv5c+1JZhMePyXzoJ/dVRJ2ShHyekfGv0A9PLOm80DAAA=" belongsto="(None)" errormsg="" impersonate="False" disablenotifications="False" islocal="False" normalizedresult="False">
+      <params>
+        <param name="afm" direction="" type="System.String" />
+        <param name="langid" direction="" type="System.String" />
+      </params>
+      <bindings />
+      <tables>
+        <table id="1" name="getCompanies" width="200" height="263" top="10" left="640" ismain="True" hasnotification="False" notificationdescription="" notificationpage="" notificationmenu="" notificationheadertext="" notificationdetailtext="" recordelement="getCompanies" tablename="getCompanies">
+          <fields>
+            <field name="resultset" originalname="resultset" type="dtString" length="0" iskey="False" isgrouped="False" isexcluded="False" isdeleted="False" isautokey="False" ismerged="False" allownull="True" details="" />
+          </fields>
+        </table>
+      </tables>
+      <relations />
+    </method>
     <method id="3" name="offers" executiontype="RESTMethod" text="offers" connectiontype="REST" connectionstring="offers" connectionid="6" methodtype="Query" shared="False" datahandling="Online" expire="NotCached" parentmethod="(None)" notificationmethod="(None)" senddatahandling="NoAction" displayname="" methoddescription="" isdetail="False" map="vwMAAB+LCAAAAAAABACFU11vmzAUfZ+0/4D83GA+wtoihyra1KlbO01NVO3VCxdqzRhmm6VRtf++CyGm0Ep7AHHPuZ/nXtjVUyW9P6CNqNWKhH5ArrL379gdWP6J4wNmp0Vja+2hozLpkxEr8mhtk1K63+/9fezXuqRREIT0x93tZvcIFV8IZSxXOyAuKv9/FMHCnse2/KcE03+frBtV1AOA0DdeQVYXBTbNaG846laoX8ajI3AtQObG2SdkknBMqsG00hqws7y9x435Coes4NIAo0djwndybQ8NZJuDsVD5G6uFKhl1+LReK2U3WmZ1i/mcOSu5bm1dggLNLeRj8Sn8Yjr6erwBc4rSqaSDfaTZR5y/1TBIyL5zPAxVrnXpwq85umxribWVHbqfYses89AuF2pqcWunVPdg7LoRjpit+B5+t+jxxdRqvucHLlvw8BZTi8quCN5Xanq9SfZMWgNa5CT1wjPCiwo/SJQkFxdRHCbkjOTdTXdg1UjuuRcyslalsG0OHRuf+5cY8mEZdgy3johi/zwMlvFljARu9wgGYbIIkkWYbMNlGsVpGJG/jPaNjn33d/C5u68XF8Hom0L0Eo6KMfr6n8z+AepYxTm/AwAA" belongsto="(None)" errormsg="" impersonate="False" disablenotifications="False" islocal="False" normalizedresult="False">
       <params>
         <param name="RequestJson" direction="" type="System.String" />
