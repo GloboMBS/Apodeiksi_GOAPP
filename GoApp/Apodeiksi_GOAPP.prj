@@ -1,4 +1,4 @@
-<project pid="54c1b593-fbad-4e4a-852b-75a32bffa096" name="Apodeiksi_GOAPP" saveversion="2" path="C:\Users\Apostolis\develop\apodeiksi\GoApp\" type="Server" conversion="2.5.0.17">
+<project pid="54c1b593-fbad-4e4a-852b-75a32bffa096" name="Apodeiksi_GOAPP" saveversion="2" path="C:\Users\Apostolis\Desktop\aaa\GoApp\" type="Server" conversion="2.5.0.17">
   <appinfo appid="413fb4d2-5895-4e6f-87ca-d9c5dc25bdd5" devid="" versionid="9c7ba5d8-b928-4301-9343-6e0038353e57" apptitle="Apodeiksi_GOAPP" appauthor="" appdescription="" appreleasenotes="" appversion="1.0.0.1" appcreationdate="6/14/2015 5:48:23 AM" appicon="" apprequireslicense="False" appmenuvisible="True" defaultpage="pgApodeiksiGOAPP" requiresdomain="False" defaultstyles="False" extsrc="True" updmessage="" />
   <languages>
     <enabled type="False" />
