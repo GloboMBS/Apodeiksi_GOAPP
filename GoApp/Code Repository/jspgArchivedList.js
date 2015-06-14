@@ -7,7 +7,7 @@ archiveListFunctions.getAllDataFunction = function(userid,language){
     go.services.executeQuery({
         'method':'allData.getAllData',   
         'table':'getAllData', 
-         'type':'online',
+         'type':'online', 
          'callback':getAllDataCallback, 
          'parameters':{"userid": userid,"langid": language} 
     });
