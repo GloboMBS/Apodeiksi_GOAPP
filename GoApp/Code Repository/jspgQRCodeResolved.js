@@ -93,7 +93,7 @@ qrCodeFunctions.takeReceiptPhoto = function(){
       var data = parseJSON(result);
       var _files = "";
       $(data.Files).each(function (i, item) {
-        if (i > 0) _files += ","
+          if (i > 0) _files += ",";
           _files += item.FullPath;
         });
         go.alert(_files);

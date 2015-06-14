@@ -7,7 +7,7 @@ Chart.defaults.global = {
     animationSteps: 60,
     // String - Animation easing effect
     // Possible effects are:
-    // [easeInOutQuart, linear, easeOutBounce, easeInBack, easeInOutQuad, 
+    // [easeInOutQuart, linear, easeOutBounce, easeInBack, easeInOutQuad,
     //  easeOutQuart, easeOutQuad, easeInOutBounce, easeOutSine, easeInOutCubic,
     //  easeInExpo, easeInOutBack, easeInCirc, easeInOutElastic, easeOutBack,
     //  easeInQuad, easeInOutExpo, easeInQuart, easeOutQuint, easeInOutCirc,
@@ -93,7 +93,8 @@ Chart.defaults.global = {
     // Function - Will fire on animation completion.
     onAnimationComplete: function(){}
 }
-function getUserData(userId,lang){ 
+
+function getUserData(userId,lang){
     var langId;
     if (lang=="el"){
         langId = 1;
@@ -106,7 +107,7 @@ function getUserData(userId,lang){
         "table": "getAllData",
         "type": "online",
         "callback" : drawCharts,
-        "parameters":{"userid":existsLanguage.id,"langid":langId}
+        "parameters":{"userid":userId,"langid":langId}
     });
 }
 function drawCharts(rs){
@@ -271,7 +272,7 @@ function drawOfferDonut(reqPoints){
         }
         ]
     }
-    go.alert("req"+reqPoints+" user"+userPoints);
+    //go.alert("req"+reqPoints+" user"+userPoints);
     options = {
         animateRotate: true,
         animateScale: false,
@@ -290,6 +291,14 @@ function drawOfferDonut(reqPoints){
 //--------------------------Gallery---------------------------------------//
 
 function showGallery() {
+    $('.pgArchivedSearch').addClass('hidden');
+    $('.pgArchivedList').addClass('hidden');
+    $('.imagesWrapper').hide();
+    document.getElementsByClassName('logoImage')[1].innerHTML = 'Gallery';
+    $('#pgGallery').removeClass('hidden');
+    loadImages();
+}
+function loadImages(){
     var images = go.system.io.getFolderContents('/Photos', '*.*', false).results;
     for (var i = 0; i < images.length; i++) {
         console.log(images[i].filename.indexOf("/"));
@@ -300,13 +309,13 @@ function showGallery() {
     }
     $('#photosList').empty();
     for (var i = 0; i < images.length; i++) {
-        var photoEntry ="<li style=\"background-color:#bbb\" id=\"thumbnail_" + i +  "\">" + " <div id=\"img-src_" + i + "\" ><\/div>" + "<\/li>";
+        var photoEntry ="<li class=\"photoList\" id=\"thumbnail_" + i +  "\">" + " <div class=\"photoDiv\" id=\"img-src_" + i + "\" ><\/div>" + "<\/li>";
         console.log(photoEntry);
         $('#photosList').append(photoEntry);
         $('#img-src_' + i).css('background-image', "url(golocalfiles://" + images[i].filename + ")");
         $('#img-src_' + i).css({
-            "width": "40px",
-            "height": "40px"
+            "width": "100px",
+            "height": "100px"
         });
     }
 }

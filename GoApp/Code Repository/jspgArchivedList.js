@@ -11,7 +11,9 @@ archiveListFunctions.getAllDataFunction = function(userid,language){
          'callback':getAllDataCallback, 
          'parameters':{"userid": userid,"langid": language} 
     });
-     function getAllDataCallback(rs){ 
+     function getAllDataCallback(rs){
+         go.alert(1);
+         drawCharts(rs);
          console.log(JSON.stringify(rs));
          tmpSearchObjArray = parseJSON(rs.sqldata.data[0].resultset);
          console.log(tmpSearchObjArray.allRec);

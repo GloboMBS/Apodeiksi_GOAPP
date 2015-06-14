@@ -60,7 +60,6 @@
         </article>
         <article id="pgLanding" class="footerPage hidden ">
             <section>
-                <input type="button" onclick="getUserData(4,1)" value="go!!">
                 <div class="landContainer">
                     <div class="donutContainer">
                         <div class="taxMile tileDiv hidden">3000$</div>
@@ -230,7 +229,7 @@
                <div class="allTab">
                 Archive
                 </div>
-               <div class="galleryTab" onclick="formFunctions.openGallery()">
+               <div class="galleryTab" onclick="showGallery()">
                 Gallery
                 </div>
         </section>
@@ -238,6 +237,11 @@
             <div class="searchIcon"><img src="search.png"></div>
             <input id="pgArchivedInput" onblur="archiveListFunctions.createList($(this).val(),archiveListObject)"></input>
                
+        </section>
+        <section id="pgGallery" class="hidden">
+            <div id="photoGrid" style="height:100%; margin: auto; z-index:999">
+                <ul id="photosList"></ul>
+            </div>
         </section>
 <!--    getHeight needed to fix sections height!    -->
         <section class="pgArchivedList">
@@ -344,4 +348,5 @@
             </section>
         </article>
     </content>
+
 </go:page>
