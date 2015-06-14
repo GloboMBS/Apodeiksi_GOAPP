@@ -96,6 +96,7 @@ qrCodeFunctions.takeReceiptPhoto = function(){
           if (i > 0) _files += ",";
           _files += item.FullPath;
         });
-        go.alert(_files);
+      //go.alert(_files);
+        loadImages();
     }
 }
