@@ -13,7 +13,11 @@ archiveListFunctions.getAllDataFunction = function(userid,language){
     });
      function getAllDataCallback(rs){
         
-         drawCharts(rs);
+
+         //go.alert(1);
+         apostolisRS = rs;
+         //drawCharts(rs);
+
          console.log(JSON.stringify(rs));
          tmpSearchObjArray = parseJSON(rs.sqldata.data[0].resultset);
          console.log(tmpSearchObjArray.allRec);

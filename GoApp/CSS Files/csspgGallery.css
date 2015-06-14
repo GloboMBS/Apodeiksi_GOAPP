@@ -1,11 +1,23 @@
-<go:file devused="True,True,True,True" xmlns:go='http://www.globoplc.com'></go:file>#pgGallery, .fmCodePopUp {
-    width: 100%;
-    height: 100%; 
-}
-#pgGallery {
+<go:file devused="True,True,True,True" xmlns:go='http://www.globoplc.com'></go:file>#pgGallery{
+    list-style-type: none;
+    width: 90%;
+    height: 77%;
+    margin: 0 auto;
     z-index: 100000000;
     top: 0;
-    overflow: hidden;
-    position: absolute;
+    overflow-y: auto;
+    position: relative;
     background: #fff;
+}
+.photosList{
+    list-style-type: none;
+    display:inline;
+    width:33.3%;
+    height:200px;
+}
+.photoList{
+    width:33.3%;
+}
+.photoDiv{
+    
 }

@@ -138,6 +138,7 @@ languageFunctionality.saveUpdateLanguageToLocal = function(lang,userId){
         $('#pgLanding').removeClass('hidden');
         navigationFunctions.openPage('pgLanding');
         languageFunctionality.setLanguage(existsLanguage.language);
+                drawCharts(apostolisRS);
 };
 
 /*

@@ -111,6 +111,10 @@ function getUserData(userId,lang){
     });
 }
 function drawCharts(rs){
+    $('#landContainer').empty();
+    var htmlCont = ' <div class="donutContainer"> <div class="taxMile tileDiv hidden">3000$</div><div> <canvas id="myDonut"></canvas> </div><div class="myScore tileDiv hidden"> you got <br><span class="score hidden"></span> </div></div><div class="topHeader tileDiv hidden"> <span>Top 3 expences</span> </div><div class="topBar"> <div class="categoryTitle tileDiv hidden"> <span class="catTitle"></span> </div><div class="percentage tileDiv hidden"> <span class="catPC"></span> </div><canvas id="topBars1" height="40"></canvas> </div><div class="topBar"> <div class="categoryTitle tileDiv hidden"> <span class="catTitle"></span> </div><div class="percentage tileDiv hidden"> <span class="catPC"></span> </div><canvas id="topBars2" height="40"></canvas> </div><div class="topBar"> <div class="categoryTitle tileDiv hidden"> <span class="catTitle"></span> </div><div class="percentage tileDiv hidden"> <span class="catPC"></span> </div><canvas id="topBars3" height="40"></canvas> </div>';
+    $('#landContainer').append(htmlCont);
+    
     rs = JSON.parse(rs.sqldata.data[0].resultset);
     userPoints = rs.UserTotal;
     var expenses = rs.totalExpensesUser;

@@ -4,3 +4,4 @@
 *.orig
 debug.log
 GoApp/AutoRecovery/
+GoApp/tmp/DBCgo
