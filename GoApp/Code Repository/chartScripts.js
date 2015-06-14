@@ -136,12 +136,15 @@ function drawCharts(rs){
         }
     }
     else{
-        for (var j=0;j<=2;j++){
-            totalSum = totalSum + expenses[j].catamount;
+        for (var x=0;x<=2;x++){
+            totalSum = totalSum + expenses[x].catamount;
+        }
+        for(var j=0;j<=2;j++){
             topArr[j] = {
                 "catName" : expenses[j].catdesc,
-                "catAmount" : Math.round((expenses[j].catamount/totalSum)* 100)/100
+                "catAmount" : Math.round((expenses[j].catamount/totalSum) * 100)/100
             };
+            console.warn(expenses[j].catamount);
             //append the catName
             catTitles[j].innerHTML = topArr[j].catName;
             //append the percentage
