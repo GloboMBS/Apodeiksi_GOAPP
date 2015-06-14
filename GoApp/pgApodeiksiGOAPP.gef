@@ -195,24 +195,6 @@
                 </div>
             </div>
         </article>
-        <article id="pgGallery" class="hidden">
-            <section class="fmCodePopUp">
-                <div class="fmClosePopupBar" onclick="">
-                    <div class="fmClosePopupIcon" onclick=""></div>
-                </div>
-                <div class="fmCodePopUpTitleText">
-                    <strong> Gallery </strong>
-                </div>
-                <div class="fmCodeWrapper">
-                    <div id="photoGrid" style="height:100%; margin: auto; z-index:999">
-                        <ul id="photosList">
-                            
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-        </article>
         <article id="pgArchivedList" class="hidden">
         <nav class="navBar"> 
             <div class="iosBar hidden"></div>

@@ -14,7 +14,7 @@ var generalFunctions =  {};
 
 generalFunctions.getHeight = function(className,hght){  
     var height = go.system.getHeight().value;
-    if(generalFunctions.isIOS()){ 
+    if(generalFunctions.isIOS()){  
         $(className).css('height',(height-(hght+20))+'px');
      } 
     else{
