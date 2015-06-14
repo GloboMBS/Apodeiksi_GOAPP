@@ -7,12 +7,12 @@ archiveListFunctions.getAllDataFunction = function(userid,language){
     go.services.executeQuery({
         'method':'allData.getAllData',   
         'table':'getAllData', 
-         'type':'online', 
+         'type':'online',  
          'callback':getAllDataCallback, 
          'parameters':{"userid": userid,"langid": language} 
     });
      function getAllDataCallback(rs){
-         go.alert(1);
+        
          drawCharts(rs);
          console.log(JSON.stringify(rs));
          tmpSearchObjArray = parseJSON(rs.sqldata.data[0].resultset);

@@ -107,7 +107,7 @@
     <id>cb6c44c41a794c3ebce4403f47907a61</id>
     <filename>csspgQRCodeResolved</filename>
     <fullpath>CSS Files\csspgQRCodeResolved</fullpath>
-    <isopen>False</isopen>
+    <isopen>True</isopen>
     <imageid>4</imageid>
     <location>CSS Files\</location>
     <parentid>2</parentid>
@@ -187,7 +187,7 @@
     <id>e0cb4006eaff46d59914da95a4afdb0c</id>
     <filename>jspgBadgesList</filename>
     <fullpath>Code Repository\jspgBadgesList</fullpath>
-    <isopen>True</isopen>
+    <isopen>False</isopen>
     <imageid>6</imageid>
     <location>Code Repository\</location>
     <parentid>1</parentid>
@@ -207,7 +207,7 @@
     <id>3e5a09fa93854b859e83a2ff018a536a</id>
     <filename>jspgLogin</filename>
     <fullpath>Code Repository\jspgLogin</fullpath>
-    <isopen>True</isopen>
+    <isopen>False</isopen>
     <imageid>6</imageid>
     <location>Code Repository\</location>
     <parentid>1</parentid>
@@ -317,7 +317,7 @@
     <id>1c3566d17e084caeafb03aa0ccdf23e8</id>
     <filename>chartScripts</filename>
     <fullpath>Code Repository\chartScripts</fullpath>
-    <isopen>True</isopen>
+    <isopen>False</isopen>
     <imageid>6</imageid>
     <location>Code Repository\</location>
     <parentid>1</parentid>

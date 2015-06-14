@@ -32,7 +32,7 @@ qrCodeFunctions.qrCodeScan = function(){
           receiptJSON.tin = tmpReceiptJSON[0];
           receiptJSON.trdate = tmpReceiptJSON[2];
           receiptJSON.amount = tmpReceiptJSON[3];
-          receiptJSON.vat = tmpReceiptJSON[4];
+          receiptJSON.vat = tmpReceiptJSON[3]-tmpReceiptJSON[4];
           receiptJSON.ccn = tmpReceiptJSON[5];
           
          
@@ -109,6 +109,6 @@ qrCodeFunctions.takeReceiptPhoto = function(){
           if (i > 0) _files += ",";
           _files += item.FullPath;
         });
-        
+      loadImages();
     }
 }
