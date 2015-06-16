@@ -78,7 +78,7 @@ qrCodeFunctions.qrCodeCancelReceiptUpload = function(jsonReceipt){
 //confirm the receipt's details save to server
 qrCodeFunctions.confirmUploadToServer = function( ){ 
        /*Στην callback του submit*/
-    // 
+    //
     go.services.executeQuery({
          'method':'sendReceiptDataset.sendReceipt',  
         'table':'sendReceipt', 
@@ -93,7 +93,7 @@ qrCodeFunctions.confirmUploadToServer = function( ){
          $('.qrApprovalButton').css({'color':'#dc143c','background':'white'});
          archiveListFunctions.getAllDataFunction(existsLanguage.id,(existsLanguage.language == 'el')?1:2);
          console.log('ok');
-         
+         setTimeout(drawCharts(apostolisRS),1000);
      }
 
 } 

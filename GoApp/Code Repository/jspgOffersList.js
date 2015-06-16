@@ -51,7 +51,7 @@ offersFunctions.setOffers= function(offersList) {
 
 
 
-//--------------------------------------------------------   offers details ----------------------------------------------------------------------  
+//--------------------------------------------------------   offers details ----------------------------------------------------------------------
 offersFunctions.openDetails = function(offerid) {
 /*       go.alert(offerid);*/
     var result= $.grep(offersTable, function(e){ return e.id == offerid });

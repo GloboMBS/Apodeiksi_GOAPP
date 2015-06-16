@@ -7,6 +7,10 @@ $( document ).ready(function() {
     generalFunctions.getHeight('.pgArchiveListCategoriesList',65);  
     generalFunctions.getHeight('#pgRating',50);      
     
+    $('.qrClosePopupIcon').click(function(){
+        drawCharts(apostolisRS);
+    });
+    
 });
 
 /* General Scripts

@@ -1,5 +1,5 @@
-<project pid="54c1b593-fbad-4e4a-852b-75a32bffa096" name="Apodeiksi_GOAPP" saveversion="2" path="C:\Users\Apostolis\develop\apodeiksi\GoApp\" type="Server" conversion="2.5.0.17">
-  <appinfo appid="413fb4d2-5895-4e6f-87ca-d9c5dc25bdd5" devid="" versionid="139d7dd7-af8a-4897-bf46-d88cd56690b7" apptitle="Apodeiksi_GOAPP" appauthor="" appdescription="" appreleasenotes="" appversion="1.0.0.1" appcreationdate="6/14/2015 8:47:50 AM" appicon="" apprequireslicense="False" appmenuvisible="True" defaultpage="pgApodeiksiGOAPP" requiresdomain="False" defaultstyles="False" extsrc="True" updmessage="" />
+<project pid="54c1b593-fbad-4e4a-852b-75a32bffa096" name="Apodeiksi_GOAPP" saveversion="2" path="C:\GitProjects\apodeiksi\GoApp\" type="Server" conversion="2.5.0.17">
+  <appinfo appid="413fb4d2-5895-4e6f-87ca-d9c5dc25bdd5" devid="" versionid="bf89b73b-b86e-490a-a1a7-80512a99b9a6" apptitle="Apodeiksi_GOAPP" appauthor="" appdescription="" appreleasenotes="" appversion="1.0.0" appcreationdate="15/6/2015 1:33:38 μμ" appicon="" apprequireslicense="False" appmenuvisible="True" defaultpage="pgApodeiksiGOAPP" requiresdomain="False" defaultstyles="False" extsrc="True" updmessage="" />
   <languages>
     <enabled type="False" />
   </languages>
@@ -7,7 +7,7 @@
     <id>0</id>
     <filename>Apodeiksi_GOAPP</filename>
     <fullpath />
-    <isopen>True</isopen>
+    <isopen>False</isopen>
     <imageid>1</imageid>
     <location />
     <parentid>-1</parentid>
@@ -77,7 +77,7 @@
     <id>dced48880cc24f9a8a449dd49c6d7b3f</id>
     <filename>csspgArchivedList</filename>
     <fullpath>CSS Files\csspgArchivedList</fullpath>
-    <isopen>True</isopen>
+    <isopen>False</isopen>
     <imageid>4</imageid>
     <location>CSS Files\</location>
     <parentid>2</parentid>
@@ -107,7 +107,7 @@
     <id>cb6c44c41a794c3ebce4403f47907a61</id>
     <filename>csspgQRCodeResolved</filename>
     <fullpath>CSS Files\csspgQRCodeResolved</fullpath>
-    <isopen>True</isopen>
+    <isopen>False</isopen>
     <imageid>4</imageid>
     <location>CSS Files\</location>
     <parentid>2</parentid>
@@ -117,7 +117,7 @@
     <id>6e3d623c32ff469a838ffad992f09fc8</id>
     <filename>csspgLanding</filename>
     <fullpath>CSS Files\csspgLanding</fullpath>
-    <isopen>False</isopen>
+    <isopen>True</isopen>
     <imageid>4</imageid>
     <location>CSS Files\</location>
     <parentid>2</parentid>
@@ -147,7 +147,7 @@
     <id>67bfef3811d04bb8b3c8c0c2875b259d</id>
     <filename>csspgBadgesDetails</filename>
     <fullpath>CSS Files\csspgBadgesDetails</fullpath>
-    <isopen>True</isopen>
+    <isopen>False</isopen>
     <imageid>4</imageid>
     <location>CSS Files\</location>
     <parentid>2</parentid>
@@ -167,7 +167,7 @@
     <id>7437fb8bafb84a6190ab858d602d6137</id>
     <filename>jspgArchivedList</filename>
     <fullpath>Code Repository\jspgArchivedList</fullpath>
-    <isopen>True</isopen>
+    <isopen>False</isopen>
     <imageid>6</imageid>
     <location>Code Repository\</location>
     <parentid>1</parentid>
@@ -207,7 +207,7 @@
     <id>3e5a09fa93854b859e83a2ff018a536a</id>
     <filename>jspgLogin</filename>
     <fullpath>Code Repository\jspgLogin</fullpath>
-    <isopen>True</isopen>
+    <isopen>False</isopen>
     <imageid>6</imageid>
     <location>Code Repository\</location>
     <parentid>1</parentid>
@@ -227,7 +227,7 @@
     <id>8116568314844930aea03b2e0f27735a</id>
     <filename>jspgOffersList</filename>
     <fullpath>Code Repository\jspgOffersList</fullpath>
-    <isopen>False</isopen>
+    <isopen>True</isopen>
     <imageid>6</imageid>
     <location>Code Repository\</location>
     <parentid>1</parentid>
@@ -237,7 +237,7 @@
     <id>79eefac854ae4bc891f3516b436cbb44</id>
     <filename>jspgQRCodeResolved</filename>
     <fullpath>Code Repository\jspgQRCodeResolved</fullpath>
-    <isopen>True</isopen>
+    <isopen>False</isopen>
     <imageid>6</imageid>
     <location>Code Repository\</location>
     <parentid>1</parentid>
@@ -257,7 +257,7 @@
     <id>002d44c65d7b4e699839b6d3d31b76c4</id>
     <filename>cssGeneral</filename>
     <fullpath>CSS Files\cssGeneral</fullpath>
-    <isopen>True</isopen>
+    <isopen>False</isopen>
     <imageid>4</imageid>
     <location>CSS Files\</location>
     <parentid>2</parentid>
@@ -287,7 +287,7 @@
     <id>ce35e1f9d7db41e1b023804f9827b03d</id>
     <filename>allData</filename>
     <fullpath>allData</fullpath>
-    <isopen>True</isopen>
+    <isopen>False</isopen>
     <imageid>3</imageid>
     <location />
     <parentid>-1</parentid>
@@ -353,7 +353,7 @@
     <parentid>2</parentid>
     <type>ft_CSS</type>
   </file>
-  <restservice id="1" name="getBadges" url="http://78.46.88.75/hackathonWS/api/Badges" username="" password="" httpmethod="get" update="True" pvalue="http://78.46.88.75/hackathonWS/api/Badges" usessh="False" ssh="" publishssh="False">
+  <restservice id="1" name="getBadges" url="http://78.46.88.75/hackathonWS/api/Badges" username="" password="" httpmethod="get" update="True" pvalue="http://78.46.88.75/hackathonWS/api/Badges" usessh="False" ssh="" publishssh="False" israw="False">
     <params>
       <param name="userid" val="1" datatype="" paramtype="Get" />
       <param name="langid" val="1" datatype="" paramtype="Get" />
@@ -374,7 +374,7 @@
     </tables>
     <relations />
   </restservice>
-  <restservice id="2" name="getOffers" url="http://78.46.88.75/hackathonWS/api/Offers" username="" password="" httpmethod="get" update="True" pvalue="http://78.46.88.75/hackathonWS/api/Offers" usessh="False" ssh="" publishssh="False">
+  <restservice id="2" name="getOffers" url="http://78.46.88.75/hackathonWS/api/Offers" username="" password="" httpmethod="get" update="True" pvalue="http://78.46.88.75/hackathonWS/api/Offers" usessh="False" ssh="" publishssh="False" israw="False">
     <params>
       <param name="userid" val="1" datatype="" paramtype="Get" />
       <param name="langid" val="1" datatype="" paramtype="Get" />
@@ -398,7 +398,7 @@
     </tables>
     <relations />
   </restservice>
-  <restservice id="3" name="login" url="http://78.46.88.75/hackathonWS/api/Login" username="" password="" httpmethod="get" update="True" pvalue="http://78.46.88.75/hackathonWS/api/Login" usessh="False" ssh="" publishssh="False">
+  <restservice id="3" name="login" url="http://78.46.88.75/hackathonWS/api/Login" username="" password="" httpmethod="get" update="True" pvalue="http://78.46.88.75/hackathonWS/api/Login" usessh="False" ssh="" publishssh="False" israw="False">
     <params>
       <param name="username" val="pkatsoulis" datatype="" paramtype="Get" />
       <param name="password" val="1111" datatype="" paramtype="Get" />
@@ -434,7 +434,7 @@
       <relation name="fk_goes_userInfo_goes" parenttable="goes" parentkeys="pk_auto_goes" childtable="goes_userInfo" childkeys="fk_goes_userInfo_goes" />
     </relations>
   </restservice>
-  <restservice id="4" name="allData" url="http://78.46.88.75/hackathonWS/api/AllData" username="" password="" httpmethod="get" update="True" pvalue="http://78.46.88.75/hackathonWS/api/AllData" usessh="False" ssh="" publishssh="False">
+  <restservice id="4" name="allData" url="http://78.46.88.75/hackathonWS/api/AllData" username="" password="" httpmethod="get" update="True" pvalue="http://78.46.88.75/hackathonWS/api/AllData" usessh="False" ssh="" publishssh="False" israw="False">
     <params>
       <param name="userid" val="1" datatype="" paramtype="Get" />
       <param name="langid" val="1" datatype="" paramtype="Get" />
@@ -523,7 +523,7 @@
       <relation name="fk_goes_listOfCategories_goes" parenttable="goes" parentkeys="pk_auto_goes" childtable="goes_listOfCategories" childkeys="fk_goes_listOfCategories_goes" />
     </relations>
   </restservice>
-  <restservice id="5" name="form" url="http://78.46.88.75/hackathonWS/api/Complaints" username="" password="" httpmethod="get" update="True" pvalue="http://78.46.88.75/hackathonWS/api/Complaints" usessh="False" ssh="" publishssh="False">
+  <restservice id="5" name="form" url="http://78.46.88.75/hackathonWS/api/Complaints" username="" password="" httpmethod="get" update="True" pvalue="http://78.46.88.75/hackathonWS/api/Complaints" usessh="False" ssh="" publishssh="False" israw="False">
     <params>
       <param name="RequestJson" val="{&quot;userid&quot;: 1,&quot;afm&quot;: &quot;255882315&quot;,&quot;descr&quot;: &quot;mpla mpla mpla&quot;,&quot;longitude&quot;: &quot;37.9823641&quot;,&quot;latitude&quot;: &quot;23.7104393&quot;,&quot;Date&quot;: &quot;2015-05-15T14:23:12&quot;}" datatype="" paramtype="Get" />
     </params>
@@ -537,7 +537,7 @@
     </tables>
     <relations />
   </restservice>
-  <restservice id="6" name="offers" url="http://78.46.88.75/hackathonWS/api/Complaints" username="" password="" httpmethod="get" update="True" pvalue="http://78.46.88.75/hackathonWS/api/Complaints" usessh="False" ssh="" publishssh="False">
+  <restservice id="6" name="offers" url="http://78.46.88.75/hackathonWS/api/Complaints" username="" password="" httpmethod="get" update="True" pvalue="http://78.46.88.75/hackathonWS/api/Complaints" usessh="False" ssh="" publishssh="False" israw="False">
     <params>
       <param name="RequestJson" val="{&quot;userid&quot;: 1,&quot;afm&quot;: &quot;255882315&quot;,&quot;descr&quot;: &quot;mpla mpla mpla&quot;,&quot;longitude&quot;: &quot;37.9823641&quot;,&quot;latitude&quot;: &quot;23.7104393&quot;,&quot;Date&quot;: &quot;2015-05-15T14:23:12&quot;}" datatype="" paramtype="Get" />
     </params>
@@ -551,7 +551,7 @@
     </tables>
     <relations />
   </restservice>
-  <restservice id="7" name="sendReceipt" url="http://78.46.88.75/hackathonWS/api/uploadReceipt" username="" password="" httpmethod="get" update="True" pvalue="http://78.46.88.75/hackathonWS/api/uploadReceipt" usessh="False" ssh="" publishssh="False">
+  <restservice id="7" name="sendReceipt" url="http://78.46.88.75/hackathonWS/api/uploadReceipt" username="" password="" httpmethod="get" update="True" pvalue="http://78.46.88.75/hackathonWS/api/uploadReceipt" usessh="False" ssh="" publishssh="False" israw="False">
     <params>
       <param name="RequestJson" val="{'tin':'079458240','number':'1987029481','trdate':'2015-05-15T14:23:12','amount':'128.25','vat':'23.98','ccn':'0','userid' : '1', 'langid': '1'}" datatype="" paramtype="Get" />
     </params>
@@ -575,7 +575,7 @@
     </tables>
     <relations />
   </restservice>
-  <restservice id="8" name="getCompanies" url="http://78.46.88.75/hackathonWS/api/Companies" username="" password="" httpmethod="get" update="True" pvalue="http://78.46.88.75/hackathonWS/api/Companies" usessh="False" ssh="" publishssh="False">
+  <restservice id="8" name="getCompanies" url="http://78.46.88.75/hackathonWS/api/Companies" username="" password="" httpmethod="get" update="True" pvalue="http://78.46.88.75/hackathonWS/api/Companies" usessh="False" ssh="" publishssh="False" israw="False">
     <params>
       <param name="afm" val="065471585" datatype="" paramtype="Get" />
       <param name="langid" val="1" datatype="" paramtype="Get" />
@@ -601,7 +601,8 @@
     </tables>
     <relations />
   </restservice>
-  <resource id="0" originalname="C:\Users\eventuser\Desktop\hackathon\New folder\Apodeiksi\Assets\Badges\ENGLISH\Welcome_to_apodeiksi_ENG_ON.png" name="Welcome_to_apodeiksi_ENG_ON.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\search.png" name="search_1.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Football_Cup_Final_OFF_1.png" name="Football_Cup_Final_OFF_1_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_Shell_Small_UNLOCKED.png" name="Offer_Shell_Small_UNLOCKED_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\backaps\hackathon\hackathon\hackathon_11_6\GoApp\Resources\Football_Cup_Final_OFF.png" name="Football_Cup_Final_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\eventuser\Desktop\hackathon\New folder\Apodeiksi\Assets\Badges\Greek\First_10_GR_OFF.png" name="First_10_GR_OFF_1.png" type="rt_Image" />
@@ -609,18 +610,20 @@
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\New_Look_GR_OFF_1.png" name="New_Look_GR_OFF_1_1.png" type="rt_Image" />
   <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\Offers\ListPics\Named\Offer_Aegean_Small_UNLOCKED.png" name="Offer_Aegean_Small_UNLOCKED.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\eventuser\Desktop\hackathon\New folder\Apodeiksi\Assets\Badges\Greek\Pizza_dinner_GR_ON.png" name="Pizza_dinner_GR_ON_1.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Downloads\Πρθ__grafika_gia_rating\rateButton.png" name="rateButton_2.png" type="rt_Image" />
-  <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\Badges\Greek\Cheers_GR_ON.png" name="Cheers_GR_ON.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\ParthenonVisit_GR_OFF_1.png" name="ParthenonVisit_GR_OFF_1.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_eFood_Small_LOCKED.png" name="Offer_eFood_Small_LOCKED_1.png" type="rt_Image" />
   <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\Offers\ListPics\Named\Offer_Public_Small_LOCKED.png" name="Offer_Public_Small_LOCKED.png" type="rt_Image" />
   <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\Badges\Greek\Back_to_School_GR_OFF.png" name="Back_to_School_GR_OFF.png" type="rt_Image" />
   <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\lock.png" name="lock.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Arrow.png" name="Arrow.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Night_at_the_Theatre_GR_ON.png" name="Night_at_the_Theatre_GR_ON.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\eventuser\Desktop\hackathon\New folder\Apodeiksi\Assets\Badges\ENGLISH\First_10_ENG_ON.png" name="First_10_ENG_ON.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\MYKONOOOS_ENG_ON.png" name="MYKONOOOS_ENG_ON.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Back_to_School_ENG_OFF.png" name="Back_to_School_ENG_OFF_1.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_Mikel_Small_LOCKED.png" name="Offer_Mikel_Small_LOCKED_1.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_Kotsovolos_Small_UNLOCKED.png" name="Offer_Kotsovolos_Small_UNLOCKED_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\New_Look_OFF.png" name="New_Look_OFF_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Football_Cup_Final_GR_OFF.png" name="Football_Cup_Final_GR_OFF_2.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\eventuser\Desktop\hackathon\New folder\Apodeiksi\Assets\Badges\ENGLISH\Cinefile_ENG_OFF.png" name="Cinefile_ENG_OFF.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\home.png" name="home.png" type="rt_Image" />
   <resource id="0" originalname="C:\backaps\hackathon\hackathon\hackathon_11_6\GoApp\Resources\Cinefile_OFF.png" name="Cinefile_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\eventuser\Desktop\hackathon\New folder\Apodeiksi\Assets\Badges\Greek\Sushi_Tonight_GR_OFF.png" name="Sushi_Tonight_GR_OFF_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\eventuser\Desktop\hackathon\New folder\Apodeiksi\Assets\Badges\ENGLISH\Sushi_Tonight_ENG_ON.png" name="Sushi_Tonight_ENG_ON.png" type="rt_Image" />
@@ -631,14 +634,14 @@
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_eFood_Big.png" name="Offer_eFood_Big_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Souvlaki_Champion_ENG_ON.png" name="Souvlaki_Champion_ENG_ON_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\eventuser\Desktop\hackathon\New folder\Apodeiksi\Assets\Badges\ENGLISH\Souvlaki_Champion_ENG_ON.png" name="Souvlaki_Champion_ENG_ON.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_Starbucks_Small_LOCKED.png" name="Offer_Starbucks_Small_LOCKED.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\eventuser\Desktop\hackathon\New folder\Apodeiksi\Assets\Badges\ENGLISH\Sushi_Tonight_ENG_OFF.png" name="Sushi_Tonight_ENG_OFF.png" type="rt_Image" />
   <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\Badges\Greek\New_Look_GR_OFF.png" name="New_Look_GR_OFF.png" type="rt_Image" />
   <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\Offers\InsidePics\Named\Offer_eFood_Big.png" name="Offer_eFood_Big.png" type="rt_Image" />
   <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\Offers\ListPics\Named\Offer_Plaisio_Small_UNLOCKED.png" name="Offer_Plaisio_Small_UNLOCKED.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Football_Cup_Final_OFF.png" name="Football_Cup_Final_OFF_1.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\MYKONOOOS_OFF.png" name="MYKONOOOS_OFF_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\backaps\hackathon\hackathon\GoApp_12_6_deutero\Resources\grOn.png" name="grOn_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\grOn_1.png" name="grOn_1_1.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\First_10_GR_OFF_1.png" name="First_10_GR_OFF_1_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\backaps\hackathon\hackathon\GoApp_12_6_deutero\Resources\03_Close.png" name="03_Close.png" type="rt_Image" />
   <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\Offers\ListPics\Named\Offer_HM_Small_LOCKED.png" name="Offer_HM_Small_LOCKED.png" type="rt_Image" />
   <resource id="0" originalname="C:\backaps\hackathon\hackathon\GoApp_12_6_deutero\Resources\Cheers_OFF.png" name="Cheers_OFF.png" type="rt_Image" />
@@ -646,21 +649,18 @@
   <resource id="0" originalname="C:\Users\eventuser\Desktop\hackathon\New folder\Apodeiksi\Assets\Badges\ENGLISH\Pizza_dinner_ENG_ON.png" name="Pizza_dinner_ENG_ON.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\eventuser\Desktop\jpeg.jpg" name="jpeg.jpg" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Welcome_to_apodeiksi_OFF.png" name="Welcome_to_apodeiksi_OFF_1.png" type="rt_Image" />
-  <resource id="0" originalname="C:\backaps\hackathon\hackathon\GoApp_12_6_deutero\Resources\p02_Landing_Icon_Photo_1.png" name="p02_Landing_Icon_Photo_1_1.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Welcome_to_apodeiksi_GR_OFF.png" name="Welcome_to_apodeiksi_GR_OFF.png" type="rt_Image" />
   <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\Offers\ListPics\Named\Offer_Mikel_Small_UNLOCKED.png" name="Offer_Mikel_Small_UNLOCKED.png" type="rt_Image" />
-  <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\Offers\ListPics\Named\Offer_Kotsovolos_Small_LOCKED.png" name="Offer_Kotsovolos_Small_LOCKED.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\etsiori\Desktop\GoApp_vas\Resources\search.png" name="search.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\p02_Landing_Icon_Photo.png" name="p02_Landing_Icon_Photo.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\eventuser\Desktop\hackathon\New folder\Apodeiksi\Assets\Badges\Greek\Sushi_Tonight_GR_ON.png" name="Sushi_Tonight_GR_ON_1.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\jpeg.jpg" name="jpeg_1.jpg" type="rt_Image" />
   <resource id="0" originalname="C:\Users\eventuser\Desktop\hackathon\New folder\Apodeiksi\Assets\Badges\ENGLISH\Back_to_School_ENG_OFF.png" name="Back_to_School_ENG_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\backaps\hackathon\hackathon\GoApp_12_6_deutero\Resources\MYKONOOOS_OFF.png" name="MYKONOOOS_OFF.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\unlock.png" name="unlock.png" type="rt_Image" />
   <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\Badges\Greek\Fill_her_up_GR_ON.png" name="Fill_her_up_GR_ON.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_Public_Big.png" name="Offer_Public_Big.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Fill_her_up_OFF_1.png" name="Fill_her_up_OFF_1_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Back_to_School_GR_ON_1.png" name="Back_to_School_GR_ON_1_1.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\The_Island_of_Crete_OFF.png" name="The_Island_of_Crete_OFF_1.png" type="rt_Image" />
-  <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\Badges\Greek\Summertime_GR_OFF.png" name="Summertime_GR_OFF.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Night_at_the_Theatre_ENG_ON.png" name="Night_at_the_Theatre_ENG_ON_1.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\ParthenonVisit_ENG_OFF.png" name="ParthenonVisit_ENG_OFF_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\eventuser\Desktop\hackathon\New folder\Apodeiksi\Assets\Badges\ENGLISH\Summertime_ENG_ON.png" name="Summertime_ENG_ON.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_Starbucks_Big.png" name="Offer_Starbucks_Big.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\etsiori\Desktop\GoApp_vas\Resources\cameraOn.png" name="cameraOn.png" type="rt_Image" />
@@ -668,81 +668,74 @@
   <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\Badges\Greek\504km_GR_ON.png" name="504km_GR_ON.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Pizza_dinner_GR_ON_1.png" name="Pizza_dinner_GR_ON_1_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\eventuser\Desktop\hackathon\New folder\Apodeiksi\Assets\Badges\Greek\504km_GR_ON.png" name="504km_GR_ON_1.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Downloads\Πρθ__grafika_gia_rating\star_noFill.png" name="star_noFill_1.png" type="rt_Image" />
+  <resource id="0" originalname="C:\backaps\hackathon\hackathon\hackathon_11_6\GoApp\Resources\First_10_OFF.png" name="First_10_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\backaps\hackathon\hackathon\GoApp_12_6_deutero\Resources\Bouzoukia_Night_OFF.png" name="Bouzoukia_Night_OFF.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Souvlaki_Champion_OFF.png" name="Souvlaki_Champion_OFF.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Midnight_Snack_GR_ON_1.png" name="Midnight_Snack_GR_ON_1.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Bouzoukia_Night_GR_OFF.png" name="Bouzoukia_Night_GR_OFF_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\eventuser\Desktop\hackathon\New folder\Apodeiksi\Assets\Badges\Greek\Cinephile_GR_OFF.png" name="Cinephile_GR_OFF_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Cinefile_OFF_1.png" name="Cinefile_OFF_1_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\eventuser\Desktop\hackathon\New folder\Apodeiksi\Assets\Badges\Greek\Back_to_School_GR_ON.png" name="Back_to_School_GR_ON_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Summertime_ENG_ON.png" name="Summertime_ENG_ON_1.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\eventuser\Desktop\hackathon\New folder\Apodeiksi\Assets\Badges\ENGLISH\Night_at_the_Theatre_ENG_ON.png" name="Night_at_the_Theatre_ENG_ON.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Welcome_to_apodeiksi_GR_OFF_1.png" name="Welcome_to_apodeiksi_GR_OFF_1.png" type="rt_Image" />
+  <resource id="0" originalname="C:\backaps\hackathon\hackathon\GoApp_12_6_deutero\Resources\p02_Landing_Icon_Photo_1.png" name="p02_Landing_Icon_Photo_1_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Cinephile_GR_ON.png" name="Cinephile_GR_ON_1.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Midnight_Snack_OFF.png" name="Midnight_Snack_OFF.png" type="rt_Image" />
   <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\Offers\ListPics\Named\Offer_Shell_Small_UNLOCKED.png" name="Offer_Shell_Small_UNLOCKED.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_eFood_LOCKED.png" name="Offer_eFood_LOCKED.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\eventuser\Desktop\hackathon\New folder\Apodeiksi\Assets\Badges\ENGLISH\Coffee_lovers_ENG_OFF.png" name="Coffee_lovers_ENG_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\backaps\hackathon\hackathon\GoApp_12_6_deutero\Resources\Fill_her_up_OFF.png" name="Fill_her_up_OFF_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\eventuser\Desktop\hackathon\New folder\Apodeiksi\Assets\Badges\Greek\Cheers_GR_ON.png" name="Cheers_GR_ON_1.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\search.png" name="search_1.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\The_Island_of_Crete_GR_OFF.png" name="The_Island_of_Crete_GR_OFF.png" type="rt_Image" />
   <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\Badges\Greek\Football_Cup_Final_GR_OFF.png" name="Football_Cup_Final_GR_OFF.png" type="rt_Image" />
   <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\Badges\Greek\Cinephile_GR_ON.png" name="Cinephile_GR_ON.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\eventuser\Desktop\hackathon\New folder\Apodeiksi\Assets\Badges\ENGLISH\Bouzoukia_Night_ENG_OFF.png" name="Bouzoukia_Night_ENG_OFF.png" type="rt_Image" />
   <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\Offers\ListPics\Named\Offer_Mikel_Small_LOCKED.png" name="Offer_Mikel_Small_LOCKED.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\eventuser\Desktop\hackathon\New folder\Apodeiksi\Assets\Badges\Greek\Welcome_to_apodeiksi_GR_ON.png" name="Welcome_to_apodeiksi_GR_ON_1.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Summertime_GR_ON_1.png" name="Summertime_GR_ON_1.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\shortDown.png" name="shortDown.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\504km_GR_OFF.png" name="504km_GR_OFF.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Downloads\Πρθ__grafika_gia_rating\ster_halfFill.png" name="ster_halfFill_2.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\eventuser\Desktop\hackathon\New folder\Apodeiksi\Assets\Badges\ENGLISH\The_Island_of_Crete_ENG_OFF.png" name="The_Island_of_Crete_ENG_OFF.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\eventuser\Desktop\hackathon\New folder\Apodeiksi\Assets\Badges\ENGLISH\New_Look_ENG_ON.png" name="New_Look_ENG_ON.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_Public_Small_LOCKED.png" name="Offer_Public_Small_LOCKED_1.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\eventuser\Desktop\hackathon\New folder\Apodeiksi\Assets\Badges\Greek\Welcome_to_apodeiksi_GR_ON.png" name="Welcome_to_apodeiksi_GR_ON_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\eventuser\Desktop\hackathon\New folder\Apodeiksi\Assets\Icons_Main_Bar\On\p02_Landing_Icon_Archive.png" name="p02_Landing_Icon_Archive_2.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\MYKONOOOS_GR_ON_1.png" name="MYKONOOOS_GR_ON_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\backaps\hackathon\hackathon\GoApp_12_6_deutero\Resources\enOff.png" name="enOff.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Bouzoukia_Night_GR_OFF.png" name="Bouzoukia_Night_GR_OFF_1.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\p02_Landing_Icon_Archive_1.png" name="p02_Landing_Icon_Archive_1_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_Carrefour_Small_UNLOCKED.png" name="Offer_Carrefour_Small_UNLOCKED_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\504km_GR_OFF_1.png" name="504km_GR_OFF_1.png" type="rt_Image" />
   <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\Badges\Greek\Welcome_to_apodeiksi_GR_ON.png" name="Welcome_to_apodeiksi_GR_ON.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\eventuser\Desktop\hackathon\New folder\Apodeiksi\Assets\Badges\Greek\Football_Cup_Final_GR_ON.png" name="Football_Cup_Final_GR_ON_1.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\cameraOn.png" name="cameraOn_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\eventuser\Desktop\hackathon\New folder\Apodeiksi\Assets\Badges\ENGLISH\ParthenonVisit_ENG_OFF.png" name="ParthenonVisit_ENG_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\ParthenonVisit_GR_OFF.png" name="ParthenonVisit_GR_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Summertime_ENG_OFF.png" name="Summertime_ENG_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Sushi_Tonight_GR_ON_1.png" name="Sushi_Tonight_GR_ON_1_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Welcome_to_apodeiksi_ENG_ON.png" name="Welcome_to_apodeiksi_ENG_ON_1.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Welcome_to_apodeiksi_GR_OFF.png" name="Welcome_to_apodeiksi_GR_OFF.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\p02_Landing_Icon_Archive_1.png" name="p02_Landing_Icon_Archive_1_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Pizza_dinner_ENG_OFF.png" name="Pizza_dinner_ENG_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\504km_OFF.png" name="504km_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\p02_Landing_Icon_QR.png" name="p02_Landing_Icon_QR.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Night_at_the_Theatre_ENG_OFF.png" name="Night_at_the_Theatre_ENG_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Cinephile_GR_ON_1.png" name="Cinephile_GR_ON_1_1.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_Mikel_Big.png" name="Offer_Mikel_Big.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_Kotsovolos_Small_LOCKED.png" name="Offer_Kotsovolos_Small_LOCKED_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\lock.png" name="lock_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\504km_GR_ON_1.png" name="504km_GR_ON_1_1.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Night_at_the_Theatre_ENG_ON.png" name="Night_at_the_Theatre_ENG_ON_1.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_Starbucks_Small_LOCKED.png" name="Offer_Starbucks_Small_LOCKED.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\New_Look_ENG_OFF.png" name="New_Look_ENG_OFF.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Night_at_the_Theatre_GR_ON.png" name="Night_at_the_Theatre_GR_ON.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Midnight_Snack_GR_OFF_1.png" name="Midnight_Snack_GR_OFF_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Coffee_lover_GR_OFF_1.png" name="Coffee_lover_GR_OFF_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Back_to_School_GR_OFF_1.png" name="Back_to_School_GR_OFF_1_1.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\504km_ENG_ON.png" name="504km_ENG_ON.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\eventuser\Desktop\hackathon\New folder\Apodeiksi\Assets\Badges\ENGLISH\Night_at_the_Theatre_ENG_ON.png" name="Night_at_the_Theatre_ENG_ON.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_eFood_LOCKED.png" name="Offer_eFood_LOCKED.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_HM_Small_LOCKED.png" name="Offer_HM_Small_LOCKED_1.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_eFood_Small_LOCKED.png" name="Offer_eFood_Small_LOCKED_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Welcome_to_apodeiksi_ENG_OFF.png" name="Welcome_to_apodeiksi_ENG_OFF.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Football_Cup_Final_GR_ON_1.png" name="Football_Cup_Final_GR_ON_1_1.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\p02_Landing_Icon_Photo.png" name="p02_Landing_Icon_Photo.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Cheers_GR_ON.png" name="Cheers_GR_ON_2.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\p02_Landing_Icon_Offers_1_1.png" name="p02_Landing_Icon_Offers_1_1.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\shortDown.png" name="shortDown.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_InsPic_Zara.png" name="Offer_InsPic_Zara.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\MYKONOOOS_GR_ON.png" name="MYKONOOOS_GR_ON.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Football_Cup_Final_OFF.png" name="Football_Cup_Final_OFF_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\vkyritsis\Desktop\Apodeiksi\GoApp\Resources\grOn.png" name="grOn.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\The_Island_of_Crete_GR_ON.png" name="The_Island_of_Crete_GR_ON.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Cheers_ENG_ON.png" name="Cheers_ENG_ON.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_Mikel_Big.png" name="Offer_Mikel_Big.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Coffee_lovers_ENG_OFF.png" name="Coffee_lovers_ENG_OFF_1.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Roboto-Regular.ttf" name="Roboto-Regular.ttf" type="rt_File" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\logo.png" name="logo.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Pizza_dinner_GR_OFF_1.png" name="Pizza_dinner_GR_OFF_1_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_Starbucks_Small_UNLOCKED.png" name="Offer_Starbucks_Small_UNLOCKED.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Coffee_lovers_OFF.png" name="Coffee_lovers_OFF.png" type="rt_Image" />
+  <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\Offers\ListPics\Named\Offer_Kotsovolos_Small_LOCKED.png" name="Offer_Kotsovolos_Small_LOCKED.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Football_Cup_Final_GR_OFF_1.png" name="Football_Cup_Final_GR_OFF_1_1.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_Kotsovolos_Small_UNLOCKED.png" name="Offer_Kotsovolos_Small_UNLOCKED_1.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_Public_Small_LOCKED.png" name="Offer_Public_Small_LOCKED_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\backaps\hackathon\hackathon\GoApp_12_6_deutero\Resources\The_Island_of_Crete_OFF.png" name="The_Island_of_Crete_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\close.png" name="close.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Souvlaki_Champion_GR_ON_1.png" name="Souvlaki_Champion_GR_ON_1.png" type="rt_Image" />
@@ -750,14 +743,13 @@
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Fill_her_up_OFF.png" name="Fill_her_up_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\ster_halfFill_1.png" name="ster_halfFill_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\etsiori\Desktop\GoApp_vas\Resources\filters.png" name="filters.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\ParthenonVisit_GR_OFF_1.png" name="ParthenonVisit_GR_OFF_1.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\504km_ENG_ON.png" name="504km_ENG_ON.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Fill_her_up_GR_ON_1.png" name="Fill_her_up_GR_ON_1_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Back_to_School_GR_OFF.png" name="Back_to_School_GR_OFF_1.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_eFood_Small_UNLOCKED.png" name="Offer_eFood_Small_UNLOCKED.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\The_Island_of_Crete_GR_OFF.png" name="The_Island_of_Crete_GR_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Sushi_Tonight_GR_ON.png" name="Sushi_Tonight_GR_ON.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\504km_GR_OFF.png" name="504km_GR_OFF.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\jpeg.jpg" name="jpeg_1.jpg" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\enOff.png" name="enOff_1.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Pizza_dinner_GR_ON.png" name="Pizza_dinner_GR_ON.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Cinephile_GR_OFF_1.png" name="Cinephile_GR_OFF_1_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Summertime_GR_OFF_1.png" name="Summertime_GR_OFF_1_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\The_Island_of_Crete_GR_OFF_1.png" name="The_Island_of_Crete_GR_OFF_1.png" type="rt_Image" />
@@ -765,53 +757,54 @@
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\p02_Landing_Icon_Badges.png" name="p02_Landing_Icon_Badges.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Pizza_dinner_GR_OFF.png" name="Pizza_dinner_GR_OFF_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Summertime_OFF.png" name="Summertime_OFF.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Downloads\Πρθ__grafika_gia_rating\ster_halfFill.png" name="ster_halfFill_2.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Summertime_GR_OFF.png" name="Summertime_GR_OFF_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_HM_Small_UNLOCKED.png" name="Offer_HM_Small_UNLOCKED.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\First_10_GR_OFF_1.png" name="First_10_GR_OFF_1_1.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\MYKONOOOS_GR_ON.png" name="MYKONOOOS_GR_ON.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_eFood_Small_UNLOCKED.png" name="Offer_eFood_Small_UNLOCKED.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Welcome_to_apodeiksi_GR_OFF_1.png" name="Welcome_to_apodeiksi_GR_OFF_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Cheers_GR_OFF.png" name="Cheers_GR_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Sushi_Tonight_ENG_OFF.png" name="Sushi_Tonight_ENG_OFF_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Sushi_Tonight_OFF.png" name="Sushi_Tonight_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\cameraOff.png" name="cameraOff.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\First_10_ENG_ON.png" name="First_10_ENG_ON_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_IKEA_Small_LOCKED.png" name="Offer_IKEA_Small_LOCKED.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Bouzoukia_Night_ENG_OFF.png" name="Bouzoukia_Night_ENG_OFF_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\filters.png" name="filters_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_Kotsovolos_LOCKED.png" name="Offer_Kotsovolos_LOCKED.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\ParthenonVisit_ENG_ON.png" name="ParthenonVisit_ENG_ON.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\First_10_GR_ON.png" name="First_10_GR_ON.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\rateButton.png" name="rateButton_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Night_at_the_Theatre_GR_OFF.png" name="Night_at_the_Theatre_GR_OFF.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Souvlaki_Champion_GR_OFF.png" name="Souvlaki_Champion_GR_OFF.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Fill_her_up_GR_ON.png" name="Fill_her_up_GR_ON_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_Shell_Big.png" name="Offer_Shell_Big.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\grOff.png" name="grOff.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\New_Look_GR_ON_1.png" name="New_Look_GR_ON_1_1.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Midnight_Snack_OFF.png" name="Midnight_Snack_OFF.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\MYKONOOOS_GR_OFF.png" name="MYKONOOOS_GR_OFF.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Roboto-Regular.ttf" name="Roboto-Regular.ttf" type="rt_File" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\unlock.png" name="unlock.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\MYKONOOOS_ENG_OFF.png" name="MYKONOOOS_ENG_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\The_Island_of_Crete_GR_ON_1.png" name="The_Island_of_Crete_GR_ON_1.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Midnight_Snack_GR_ON_1.png" name="Midnight_Snack_GR_ON_1.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\MYKONOOOS_GR_ON_1.png" name="MYKONOOOS_GR_ON_1.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\shortUp.png" name="shortUp.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Bouzoukia_Night_ENG_ON.png" name="Bouzoukia_Night_ENG_ON_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Pizza_dinner_OFF.png" name="Pizza_dinner_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Football_Cup_Final_ENG_ON.png" name="Football_Cup_Final_ENG_ON.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_Aegean_Big.png" name="Offer_Aegean_Big.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\ParthenonVisit_GR_ON.png" name="ParthenonVisit_GR_ON.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\priceBG.png" name="priceBG.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\First_10_OFF.png" name="First_10_OFF_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\First_10_GR_ON_1.png" name="First_10_GR_ON_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Sushi_Tonight_GR_OFF_1.png" name="Sushi_Tonight_GR_OFF_1_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\First_10_GR_OFF.png" name="First_10_GR_OFF.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Fill_her_up_ENG_OFF.png" name="Fill_her_up_ENG_OFF.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\eventuser\Desktop\hackathon\New folder\Apodeiksi\Assets\Badges\ENGLISH\Welcome_to_apodeiksi_ENG_ON.png" name="Welcome_to_apodeiksi_ENG_ON.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\MYKONOOOS_GR_OFF_1.png" name="MYKONOOOS_GR_OFF_1.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\ParthenonVisit_ENG_OFF.png" name="ParthenonVisit_ENG_OFF_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Back_to_School_GR_ON.png" name="Back_to_School_GR_ON.png" type="rt_Image" />
-  <resource id="0" originalname="C:\backaps\hackathon\hackathon\hackathon_11_6\GoApp\Resources\First_10_OFF.png" name="First_10_OFF.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Midnight_Snack_GR_OFF_1.png" name="Midnight_Snack_GR_OFF_1.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\MYKONOOOS_ENG_ON.png" name="MYKONOOOS_ENG_ON.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\ParthenonVisit_ENG_ON.png" name="ParthenonVisit_ENG_ON.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\p02_Landing_Icon_Archive_2.png" name="p02_Landing_Icon_Archive_2_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Welcome_to_apodeiksi_GR_ON_1.png" name="Welcome_to_apodeiksi_GR_ON_1_1.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Fill_her_up_ENG_OFF.png" name="Fill_her_up_ENG_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Midnight_Snack_GR_OFF.png" name="Midnight_Snack_GR_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Bouzoukia_Night_GR_ON_1.png" name="Bouzoukia_Night_GR_ON_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_Plaisio_Big.png" name="Offer_Plaisio_Big.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Football_Cup_Final_ENG_OFF.png" name="Football_Cup_Final_ENG_OFF.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_IKEA_Big.png" name="Offer_IKEA_Big.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Midnight_Snack_ENG_OFF.png" name="Midnight_Snack_ENG_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Downloads\Πρθ__grafika_gia_rating\star_filled.png" name="star_filled_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Back_to_School_OFF.png" name="Back_to_School_OFF.png" type="rt_Image" />
@@ -825,19 +818,21 @@
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Back_to_School_OFF_1.png" name="Back_to_School_OFF_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_Aegean_Small_UNLOCKED.png" name="Offer_Aegean_Small_UNLOCKED_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Midnight_Snack_ENG_ON.png" name="Midnight_Snack_ENG_ON.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\ParthenonVisit_GR_ON.png" name="ParthenonVisit_GR_ON.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Summertime_GR_ON_1.png" name="Summertime_GR_ON_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\03_Close.png" name="03_Close_1.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_Mikel_Small_LOCKED.png" name="Offer_Mikel_Small_LOCKED_1.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\p02_Landing_Icon_Offers_1_1.png" name="p02_Landing_Icon_Offers_1_1.png" type="rt_Image" />
   <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\Offers\ListPics\Named\Offer_Carrefour_Small_UNLOCKED.png" name="Offer_Carrefour_Small_UNLOCKED.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Cheers_ENG_OFF.png" name="Cheers_ENG_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Summertime_GR_ON.png" name="Summertime_GR_ON.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Pizza_dinner_ENG_ON.png" name="Pizza_dinner_ENG_ON_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Fill_her_up_ENG_ON.png" name="Fill_her_up_ENG_ON.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\p02_Landing_Icon_Photo_1_1.png" name="p02_Landing_Icon_Photo_1_1_1.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_IKEA_Small_UNLOCKED.png" name="Offer_IKEA_Small_UNLOCKED.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\eventuser\Desktop\hackathon\New folder\Apodeiksi\Assets\Badges\ENGLISH\Bouzoukia_Night_ENG_ON.png" name="Bouzoukia_Night_ENG_ON.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Souvlaki_Champion_OFF.png" name="Souvlaki_Champion_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\First_10_OFF_1.png" name="First_10_OFF_1_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Coffee_lover_GR_ON.png" name="Coffee_lover_GR_ON.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Bouzoukia_Night_ENG_OFF.png" name="Bouzoukia_Night_ENG_OFF_1.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\p02_Landing_Icon_Badges_1.png" name="p02_Landing_Icon_Badges_1.png" type="rt_Image" />
+  <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\Badges\Greek\Summertime_GR_OFF.png" name="Summertime_GR_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_Carrefour_Big.png" name="Offer_Carrefour_Big.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\eventuser\Desktop\hackathon\New folder\Apodeiksi\Assets\Badges\Greek\Football_Cup_Final_GR_OFF.png" name="Football_Cup_Final_GR_OFF_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Eventuser\Desktop\rateButton.png" name="rateButton.png" type="rt_Image" />
@@ -846,40 +841,45 @@
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\alarm.png" name="alarm.png" type="rt_Image" />
   <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\Icons_Main_Bar\On\p02_Landing_Icon_Photo.png" name="p02_Landing_Icon_Photo_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\504km_GR_ON.png" name="504km_GR_ON_2.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Football_Cup_Final_OFF_1.png" name="Football_Cup_Final_OFF_1_1.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_IKEA_Small_UNLOCKED.png" name="Offer_IKEA_Small_UNLOCKED.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\p02_Landing_Icon_Photo_1.png" name="p02_Landing_Icon_Photo_1_2.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\The_Island_of_Crete_ENG_ON.png" name="The_Island_of_Crete_ENG_ON.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\New_Look_ENG_ON.png" name="New_Look_ENG_ON_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Cinefile_ENG_OFF.png" name="Cinefile_ENG_OFF_1.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\MYKONOOOS_GR_OFF.png" name="MYKONOOOS_GR_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\p02_Landing_Icon_Archive.png" name="p02_Landing_Icon_Archive_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_Public_Small_UNLOCKED.png" name="Offer_Public_Small_UNLOCKED.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\home.png" name="home.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\MYKONOOOS_OFF.png" name="MYKONOOOS_OFF_1.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Downloads\Πρθ__grafika_gia_rating\star_noFill.png" name="star_noFill_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\First_10_ENG_OFF.png" name="First_10_ENG_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Cheers_GR_OFF_1.png" name="Cheers_GR_OFF_1.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\logo.png" name="logo.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Downloads\Πρθ__grafika_gia_rating\rateButton.png" name="rateButton_2.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Parthenon-Visit_OFF.png" name="Parthenon-Visit_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Souvlaki_Champion_GR_OFF_1.png" name="Souvlaki_Champion_GR_OFF_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Football_Cup_Final_GR_ON.png" name="Football_Cup_Final_GR_ON.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Arrow.png" name="Arrow.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Bouzoukia_Night_GR_ON.png" name="Bouzoukia_Night_GR_ON.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_Plaisio_Small_UNLOCKED.png" name="Offer_Plaisio_Small_UNLOCKED_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Cinephile_GR_OFF.png" name="Cinephile_GR_OFF.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\cameraOn.png" name="cameraOn_1.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Cheers_ENG_ON.png" name="Cheers_ENG_ON.png" type="rt_Image" />
   <resource id="0" originalname="C:\backaps\hackathon\hackathon\GoApp_12_6_deutero\Resources\Welcome_to_apodeiksi_OFF.png" name="Welcome_to_apodeiksi_OFF.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Fill_her_up_GR_ON.png" name="Fill_her_up_GR_ON_1.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Football_Cup_Final_GR_ON_1.png" name="Football_Cup_Final_GR_ON_1_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_Carrefour_Small_LOCKED.png" name="Offer_Carrefour_Small_LOCKED.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\New_Look_GR_OFF.png" name="New_Look_GR_OFF_1.png" type="rt_Image" />
+  <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\Badges\Greek\Cheers_GR_ON.png" name="Cheers_GR_ON.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\etsiori\Desktop\GoApp_vas\Resources\search.png" name="search.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Cinefile_OFF.png" name="Cinefile_OFF_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Sushi_Tonight_GR_OFF.png" name="Sushi_Tonight_GR_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Souvlaki_Champion_ENG_OFF.png" name="Souvlaki_Champion_ENG_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Coffee_lover_GR_OFF.png" name="Coffee_lover_GR_OFF.png" type="rt_Image" />
   <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\Offers\ListPics\Named\Offer_Kotsovolos_Small_UNLOCKED.png" name="Offer_Kotsovolos_Small_UNLOCKED.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_Shell_Small_LOCKED.png" name="Offer_Shell_Small_LOCKED.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Pizza_dinner_GR_ON.png" name="Pizza_dinner_GR_ON.png" type="rt_Image" />
   <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\Badges\Greek\Pizza_dinner_GR_OFF.png" name="Pizza_dinner_GR_OFF.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\shortUp.png" name="shortUp.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_Aegean_Big.png" name="Offer_Aegean_Big.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\The_Island_of_Crete_OFF.png" name="The_Island_of_Crete_OFF_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\star_noFill.png" name="star_noFill.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Back_to_School_ENG_ON.png" name="Back_to_School_ENG_ON.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\p02_Landing_Icon_Photo_1.png" name="p02_Landing_Icon_Photo_1_2.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_IKEA_Big.png" name="Offer_IKEA_Big.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_Shell_Small_LOCKED.png" name="Offer_Shell_Small_LOCKED.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\eventuser\Desktop\hackathon\New folder\Apodeiksi\Assets\Badges\ENGLISH\New_Look_ENG_ON.png" name="New_Look_ENG_ON.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\star_filled.png" name="star_filled.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_Aegean_Small_LOCKED.png" name="Offer_Aegean_Small_LOCKED.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\enOn.png" name="enOn.png" type="rt_Image" />
@@ -887,10 +887,10 @@
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_Mikel_Small_UNLOCKED.png" name="Offer_Mikel_Small_UNLOCKED_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Offer_HM_Big.png" name="Offer_HM_Big.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Cheers_GR_ON_1.png" name="Cheers_GR_ON_1_1.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\eventuser\Desktop\hackathon\New folder\Apodeiksi\Assets\Badges\ENGLISH\Bouzoukia_Night_ENG_ON.png" name="Bouzoukia_Night_ENG_ON.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Coffee_lovers_OFF.png" name="Coffee_lovers_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\ParthenonVisit_GR_ON_1.png" name="ParthenonVisit_GR_ON_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Fill_her_up_GR_OFF.png" name="Fill_her_up_GR_OFF.png" type="rt_Image" />
-  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\p02_Landing_Icon_Badges_1.png" name="p02_Landing_Icon_Badges_1.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Souvlaki_Champion_GR_OFF.png" name="Souvlaki_Champion_GR_OFF.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\Sushi_Tonight_ENG_ON.png" name="Sushi_Tonight_ENG_ON_1.png" type="rt_Image" />
   <resource id="0" originalname="C:\Users\Apostolis\Desktop\cccccccc\GoApp\Resources\ster_halfFill.png" name="ster_halfFill.png" type="rt_Image" />
   <resource id="0" originalname="\\Globo-storage\technical\Creative_Lab\Work\Apodeiksi\Assets\Badges\Greek\Bouzoukia_Night_GR_OFF.png" name="Bouzoukia_Night_GR_OFF.png" type="rt_Image" />
@@ -899,7 +899,7 @@
   <userparams useaccounting="False" method="(None)" bindings="" tokenfield="" expiration="4320" screenmessage="Please provide values to the following fields in order to validate your profile" validationmessage="The data that you provided is invalid. Please try again." validationsuccessmessage="Settings saved.">
     <userparam id="cgo.udv.token" caption="" name="ValidationToken" datatype="string" default="" description="" enumvalues="" order="1" ispassword="False" />
   </userparams>
-  <buildsettings winphonelang="en" winstorelang="en" btntext="Accept" serverurl="" usedeployservice="false" androidversioncode="1" androidbundleid="" blackberryversioncode="1" blackberrybundleid="" blackberryappid="" blackberryppgurl="" blackberryppgurlserver="" blackberryppgurlserverpassword="" googleprojectnumber="" iosbundleid="" winphonebundleid="" winstorebundleid="" embed="False" login="False" backimage="False" startsettings="False" disclaimer="False" useencrypt="False" useoffice="False" usebarcode="False" displayprogressbar="none">
+  <buildsettings winphonelang="en" winstorelang="en" btntext="Accept" serverurl="" usedeployservice="false" androidversioncode="1" androidbundleid="" blackberryversioncode="1" blackberrybundleid="" blackberryappid="" blackberryppgurl="" blackberryppgurlserver="" blackberryppgurlserverpassword="" googleprojectnumber="" iosbundleid="" winphonebundleid="" winstorebundleid="" embed="False" login="False" backimage="False" startsettings="False" disclaimer="False" useencrypt="False" useoffice="False" usebarcode="False" displayprogressbar="none" includegoogleanalytics="False">
     <theme>
       <android>
         <background color="#FFFFFF" />
@@ -1195,5 +1195,6 @@
       <resource id="226" value="" />
       <resource id="227" value="" />
     </resources>
+    <containerplugins />
   </buildsettings>
 </project>

@@ -47,7 +47,7 @@ Chart.defaults.global = {
     // String - Scale label font colour
     scaleFontColor: "#666",
     // Boolean - whether or not the chart should be responsive and resize when the browser does.
-    responsive: true,
+    responsive: false,
     // Boolean - whether to maintain the starting aspect ratio or not when responsive, if set to false, will take up entire container
     maintainAspectRatio: false,
     // Boolean - Determines whether to draw tooltips on the canvas or not
@@ -111,9 +111,10 @@ function getUserData(userId,lang){
     });
 }
 function drawCharts(rs){
-    $('#landContainer').empty();
-    var htmlCont = ' <div class="donutContainer"> <div class="taxMile tileDiv hidden">3000$</div><div> <canvas id="myDonut"></canvas> </div><div class="myScore tileDiv hidden"> you got <br><span class="score hidden"></span> </div></div><div class="topHeader tileDiv hidden"> <span>Top 3 expences</span> </div><div class="topBar"> <div class="categoryTitle tileDiv hidden"> <span class="catTitle"></span> </div><div class="percentage tileDiv hidden"> <span class="catPC"></span> </div><canvas id="topBars1" height="40"></canvas> </div><div class="topBar"> <div class="categoryTitle tileDiv hidden"> <span class="catTitle"></span> </div><div class="percentage tileDiv hidden"> <span class="catPC"></span> </div><canvas id="topBars2" height="40"></canvas> </div><div class="topBar"> <div class="categoryTitle tileDiv hidden"> <span class="catTitle"></span> </div><div class="percentage tileDiv hidden"> <span class="catPC"></span> </div><canvas id="topBars3" height="40"></canvas> </div>';
-    $('#landContainer').append(htmlCont);
+    
+    $('.landContainer').empty();
+    var htmlCont = ' <div class="donutContainer"> <div class="taxMile tileDiv hidden">€ 3000</div><div class="myDonutContainer"> <canvas id="myDonut"></canvas> </div><div class="myScore tileDiv hidden"> EXEIΣ <span class="score hidden"></span> </div></div><div id="clearDiv"></div><div class="barContainer"> <div class="topHeader tileDiv hidden"> <span class="topTitle">Tα ΤΟΡ 3 έξοδα</span> </div><div class="topBar"> <div class="tpRow"> <div class="categoryTitle tileDiv hidden"> <span class="catTitle"></span> &nbsp; </div><div class="percentage tileDiv hidden"> <span class="catPC"></span> </div></div><div> <canvas id="topBars1" height="30"></canvas> </div></div><div class="topBar"> <div class="tpRow"> <div class="categoryTitle tileDiv hidden"> <span class="catTitle"></span>&nbsp; </div><div class="percentage tileDiv hidden"> <span class="catPC"></span> </div></div><div> <canvas id="topBars2" height="30"></canvas> </div></div><div class="topBar"> <div class="tpRow"> <div class="categoryTitle tileDiv hidden"> <span class="catTitle"></span>&nbsp; </div><div class="percentage tileDiv hidden"> <span class="catPC"></span> </div></div><div> <canvas id="topBars3" height="30"></canvas> </div></div></div>';
+    $('.landContainer').append(htmlCont);
     
     rs = JSON.parse(rs.sqldata.data[0].resultset);
     userPoints = rs.UserTotal;
@@ -144,7 +145,6 @@ function drawCharts(rs){
                 "catName" : expenses[j].catdesc,
                 "catAmount" : Math.round((expenses[j].catamount/totalSum) * 100)/100
             };
-            console.warn(expenses[j].catamount);
             //append the catName
             catTitles[j].innerHTML = topArr[j].catName;
             //append the percentage
@@ -188,7 +188,7 @@ function drawCharts(rs){
         animationEasing: "easeOutBounce",
         animationSteps: 100,
         legendTemplate: "<ul class='<%=name.toLowerCase()%>-legend'><% for (var i=0; i<segments.length; i++){%><li><span style='background-color:<%=segments[i].fillColor%>'></span><%if(segments[i].label){%><%=segments[i].label%><%}%></li><%}%></ul>",
-        percentageInnerCutout: 50,
+        percentageInnerCutout: 65,
         segmentShowStroke: true,
         segmentStrokeColor: "#fff",
         segmentStrokeWidth: 2
@@ -286,7 +286,7 @@ function drawOfferDonut(reqPoints){
         animationEasing: "easeOutBounce",
         animationSteps: 100,
         legendTemplate: "<ul class='<%=name.toLowerCase()%>-legend'><% for (var i=0; i<segments.length; i++){%><li><span style='background-color:<%=segments[i].fillColor%>'></span><%if(segments[i].label){%><%=segments[i].label%><%}%></li><%}%></ul>",
-        percentageInnerCutout: 50,
+        percentageInnerCutout: 65,
         segmentShowStroke: true,
         segmentStrokeColor: "#fff",
         segmentStrokeWidth: 2
@@ -303,7 +303,7 @@ function showGallery() {
     $('.imagesWrapper').hide();
     document.getElementsByClassName('logoImage')[1].innerHTML = 'Gallery';
     $('#pgGallery').removeClass('hidden');
-    loadImages();
+    //loadImages();
 }
 function loadImages(){
     var images = go.system.io.getFolderContents('/Photos', '*.*', false).results;

@@ -80,8 +80,6 @@ languageFunctionality.setLanguage = function(lang){
         $('.footerChild_offers div').text(languageObject.ScanText);
         
         $('.qrCodePhotoText p').text(languageObject.qrCodePhotoText);
-      
-     
 }
     
 
@@ -139,6 +137,7 @@ languageFunctionality.saveUpdateLanguageToLocal = function(lang,userId){
         $('.navBar').removeClass('hidden');
         $('#pgLanding').removeClass('hidden');
         navigationFunctions.openPage('pgLanding');
+        setTimeout(drawCharts(apostolisRS),1000);
         languageFunctionality.setLanguage(existsLanguage.language);
 };
 
@@ -159,10 +158,11 @@ languageFunctionality.checkLandingPage = function(){
         offersFunctions.getOffers(isAuthenticatedUserId);
         budgesFunctions.getBudges();
         archiveListFunctions.openFilters(isAuthenticatedUserId,(existsLanguage.language == 'el')?1:2);
+        //setTimeout(drawCharts(apostolisRS),3000);
     }
     else{
          currentPage ='pgLogin';
-        $('#pgLogin').removeClass('hidden');
+         $('#pgLogin').removeClass('hidden');
     }
    
 }
