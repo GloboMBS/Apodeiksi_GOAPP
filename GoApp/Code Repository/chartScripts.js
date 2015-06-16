@@ -267,14 +267,14 @@ function drawOfferDonut(reqPoints){
         data = [
         {
             value: reqPoints,
-            color:"#F7464A",
+            color:"#dc143b",
             highlight: "#FF5A5E",
             label: "Red"
         },
         {
             value: 0,
-            color: "#46BFBD",
-            highlight: "#5AD3D1",
+            color: "#f5f4f9",
+            highlight: "#f5f4f9",
             label: "Green"
         }
         ]

@@ -44,10 +44,10 @@ offersFunctions.setOffers= function(offersList) {
     
     }
      docWidth = go.system.getWidth().value;
-    $('.infoDiv').css('width',docWidth-120 +'px');
-    $('#navTitle').html(languageObject.offersTitle);
-    navigationFunctions.openPage('pgOffersList'); 
- }
+     $('.infoDiv').css('width',docWidth-120 +'px');
+     $('#navTitle').html(languageObject.offersTitle);
+     navigationFunctions.openPage('pgOffersList'); 
+}
 
 
 

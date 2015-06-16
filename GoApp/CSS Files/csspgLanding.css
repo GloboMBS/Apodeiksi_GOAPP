@@ -60,3 +60,9 @@
         height:70px;
     }
 }
+#offerChart{
+    margin: 20px 33.3% 5px;
+}
+.pieDetails{
+    border-top: 5px #dc143b solid
+}

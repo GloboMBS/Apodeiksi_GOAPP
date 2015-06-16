@@ -124,7 +124,7 @@
                 <div class="footerChild footerChild_archive" onclick="navigationFunctions.openPage('pgArchivedList')">
                     <div> </div>
                 </div>
-                <div class="footerChild footerChild_photo" onclick="navigationFunctions.openPage('pgOffersList')">
+                <div class="footerChild footerChild_photo" onclick="qrCodeFunctions.takeReceiptPhoto()">
                     <div></div>
                 </div>
                 <div class="scanDiv footerChild" onclick="qrCodeFunctions.qrCodeScan()">
@@ -145,7 +145,7 @@
             </div>
             <div class="offersHeadetImg">             </div>
             <div class="pieDetails">
-                <canvas id="offerChart" width="40" height="40"></canvas>
+                <canvas id="offerChart" width="100px" height="100px"></canvas>
             </div>
             <div class="offersDetailsInfo">
                 <div class="offersDetailsInfo_desc">  </div>
