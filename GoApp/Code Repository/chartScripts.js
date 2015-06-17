@@ -303,19 +303,24 @@ function drawOfferDonut(reqPoints){
 //--------------------------Gallery---------------------------------------//
 
 function showGallery() {
-/*    $('.pgArchivedSearch').addClass('hidden');
+    $('.pgArchivedSearch').addClass('hidden');
     $('.pgArchivedList').addClass('hidden');
     $('.imagesWrapper').hide();
     document.getElementsByClassName('logoImage')[1].innerHTML = 'Gallery';
-    $('#pgGallery').removeClass('hidden');*/
-    
-    $( '#pgArchivedList' ).addClass('hidden');
     $('#pgGallery').removeClass('hidden');
+    $('.galleryTab').addClass('active');
+    $('.allTab').removeClass('active');
+    $('.pgArchivedTabs').css("z-index","100000000");
     loadImages();
 }
 function showArchive(){
-    $( '#pgGallery' ).addClass('hidden');
-    $('#pgArchivedList').removeClass('hidden');
+    $('.pgArchivedSearch').removeClass('hidden');
+    $('.pgArchivedList').removeClass('hidden');
+    $('.imagesWrapper').show();
+    document.getElementsByClassName('logoImage')[1].innerHTML = 'Archive';
+    $('.galleryTab').removeClass('active');
+    $('.allTab').addClass('active');
+    $('#pgGallery').addClass('hidden');
 }
 function loadImages(){
 /*    var images = go.system.io.getFolderContents('/Photos', '*.*', false).results;
@@ -347,21 +352,20 @@ function loadImages(){
         }
     }
     //$('#photosList').empty();
-    //var data = parseJSON(result);
-/*      var _files = "";
-      $(images).each(function (i, item) {
-          if (i > 0) _files += ",";
-          _files += item.FullPath;
-        });
-      
-        if(imagesInLine < 4) {
-            $('#ul_'+newUL).append('<li><img class="panel-image" src="golocalfiles:/' + _files + '" style="width:60px;" ></li>');
-            imagesInLine++;  
-        }
-        else {
-            newUL++;
-            $("#photoGrid").append('<ul id="ul_'+newUL+'"></ul>');
-            $('#ul_'+newUL).append('<li><img class="panel-image" src="golocalfiles:/' + _files + '" style="width:60px;" ></li>');
-            imagesInLine = 1;
-        }*/
+    var data = parseJSON(images);
+    var _files = "";
+    $(images).each(function (i, item) {
+        if (i > 0) _files += ",";
+        _files += item.FullPath;
+    });
+    if(imagesInLine < 4) {
+        $('#ul_'+newUL).append('<li><img class="panel-image" src="golocalfiles:/' + _files + '" style="width:60px;" ></li>');
+        imagesInLine++;  
+    }
+    else {
+        newUL++;
+        $("#photoGrid").append('<ul id="ul_'+newUL+'"></ul>');
+        $('#ul_'+newUL).append('<li><img class="panel-image" src="golocalfiles:/' + _files + '" style="width:60px;" ></li>');
+        imagesInLine = 1;
+    }
 }

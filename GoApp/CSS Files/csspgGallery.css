@@ -1,6 +1,5 @@
 <go:file devused="True,True,True,True" xmlns:go='http://www.globoplc.com'></go:file>#pgGallery{
     list-style-type: none;
-    width: 90%;
     height: 77%;
     margin: 0 auto;
     z-index: 100000000;
@@ -8,6 +7,7 @@
     overflow-y: auto;
     position: relative;
     background: #fff;
+    padding-top: 50px;
 }
 .photosList{
     list-style-type: none;

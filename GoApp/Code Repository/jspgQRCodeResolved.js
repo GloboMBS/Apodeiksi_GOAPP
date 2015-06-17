@@ -10,7 +10,6 @@ qrCodeFunctions.openQRCode = function(){
         $('.qrApprovalButton').text(languageObject.QRButtonTextSubmit);
         $('#pgQRCodeResolved').removeClass('hidden');
 };
-
 //scan the qr code take the result and parse into a JSON object
 var test={};  
   var receiptJSONToSend = '';
@@ -104,18 +103,14 @@ var imagesInLine = 0;
  
 //take photo of the receipt and save it locally
 qrCodeFunctions.takeReceiptPhoto = function(){
-    
     go.capture('image', false, '', 0, captureCallback);
- 
-    function captureCallback(result)
-    {
-      var data = parseJSON(result);
-      var _files = "";
-      $(data.Files).each(function (i, item) {
-          if (i > 0) _files += ",";
-          _files += item.FullPath;
+    function captureCallback(result){
+        var data = parseJSON(result);
+        var _files = "";
+        $(data.Files).each(function (i, item) {
+            if (i > 0) _files += ",";
+            _files += item.FullPath;
         });
-      
         if(imagesInLine < 4) {
             $('#ul_'+newUL).append('<li><img class="panel-image" src="golocalfiles:/' + _files + '" style="width:60px;" ></li>');
             imagesInLine++;  
@@ -126,10 +121,8 @@ qrCodeFunctions.takeReceiptPhoto = function(){
             $('#ul_'+newUL).append('<li><img class="panel-image" src="golocalfiles:/' + _files + '" style="width:60px;" ></li>');
             imagesInLine = 1;
         }
-      
     }
 }
-
 function studioUploadImage() {
     if(imagesInLine < 4) {
         $('#ul_'+newUL).append('<li><img class="panel-image" src="Bouzoukia_Night_OFF.png" style="width:60px;" ></li>');

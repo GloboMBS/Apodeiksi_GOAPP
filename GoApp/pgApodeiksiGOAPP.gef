@@ -1,11 +1,8 @@
 <go:include type="script" file="generalJs"></go:include>
 <go:include type="script" file="jspgArchiveDetails"></go:include>
 <go:include type="script" file="jspgArchivedList"></go:include>
-<go:include type="script" file="jspgBadgesDetails"></go:include>
 <go:include type="script" file="jspgBadgesList"></go:include>
-<go:include type="script" file="jspgLanding"></go:include>
 <go:include type="script" file="jspgLogin"></go:include>
-<go:include type="script" file="jspgOffersDetails"></go:include>
 <go:include type="script" file="jspgOffersList"></go:include>
 <go:include type="script" file="jspgQRCodeResolved"></go:include>
 <go:include type="script" file="chartLib"></go:include>
@@ -167,53 +164,11 @@
                 </div>
             </div>
         </article>
-        <article id="pgGallery" class="hidden">
-            <nav class="navBar">
-                <div class="iosBar hidden"></div>
-                <div class="menuItem backImage" onclick="navigationFunctions.goBack()"> <img src="home.png"></div>
-                <div class="menuItem logoImage" onclick="">Gallery</div>
-            </nav>
-            <section class="pgArchivedTabs">
-                <div class="allTab inactive" onclick="showArchive()">
-                    Archive
-                </div>
-                <div class="galleryTab active">
-                    Gallery
-                </div>
-            </section>
-
-            <section id="pgGalleryIn">
-                <div id="photoGrid" style="height: 100%;margin: 0 auto;z-index: 999;padding: 10px;">
-                    <ul id="ul_0">
-
-                    </ul>
-                </div>
-            </section>
-            <footer>
-                <div class="footerChild footerChild_archive" onclick="" style="color: #dc143c; background: url('p02_Landing_Icon_Archive_2.png'); background-repeat: no-repeat;background-size: 30px;background-position-x: 50%;background-position-y: 20%;">
-                    <div> </div>
-                </div>
-                <div class="footerChild footerChild_photo" onclick="qrCodeFunctions.takeReceiptPhoto()">
-                    <div></div>
-                </div>
-                <div class="scanDiv footerChild" onclick="qrCodeFunctions.qrCodeScan()">
-                    <img src="p02_Landing_Icon_QR.png"></img>
-                    <div class="scanLabel">Scan</div>
-                </div>
-                <div class="footerChild footerChild_offers" onclick="offersFunctions.setOffers(offersTable);">
-                    <div></div>
-                </div>
-                <div class="footerChild footerChild_badges" onclick="budgesFunctions.setBudges(budgesTable);">
-                    <div>Badges</div>
-                </div>
-            </footer>
-
-        </article>
         <article id="pgArchivedList" class="hidden">
             <nav class="navBar">
                 <div class="iosBar hidden"></div>
                 <div class="menuItem backImage" onclick="navigationFunctions.goBack()"> <img src="home.png"></div>
-                <div class="menuItem logoImage" onclick="">Όλα</div>
+                <div class="menuItem logoImage" onclick="">Archive</div>
                 <div class="imagesWrapper">
                     <div class="menuItem sortImage" onclick="archiveListFunctions.createSortedList($('#pgArchivedInput').val(),archiveListObject)"><img src="shortDown.png"></div>
                     <div class="menuItem filterImage" onclick="$('#pgArchiveListFilters').removeClass('hidden');$('#pgArchivedList').addClass('hidden')"><img src="filters.png"></div>
@@ -221,10 +176,10 @@
                 </div>
             </nav>
             <section class="pgArchivedTabs">
-                <div class="allTab active">
+                <div class="allTab active" onclick="showArchive()">
                     Archive
                 </div>
-                <div class="galleryTab inactive" onclick="showGallery()">
+                <div class="galleryTab" onclick="showGallery()">
                     Gallery
                 </div>
             </section>
@@ -235,7 +190,7 @@
             </section>
             <section id="pgGallery" class="hidden">
                 <div id="photoGrid" style="height:100%; margin: auto; z-index:999">
-                    <ul id="photosList"></ul>
+                    <ul id="ul_0"></ul>
                 </div>
             </section>
             <!--    getHeight needed to fix sections height!    -->
