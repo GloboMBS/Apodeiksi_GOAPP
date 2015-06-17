@@ -1,5 +1,5 @@
 <project pid="54c1b593-fbad-4e4a-852b-75a32bffa096" name="Apodeiksi_GOAPP" saveversion="2" path="C:\GitProjects\apodeiksi\GoApp\" type="Server" conversion="2.5.0.17">
-  <appinfo appid="413fb4d2-5895-4e6f-87ca-d9c5dc25bdd5" devid="" versionid="7a3950cd-c165-4735-ba91-a66585fa355b" apptitle="Apodeiksi_GOAPP" appauthor="" appdescription="" appreleasenotes="" appversion="1.0.0" appcreationdate="15/6/2015 1:33:38 μμ" appicon="" apprequireslicense="False" appmenuvisible="True" defaultpage="pgApodeiksiGOAPP" requiresdomain="False" defaultstyles="False" extsrc="True" updmessage="" />
+  <appinfo appid="413fb4d2-5895-4e6f-87ca-d9c5dc25bdd5" devid="" versionid="1dbf8a7c-387f-44b7-a88d-77652761a474" apptitle="Apodeiksi_GOAPP" appauthor="" appdescription="" appreleasenotes="" appversion="1.0.7" appcreationdate="15/6/2015 1:33:38 μμ" appicon="" apprequireslicense="False" appmenuvisible="True" defaultpage="pgApodeiksiGOAPP" requiresdomain="False" defaultstyles="False" extsrc="True" updmessage="" />
   <languages>
     <enabled type="False" />
   </languages>
@@ -7,7 +7,7 @@
     <id>0</id>
     <filename>Apodeiksi_GOAPP</filename>
     <fullpath />
-    <isopen>True</isopen>
+    <isopen>False</isopen>
     <imageid>1</imageid>
     <location />
     <parentid>-1</parentid>
@@ -47,7 +47,7 @@
     <id>09281a7be5924d95824c4a49ceed254e</id>
     <filename>pgApodeiksiGOAPP</filename>
     <fullpath>pgApodeiksiGOAPP</fullpath>
-    <isopen>True</isopen>
+    <isopen>False</isopen>
     <imageid>2</imageid>
     <location />
     <parentid>-1</parentid>
@@ -57,7 +57,7 @@
     <id>a0b27a9e34fe438d80f568afa88ca94f</id>
     <filename>cssReset</filename>
     <fullpath>CSS Files\cssReset</fullpath>
-    <isopen>True</isopen>
+    <isopen>False</isopen>
     <imageid>4</imageid>
     <location>CSS Files\</location>
     <parentid>2</parentid>
@@ -67,7 +67,7 @@
     <id>7e2050f4013c4bf8a60e638213fd58ea</id>
     <filename>csspgLogin</filename>
     <fullpath>CSS Files\csspgLogin</fullpath>
-    <isopen>True</isopen>
+    <isopen>False</isopen>
     <imageid>4</imageid>
     <location>CSS Files\</location>
     <parentid>2</parentid>
@@ -77,7 +77,7 @@
     <id>dced48880cc24f9a8a449dd49c6d7b3f</id>
     <filename>csspgArchivedList</filename>
     <fullpath>CSS Files\csspgArchivedList</fullpath>
-    <isopen>True</isopen>
+    <isopen>False</isopen>
     <imageid>4</imageid>
     <location>CSS Files\</location>
     <parentid>2</parentid>
@@ -87,7 +87,7 @@
     <id>f1d1ef2b66f04c54babc0dc47cb178de</id>
     <filename>csspgOffersDetails</filename>
     <fullpath>CSS Files\csspgOffersDetails</fullpath>
-    <isopen>True</isopen>
+    <isopen>False</isopen>
     <imageid>4</imageid>
     <location>CSS Files\</location>
     <parentid>2</parentid>
@@ -97,7 +97,7 @@
     <id>f2939b25e7f945fc9f3f2a398301e0ca</id>
     <filename>csspgOffersList</filename>
     <fullpath>CSS Files\csspgOffersList</fullpath>
-    <isopen>True</isopen>
+    <isopen>False</isopen>
     <imageid>4</imageid>
     <location>CSS Files\</location>
     <parentid>2</parentid>
@@ -107,7 +107,7 @@
     <id>cb6c44c41a794c3ebce4403f47907a61</id>
     <filename>csspgQRCodeResolved</filename>
     <fullpath>CSS Files\csspgQRCodeResolved</fullpath>
-    <isopen>True</isopen>
+    <isopen>False</isopen>
     <imageid>4</imageid>
     <location>CSS Files\</location>
     <parentid>2</parentid>
@@ -117,7 +117,7 @@
     <id>6e3d623c32ff469a838ffad992f09fc8</id>
     <filename>csspgLanding</filename>
     <fullpath>CSS Files\csspgLanding</fullpath>
-    <isopen>True</isopen>
+    <isopen>False</isopen>
     <imageid>4</imageid>
     <location>CSS Files\</location>
     <parentid>2</parentid>
@@ -127,7 +127,7 @@
     <id>d2482ae1e7cf41f1b14b4bb4712a6209</id>
     <filename>csspgBadgesList</filename>
     <fullpath>CSS Files\csspgBadgesList</fullpath>
-    <isopen>True</isopen>
+    <isopen>False</isopen>
     <imageid>4</imageid>
     <location>CSS Files\</location>
     <parentid>2</parentid>
@@ -147,7 +147,7 @@
     <id>67bfef3811d04bb8b3c8c0c2875b259d</id>
     <filename>csspgBadgesDetails</filename>
     <fullpath>CSS Files\csspgBadgesDetails</fullpath>
-    <isopen>True</isopen>
+    <isopen>False</isopen>
     <imageid>4</imageid>
     <location>CSS Files\</location>
     <parentid>2</parentid>
@@ -157,7 +157,7 @@
     <id>ab09469e640e4a909ba07e2f1377f129</id>
     <filename>jspgArchiveDetails</filename>
     <fullpath>Code Repository\jspgArchiveDetails</fullpath>
-    <isopen>True</isopen>
+    <isopen>False</isopen>
     <imageid>6</imageid>
     <location>Code Repository\</location>
     <parentid>1</parentid>
@@ -167,7 +167,7 @@
     <id>7437fb8bafb84a6190ab858d602d6137</id>
     <filename>jspgArchivedList</filename>
     <fullpath>Code Repository\jspgArchivedList</fullpath>
-    <isopen>True</isopen>
+    <isopen>False</isopen>
     <imageid>6</imageid>
     <location>Code Repository\</location>
     <parentid>1</parentid>
@@ -177,7 +177,7 @@
     <id>e0cb4006eaff46d59914da95a4afdb0c</id>
     <filename>jspgBadgesList</filename>
     <fullpath>Code Repository\jspgBadgesList</fullpath>
-    <isopen>True</isopen>
+    <isopen>False</isopen>
     <imageid>6</imageid>
     <location>Code Repository\</location>
     <parentid>1</parentid>
@@ -187,7 +187,7 @@
     <id>3e5a09fa93854b859e83a2ff018a536a</id>
     <filename>jspgLogin</filename>
     <fullpath>Code Repository\jspgLogin</fullpath>
-    <isopen>True</isopen>
+    <isopen>False</isopen>
     <imageid>6</imageid>
     <location>Code Repository\</location>
     <parentid>1</parentid>
@@ -207,7 +207,7 @@
     <id>79eefac854ae4bc891f3516b436cbb44</id>
     <filename>jspgQRCodeResolved</filename>
     <fullpath>Code Repository\jspgQRCodeResolved</fullpath>
-    <isopen>True</isopen>
+    <isopen>False</isopen>
     <imageid>6</imageid>
     <location>Code Repository\</location>
     <parentid>1</parentid>
@@ -287,7 +287,7 @@
     <id>1c3566d17e084caeafb03aa0ccdf23e8</id>
     <filename>chartScripts</filename>
     <fullpath>Code Repository\chartScripts</fullpath>
-    <isopen>True</isopen>
+    <isopen>False</isopen>
     <imageid>6</imageid>
     <location>Code Repository\</location>
     <parentid>1</parentid>
@@ -297,7 +297,7 @@
     <id>ddb3a145d3be40fe88c504d9096afdb1</id>
     <filename>cssArchiveListFilters</filename>
     <fullpath>CSS Files\cssArchiveListFilters</fullpath>
-    <isopen>True</isopen>
+    <isopen>False</isopen>
     <imageid>4</imageid>
     <location>CSS Files\</location>
     <parentid>2</parentid>
@@ -317,7 +317,7 @@
     <id>b78be95c144a43b9b000938f69b32230</id>
     <filename>csspgGallery</filename>
     <fullpath>CSS Files\csspgGallery</fullpath>
-    <isopen>True</isopen>
+    <isopen>False</isopen>
     <imageid>4</imageid>
     <location>CSS Files\</location>
     <parentid>2</parentid>
