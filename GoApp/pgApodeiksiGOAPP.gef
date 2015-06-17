@@ -147,7 +147,7 @@
             <div class="offersHeadetImg"> </div>
             <div class="pieDetails">
                 <div id=reqContainer class="tileDiv">
-                    <span id="offerReqPts">3000</span>
+                    <span id="offerReqPts"></span>
                 </div>
                 <div>
                     <canvas id="offerChart" width="100px" height="100px"></canvas>
@@ -156,7 +156,7 @@
                     <img class="offerLock" id="offerLock" src="lock.png">
                 </div>
                 <div class="tileDiv">
-                    <span id="userPts">2500</span>
+                    <span id="userPts"></span>
                 </div>
             </div>
             <div class="offersDetailsInfo">
