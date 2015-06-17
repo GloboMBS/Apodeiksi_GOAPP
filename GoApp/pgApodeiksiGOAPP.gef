@@ -29,25 +29,26 @@
 <go:page onload="generalFunctions.addIOSBar();languageFunctionality.checkLandingPage(); " orientation="Portrait" shownavigation="false" id="pgApodeiksiGOAPP" title="pgApodeiksiGOAPP">
     <content>
         <div class="iosBar hidden"></div>
-        <nav class="navBar">            
+        <nav class="navBar">
             <div class="menuItem backImage" onclick="navigationFunctions.goBack()">
                 <img src="home.png"></img>
             </div>
-            <div id="navTitle" class="menuItem logoImage"> <label> </label></div>
+            <div id="navTitle" class="menuItem logoImage">
+                <label> </label>
+            </div>
             <div class="menuItem alertImage">
-                <img class="rateimg" src="rateButton.png" onclick=" ratingfunction.scanCompany()"> </img>  <img src="alarm.png" onclick="formFunctions.openForm()"></img>
+                <img class="rateimg" src="rateButton.png" onclick=" ratingfunction.scanCompany()"> </img> <img src="alarm.png" onclick="formFunctions.openForm()"></img>
             </div>
         </nav>
         <article id="pgLogin" class="hidden">
             <section class="pgLoginLogo"></section>
             <section class="pgLoginText">
                 Συνδεθείτε με τον
-                <br>
-                TAXISNET λογαριασμό σας
+                <br> TAXISNET λογαριασμό σας
             </section>
             <section class="pgLoginInputSection">
                 <input class="pgLoginInput" placeholder="Username" id="usernameLogin">
-                    <input class="pgLoginInput" placeholder="Password" id="passwordLogin" type="password">
+                <input class="pgLoginInput" placeholder="Password" id="passwordLogin" type="password">
                 <div class="pgLoginButton" onclick="generalFunctions.checkNetwork(databaseConnectionFunctions.authenticateUser($('#usernameLogin').val(),$('#passwordLogin').val()))">ΣΥΝΔΕΣΗ</div>
             </section>
             <footer class="pgLoginFooter">
@@ -60,7 +61,7 @@
         <article id="pgLanding" class="footerPage hidden ">
             <section>
                 <div class="landContainer">
-                    
+
                 </div>
             </section>
             <footer>
@@ -100,7 +101,7 @@
                     <br>
                     <div class="qrCodeTextBar">
                         <div class="qrCodeText">
-                            <p>                           Κατηγορία                        </p>
+                            <p> Κατηγορία </p>
                             <br>
                             <div id="QRCodeText"></div>
                         </div>
@@ -110,7 +111,7 @@
                     </div>
                     <div class="qrCodeTextBar qrPhotoDiv">
                         <div class="qrCodeText qrCodePhotoText">
-                            <p>                                                   </p>
+                            <p> </p>
                         </div>
                         <div class="qrCodeTakePhoto" onclick="qrCodeFunctions.takeReceiptPhoto()"></div>
                     </div>
@@ -119,7 +120,7 @@
         </article>
         <!---------------------------------------------------  offers    ------------------------------------------------->
         <article id="pgOffersList" class="hidden">
-            <div class="offerList">        </div>
+            <div class="offerList"> </div>
             <footer>
                 <div class="footerChild footerChild_archive" onclick="navigationFunctions.openPage('pgArchivedList')">
                     <div> </div>
@@ -143,132 +144,142 @@
             <div class="offClosePopupBar">
                 <div class="bdClosePopupIcon" onclick="navigationFunctions.openPage('pgOffersList')"></div>
             </div>
-            <div class="offersHeadetImg">             </div>
+            <div class="offersHeadetImg"> </div>
             <div class="pieDetails">
-                <canvas id="offerChart" width="100px" height="100px"></canvas>
+                <div id=reqContainer class="tileDiv">
+                    <span id="offerReqPts">3000</span>
+                </div>
+                <div>
+                    <canvas id="offerChart" width="100px" height="100px"></canvas>
+                </div>
+                <div>
+                    <img class="offerLock" id="offerLock" src="lock.png">
+                </div>
+                <div class="tileDiv">
+                    <span id="userPts">2500</span>
+                </div>
             </div>
             <div class="offersDetailsInfo">
-                <div class="offersDetailsInfo_desc">  </div>
-                <div class="offersDetailsInfo_title">  </div>
+                <div class="offersDetailsInfo_desc"> </div>
+                <div class="offersDetailsInfo_title"> </div>
                 <div class="offersDetailsInfo_text">
                     Lorem ipsum dolor sit amet, libris suavitate no usu, per te quis ludus erroribus, nostro epicurei et nam. Simul imperdiet ius eu. Sed fugit consulatu adversarium te, vidit inani officiis et eam.
                 </div>
             </div>
         </article>
-       <article id="pgGallery" class="hidden">
-            <nav class="navBar"> 
+        <article id="pgGallery" class="hidden">
+            <nav class="navBar">
                 <div class="iosBar hidden"></div>
                 <div class="menuItem backImage" onclick="navigationFunctions.goBack()"> <img src="home.png"></div>
-                <div class="menuItem logoImage" onclick="">Όλα</div>
+                <div class="menuItem logoImage" onclick="">Gallery</div>
             </nav>
             <section class="pgArchivedTabs">
-                   <div class="allTab">
+                <div class="allTab inactive" onclick="showArchive()">
                     Archive
-                    </div>
-                   <div class="galleryTab" onclick="showGallery()">
+                </div>
+                <div class="galleryTab active">
                     Gallery
-                    </div>
+                </div>
             </section>
-            
+
             <section id="pgGalleryIn">
                 <div id="photoGrid" style="height: 100%;margin: 0 auto;z-index: 999;padding: 10px;">
                     <ul id="ul_0">
-                        
+
                     </ul>
                 </div>
             </section>
-    
             <footer>
-                        <div class="footerChild footerChild_archive" onclick=""  style="color: #dc143c; background: url('p02_Landing_Icon_Archive_2.png'); background-repeat: no-repeat;background-size: 30px;background-position-x: 50%;background-position-y: 20%;">
-                            <div> </div>
-                        </div>
-                        <div class="footerChild footerChild_photo"  onclick="qrCodeFunctions.takeReceiptPhoto()">
-                            <div></div>
-                        </div>
-                        <div class="scanDiv footerChild" onclick="qrCodeFunctions.qrCodeScan()">
-                            <img src="p02_Landing_Icon_QR.png"></img>
-                            <div class="scanLabel" >Scan</div>
-                        </div>
-                        <div class="footerChild footerChild_offers" onclick="offersFunctions.setOffers(offersTable);">
-                            <div></div>
-                        </div>
-                        <div class="footerChild footerChild_badges" onclick="budgesFunctions.setBudges(budgesTable);">
-                            <div>Badges</div>
-                        </div>
-             </footer>
+                <div class="footerChild footerChild_archive" onclick="" style="color: #dc143c; background: url('p02_Landing_Icon_Archive_2.png'); background-repeat: no-repeat;background-size: 30px;background-position-x: 50%;background-position-y: 20%;">
+                    <div> </div>
+                </div>
+                <div class="footerChild footerChild_photo" onclick="qrCodeFunctions.takeReceiptPhoto()">
+                    <div></div>
+                </div>
+                <div class="scanDiv footerChild" onclick="qrCodeFunctions.qrCodeScan()">
+                    <img src="p02_Landing_Icon_QR.png"></img>
+                    <div class="scanLabel">Scan</div>
+                </div>
+                <div class="footerChild footerChild_offers" onclick="offersFunctions.setOffers(offersTable);">
+                    <div></div>
+                </div>
+                <div class="footerChild footerChild_badges" onclick="budgesFunctions.setBudges(budgesTable);">
+                    <div>Badges</div>
+                </div>
+            </footer>
 
         </article>
         <article id="pgArchivedList" class="hidden">
-        <nav class="navBar"> 
-            <div class="iosBar hidden"></div>
-            <div class="menuItem backImage" onclick="navigationFunctions.goBack()"> <img src="home.png"></div>
-            <div class="menuItem logoImage" onclick="">Όλα</div>
-            <div class="imagesWrapper">
-                <div class="menuItem sortImage" onclick="archiveListFunctions.createSortedList($('#pgArchivedInput').val(),archiveListObject)"><img src="shortDown.png"></div>
-                <div class="menuItem filterImage" onclick="$('#pgArchiveListFilters').removeClass('hidden');$('#pgArchivedList').addClass('hidden')"><img src="filters.png"></div>
-                
-            </div>
-        </nav>
-        <section class="pgArchivedTabs">
-               <div class="allTab">
-                Archive
+            <nav class="navBar">
+                <div class="iosBar hidden"></div>
+                <div class="menuItem backImage" onclick="navigationFunctions.goBack()"> <img src="home.png"></div>
+                <div class="menuItem logoImage" onclick="">Όλα</div>
+                <div class="imagesWrapper">
+                    <div class="menuItem sortImage" onclick="archiveListFunctions.createSortedList($('#pgArchivedInput').val(),archiveListObject)"><img src="shortDown.png"></div>
+                    <div class="menuItem filterImage" onclick="$('#pgArchiveListFilters').removeClass('hidden');$('#pgArchivedList').addClass('hidden')"><img src="filters.png"></div>
+
                 </div>
-               <div class="galleryTab" onclick="showGallery()">
-                Gallery
+            </nav>
+            <section class="pgArchivedTabs">
+                <div class="allTab active">
+                    Archive
                 </div>
-        </section>
-        <section class="pgArchivedSearch">
-            <div class="searchIcon"><img src="search.png"></div>
-            <input id="pgArchivedInput" onblur="archiveListFunctions.createList($(this).val(),archiveListObject)"></input>
-               
-        </section>
-        <section id="pgGallery" class="hidden">
-            <div id="photoGrid" style="height:100%; margin: auto; z-index:999">
-                <ul id="photosList"></ul>
-            </div>
-        </section>
-<!--    getHeight needed to fix sections height!    -->
-        <section class="pgArchivedList">
-            
-        </section>
-        <footer>
-                    <div class="footerChild footerChild_archive" onclick=""  style="color: #dc143c; background: url('p02_Landing_Icon_Archive_2.png'); background-repeat: no-repeat;background-size: 30px;background-position-x: 50%;background-position-y: 20%;">
-                        <div> </div>
-                    </div>
-                    <div class="footerChild footerChild_photo"  onclick="qrCodeFunctions.takeReceiptPhoto()">
-                        <div></div>
-                    </div>
-                    <div class="scanDiv footerChild" onclick="qrCodeFunctions.qrCodeScan()">
-                        <img src="p02_Landing_Icon_QR.png"></img>
-                        <div class="scanLabel" >Scan</div>
-                    </div>
-                    <div class="footerChild footerChild_offers" onclick="offersFunctions.setOffers(offersTable);">
-                        <div></div>
-                    </div>
-                    <div class="footerChild footerChild_badges" onclick="budgesFunctions.setBudges(budgesTable);">
-                        <div>Badges</div>
-                    </div>
-         </footer>
-    
-    </article>
-            <article id="pgArchiveListFilters" class="hidden">
-                <section class="qrCodePopUp">
-                    <div class="qrClosePopupBar"> 
-                        <div class="qrClosePopupIcon"onclick="$('#pgArchiveListFilters').addClass('hidden');$('#pgArchivedList').removeClass('hidden')"></div> 
-                        </div> 
-                    <div class="qrCodePopUpTitleText pgArchiveListFilterTitle"><strong>Κατηγορίες</strong></div>
-                    
-                </section>
-                <section class="pgArchiveListCategoriesList">
-                    
-                </section>
-            
-            </article>
+                <div class="galleryTab inactive" onclick="showGallery()">
+                    Gallery
+                </div>
+            </section>
+            <section class="pgArchivedSearch">
+                <div class="searchIcon"><img src="search.png"></div>
+                <input id="pgArchivedInput" onblur="archiveListFunctions.createList($(this).val(),archiveListObject)"></input>
+
+            </section>
+            <section id="pgGallery" class="hidden">
+                <div id="photoGrid" style="height:100%; margin: auto; z-index:999">
+                    <ul id="photosList"></ul>
+                </div>
+            </section>
+            <!--    getHeight needed to fix sections height!    -->
+            <section class="pgArchivedList">
+
+            </section>
+            <footer>
+                <div class="footerChild footerChild_archive" onclick="" style="color: #dc143c; background: url('p02_Landing_Icon_Archive_2.png'); background-repeat: no-repeat;background-size: 30px;background-position-x: 50%;background-position-y: 20%;">
+                    <div> </div>
+                </div>
+                <div class="footerChild footerChild_photo" onclick="qrCodeFunctions.takeReceiptPhoto()">
+                    <div></div>
+                </div>
+                <div class="scanDiv footerChild" onclick="qrCodeFunctions.qrCodeScan()">
+                    <img src="p02_Landing_Icon_QR.png"></img>
+                    <div class="scanLabel">Scan</div>
+                </div>
+                <div class="footerChild footerChild_offers" onclick="offersFunctions.setOffers(offersTable);">
+                    <div></div>
+                </div>
+                <div class="footerChild footerChild_badges" onclick="budgesFunctions.setBudges(budgesTable);">
+                    <div>Badges</div>
+                </div>
+            </footer>
+
+        </article>
+        <article id="pgArchiveListFilters" class="hidden">
+            <section class="qrCodePopUp">
+                <div class="qrClosePopupBar">
+                    <div class="qrClosePopupIcon" onclick="$('#pgArchiveListFilters').addClass('hidden');$('#pgArchivedList').removeClass('hidden')"></div>
+                </div>
+                <div class="qrCodePopUpTitleText pgArchiveListFilterTitle"><strong>Κατηγορίες</strong></div>
+
+            </section>
+            <section class="pgArchiveListCategoriesList">
+
+            </section>
+
+        </article>
         <article id="pgArchiveDetails" class="hidden"></article>
         <!---------------------------------------------------   budges    ------------------------------------------------->
         <article id="pgBadgesList" class="footerPage hidden">
             <!--        <div class="badges_desc"> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</div>-->
-            <div class="badges_list">            </div>
+            <div class="badges_list"> </div>
             <footer>
                 <div class="footerChild footerChild_archive" onclick="navigationFunctions.openPage('pgArchivedList')">
                     <div> </div>
@@ -303,7 +314,7 @@
                     <br>
                     <div class="bdCodeTextBar">
                         <div class="bdCodeText">
-                            <p>                                                            </p>
+                            <p> </p>
                             <br>
                             <div id="bdCodeText"></div>
                         </div>
@@ -315,16 +326,16 @@
             <section class="fmCodePopUp">
                 <div class="fmClosePopupBar" onclick="">
                     <div class="fmClosePopupIcon" onclick="$('#pgForm').addClass('hidden')"></div>
-                    
+
                 </div>
                 <div class="fmCodePopUpTitleText">
                     <strong>  </strong>
                 </div>
                 <div class="formDatepicker">
-                    <go:datetimepicker onchange=""  id="cgoDateTimePicker1" class="(None)" labelclass="(None)" inputclass="(None)"></go:datetimepicker>
+                    <go:datetimepicker onchange="" id="cgoDateTimePicker1" class="(None)" labelclass="(None)" inputclass="(None)"></go:datetimepicker>
                     <div class="fmCodeIcon" onclick="formFunctions.scanAfm()"></div>
                 </div>
-                <div class="afmResult">  </div>
+                <div class="afmResult"> </div>
                 <textarea id="formtext" class="formTextBox"> </textarea>
                 <div class="formButtonSubmit" onclick="formFunctions.sentForm()">
                     <label> </label>
@@ -339,27 +350,28 @@
                 <div class="rtCodePopUpTitleText">
                     <strong>  </strong>
                 </div>
-                 <div class="ratecategory"> </div>
-                <div class="rateIconsDiv"><div> 
-                    <img src="star_filled.png"></div> 
-                <div> <img src="star_filled.png"></div> 
-            <div> <img src="star_filled.png"></div> 
-            <div> <img src="star_filled.png"></div> 
-            <div> <img src="star_filled.png"></div> 
-            <div> <img src="star_filled.png"></div> 
-            <div> <img src="star_filled.png"></div> 
-            <div> <img src="star_filled.png"></div> 
-            <div> <img src="star_filled.png"></div> 
-            <div> <img src="ster_halfFill.png"></div> 
-            </div> 
-        <div class="country"> </div>
-          <div class="city"> </div>
-            <div class="address"> </div>
-              <div class="phone"> </div>
+                <div class="ratecategory"> </div>
+                <div class="rateIconsDiv">
+                    <div>
+                        <img src="star_filled.png"></div>
+                    <div> <img src="star_filled.png"></div>
+                    <div> <img src="star_filled.png"></div>
+                    <div> <img src="star_filled.png"></div>
+                    <div> <img src="star_filled.png"></div>
+                    <div> <img src="star_filled.png"></div>
+                    <div> <img src="star_filled.png"></div>
+                    <div> <img src="star_filled.png"></div>
+                    <div> <img src="star_filled.png"></div>
+                    <div> <img src="ster_halfFill.png"></div>
+                </div>
+                <div class="country"> </div>
+                <div class="city"> </div>
+                <div class="address"> </div>
+                <div class="phone"> </div>
 
-        <div class=""> </div>
+                <div class=""> </div>
             </section>
-            
+
         </article>
     </content>
 

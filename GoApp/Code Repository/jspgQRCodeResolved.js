@@ -93,7 +93,8 @@ qrCodeFunctions.confirmUploadToServer = function( ){
          $('.qrApprovalButton').css({'color':'#dc143c','background':'white'});
          archiveListFunctions.getAllDataFunction(existsLanguage.id,(existsLanguage.language == 'el')?1:2);
          console.log('ok');
-         setTimeout(drawCharts(apostolisRS),1000);
+         //setTimeout(drawCharts(apostolisRS),1000);
+         drawCharts(apostolisRS);
      }
 
 } 

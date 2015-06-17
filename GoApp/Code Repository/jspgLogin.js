@@ -20,6 +20,8 @@ languageFunctionality.setLanguage = function(lang){
                 QRButtonTextSubmit:"ΚΑΤΑΧΩΡΗΣΗ", 
                 QRButtonTextSubmited:"ΚΑΤΑΧΩΡΗΘΗΚΕ",
                 QRButtonTextCancel:"ΑΚΥΡΩΣΗ",
+                youGot:"ΕΧΕΙΣ ",
+                top3:"Tα TOP 3 έξοδα",
                 ArchiveText:"Αρχείο", 
                 PhotoText:"Φωτο/φία",
                 ScanText:"Προσφορές",
@@ -49,6 +51,8 @@ languageFunctionality.setLanguage = function(lang){
                 AlertTextEmpty:"Please fill in all the fields",
                 AlertTextInvalid:"Invalid Username/Password",
                 QRButtonTextCancel:"CANCEL",
+                youGot:"YOU GOT ",
+                top3:"TOP 3 expenses",
                 ArchiveText:"Archive",
                 PhotoText:"Photo",
                 ScanText:"Offers",
@@ -137,6 +141,7 @@ languageFunctionality.saveUpdateLanguageToLocal = function(lang,userId){
         $('.navBar').removeClass('hidden');
         $('#pgLanding').removeClass('hidden');
         navigationFunctions.openPage('pgLanding');
+        //drawCharts(apostolisRS);
         setTimeout(drawCharts(apostolisRS),1000);
         languageFunctionality.setLanguage(existsLanguage.language);
 };

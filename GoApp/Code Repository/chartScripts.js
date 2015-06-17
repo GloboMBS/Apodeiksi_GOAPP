@@ -113,7 +113,7 @@ function getUserData(userId,lang){
 function drawCharts(rs){
     
     $('.landContainer').empty();
-    var htmlCont = ' <div class="donutContainer"> <div class="taxMile tileDiv hidden">€ 3000</div><div class="myDonutContainer"> <canvas id="myDonut"></canvas> </div><div class="myScore tileDiv hidden"> EXEIΣ <span class="score hidden"></span> </div></div><div id="clearDiv"></div><div class="barContainer"> <div class="topHeader tileDiv hidden"> <span class="topTitle">Tα ΤΟΡ 3 έξοδα</span> </div><div class="topBar"> <div class="tpRow"> <div class="categoryTitle tileDiv hidden"> <span class="catTitle"></span> &nbsp; </div><div class="percentage tileDiv hidden"> <span class="catPC"></span> </div></div><div> <canvas id="topBars1" height="30"></canvas> </div></div><div class="topBar"> <div class="tpRow"> <div class="categoryTitle tileDiv hidden"> <span class="catTitle"></span>&nbsp; </div><div class="percentage tileDiv hidden"> <span class="catPC"></span> </div></div><div> <canvas id="topBars2" height="30"></canvas> </div></div><div class="topBar"> <div class="tpRow"> <div class="categoryTitle tileDiv hidden"> <span class="catTitle"></span>&nbsp; </div><div class="percentage tileDiv hidden"> <span class="catPC"></span> </div></div><div> <canvas id="topBars3" height="30"></canvas> </div></div></div>';
+    var htmlCont = ' <div class="donutContainer"> <div class="taxMile tileDiv hidden">€ 3000</div><div class="myDonutContainer"> <canvas id="myDonut"></canvas> </div><div class="myScore tileDiv hidden"> ' + languageObject.youGot + ' <span class="score hidden"></span> </div></div><div id="clearDiv"></div><div class="barContainer"> <div class="topHeader tileDiv hidden"> <span class="topTitle"> ' + languageObject.top3 + ' </span> </div><div class="topBar"> <div class="tpRow"> <div class="categoryTitle tileDiv hidden"> <span class="catTitle"></span> &nbsp; </div><div class="percentage tileDiv hidden"> <span class="catPC"></span> </div></div><div> <canvas id="topBars1" height="30"></canvas> </div></div><div class="topBar"> <div class="tpRow"> <div class="categoryTitle tileDiv hidden"> <span class="catTitle"></span>&nbsp; </div><div class="percentage tileDiv hidden"> <span class="catPC"></span> </div></div><div> <canvas id="topBars2" height="30"></canvas> </div></div><div class="topBar"> <div class="tpRow"> <div class="categoryTitle tileDiv hidden"> <span class="catTitle"></span>&nbsp; </div><div class="percentage tileDiv hidden"> <span class="catPC"></span> </div></div><div> <canvas id="topBars3" height="30"></canvas> </div></div></div>';
     $('.landContainer').append(htmlCont);
     
     rs = JSON.parse(rs.sqldata.data[0].resultset);
@@ -246,8 +246,9 @@ function drawCharts(rs){
     var top3 = new Chart(ctx3).HorizontalBar(dataArr[2], options3);
 }
 function drawOfferDonut(reqPoints){
-    var data, options;
+    var data, options, lockImgSrc;
     if (userPoints < reqPoints){
+        lockImgSrc = 'lock.png';
         data = [
         {
             value: userPoints,
@@ -264,6 +265,7 @@ function drawOfferDonut(reqPoints){
         ]
     }
     else {
+        lockImgSrc = 'unlock.png';
         data = [
         {
             value: reqPoints,
@@ -280,6 +282,9 @@ function drawOfferDonut(reqPoints){
         ]
     }
     //go.alert("req"+reqPoints+" user"+userPoints);
+    $('#offerReqPts').html(reqPoints);
+    document.getElementById('offerLock').src=lockImgSrc;
+    $('#userPts').html(userPoints);
     options = {
         animateRotate: true,
         animateScale: false,
@@ -298,15 +303,22 @@ function drawOfferDonut(reqPoints){
 //--------------------------Gallery---------------------------------------//
 
 function showGallery() {
-    $('.pgArchivedSearch').addClass('hidden');
+/*    $('.pgArchivedSearch').addClass('hidden');
     $('.pgArchivedList').addClass('hidden');
     $('.imagesWrapper').hide();
     document.getElementsByClassName('logoImage')[1].innerHTML = 'Gallery';
+    $('#pgGallery').removeClass('hidden');*/
+    
+    $( '#pgArchivedList' ).addClass('hidden');
     $('#pgGallery').removeClass('hidden');
-    //loadImages();
+    loadImages();
+}
+function showArchive(){
+    $( '#pgGallery' ).addClass('hidden');
+    $('#pgArchivedList').removeClass('hidden');
 }
 function loadImages(){
-    var images = go.system.io.getFolderContents('/Photos', '*.*', false).results;
+/*    var images = go.system.io.getFolderContents('/Photos', '*.*', false).results;
     for (var i = 0; i < images.length; i++) {
         console.log(images[i].filename.indexOf("/"));
         if (images[i].filename.indexOf("/") == 0) {
@@ -324,5 +336,32 @@ function loadImages(){
             "width": "100px",
             "height": "100px"
         });
+    }*/
+    var images = go.system.io.getFolderContents('/Photos', '*.*', false).results;
+    console.log(images);
+    for (var i = 0; i < images.length; i++) {
+        console.log(images[i].filename.indexOf("/"));
+        if (images[i].filename.indexOf("/") == 0) {
+            images[i].filename = images[i].filename.substring(1);
+            console.log(images[i].filename);
+        }
     }
+    //$('#photosList').empty();
+    //var data = parseJSON(result);
+/*      var _files = "";
+      $(images).each(function (i, item) {
+          if (i > 0) _files += ",";
+          _files += item.FullPath;
+        });
+      
+        if(imagesInLine < 4) {
+            $('#ul_'+newUL).append('<li><img class="panel-image" src="golocalfiles:/' + _files + '" style="width:60px;" ></li>');
+            imagesInLine++;  
+        }
+        else {
+            newUL++;
+            $("#photoGrid").append('<ul id="ul_'+newUL+'"></ul>');
+            $('#ul_'+newUL).append('<li><img class="panel-image" src="golocalfiles:/' + _files + '" style="width:60px;" ></li>');
+            imagesInLine = 1;
+        }*/
 }
