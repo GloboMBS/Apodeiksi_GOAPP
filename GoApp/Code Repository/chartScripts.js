@@ -206,7 +206,7 @@ function drawCharts(rs){
                 strokeColor: "#dc143b",
                 highlightFill: "#dc5670",
                 highlightStroke: "#dc5670",
-                data: [topArr[x].catAmount]
+                data: [topArr[x].catAmount,1]
             }]
         };
     }
@@ -323,49 +323,31 @@ function showArchive(){
     $('#pgGallery').addClass('hidden');
 }
 function loadImages(){
-/*    var images = go.system.io.getFolderContents('/Photos', '*.*', false).results;
+    $(" #photoGrid ").empty();
+    $(" #photoGrid ").append('<ul id="ul_0"></ul>');
+    var imgInLineCtr=0;
+    var newUL = 0;
+    //var images = go.system.io.getFolderContents('/Photos', '*.*', false).results;
     for (var i = 0; i < images.length; i++) {
-        console.log(images[i].filename.indexOf("/"));
         if (images[i].filename.indexOf("/") == 0) {
             images[i].filename = images[i].filename.substring(1);
-            console.log(images[i].filename);
         }
     }
-    $('#photosList').empty();
-    for (var i = 0; i < images.length; i++) {
-        var photoEntry ="<li class=\"photoList\" id=\"thumbnail_" + i +  "\">" + " <div class=\"photoDiv\" id=\"img-src_" + i + "\" ><\/div>" + "<\/li>";
-        console.log(photoEntry);
-        $('#photosList').append(photoEntry);
-        $('#img-src_' + i).css('background-image', "url(golocalfiles://" + images[i].filename + ")");
-        $('#img-src_' + i).css({
-            "width": "100px",
-            "height": "100px"
-        });
-    }*/
-    var images = go.system.io.getFolderContents('/Photos', '*.*', false).results;
-    console.log(images);
-    for (var i = 0; i < images.length; i++) {
-        console.log(images[i].filename.indexOf("/"));
-        if (images[i].filename.indexOf("/") == 0) {
-            images[i].filename = images[i].filename.substring(1);
-            console.log(images[i].filename);
-        }
-    }
-    //$('#photosList').empty();
-    var data = parseJSON(images);
     var _files = "";
     $(images).each(function (i, item) {
         if (i > 0) _files += ",";
-        _files += item.FullPath;
+        _files += item.filename;
     });
-    if(imagesInLine < 4) {
-        $('#ul_'+newUL).append('<li><img class="panel-image" src="golocalfiles:/' + _files + '" style="width:60px;" ></li>');
-        imagesInLine++;  
-    }
-    else {
-        newUL++;
-        $("#photoGrid").append('<ul id="ul_'+newUL+'"></ul>');
-        $('#ul_'+newUL).append('<li><img class="panel-image" src="golocalfiles:/' + _files + '" style="width:60px;" ></li>');
-        imagesInLine = 1;
+    for (var t=0; t<=images.length; t++){
+        if(imgInLineCtr < 4) {
+            $('#ul_'+newUL).append('<li><img class="panel-image" src="golocalfiles://' + images[t].filename + '" style="width:60px;" ></li>');
+            imgInLineCtr++;
+        }
+        else if(imgInLineCtr == 4) {
+            newUL++;
+            $("#photoGrid").append('<ul id="ul_'+newUL+'"></ul>');
+            $('#ul_'+newUL).append('<li><img class="panel-image" src="golocalfiles://' + images[t].filename + '" style="width:60px;" ></li>');
+            imgInLineCtr = 1;
+        }
     }
 }

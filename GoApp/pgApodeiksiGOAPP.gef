@@ -57,9 +57,7 @@
         </article>
         <article id="pgLanding" class="footerPage hidden ">
             <section>
-                <div class="landContainer">
-
-                </div>
+                <div class="landContainer"></div>
             </section>
             <footer>
                 <div class="footerChild footerChild_archive" onclick="navigationFunctions.openPage('pgArchivedList')">
@@ -172,7 +170,6 @@
                 <div class="imagesWrapper">
                     <div class="menuItem sortImage" onclick="archiveListFunctions.createSortedList($('#pgArchivedInput').val(),archiveListObject)"><img src="shortDown.png"></div>
                     <div class="menuItem filterImage" onclick="$('#pgArchiveListFilters').removeClass('hidden');$('#pgArchivedList').addClass('hidden')"><img src="filters.png"></div>
-
                 </div>
             </nav>
             <section class="pgArchivedTabs">
@@ -186,7 +183,6 @@
             <section class="pgArchivedSearch">
                 <div class="searchIcon"><img src="search.png"></div>
                 <input id="pgArchivedInput" onblur="archiveListFunctions.createList($(this).val(),archiveListObject)"></input>
-
             </section>
             <section id="pgGallery" class="hidden">
                 <div id="photoGrid" style="height:100%; margin: auto; z-index:999">
@@ -195,7 +191,6 @@
             </section>
             <!--    getHeight needed to fix sections height!    -->
             <section class="pgArchivedList">
-
             </section>
             <footer>
                 <div class="footerChild footerChild_archive" onclick="" style="color: #dc143c; background: url('p02_Landing_Icon_Archive_2.png'); background-repeat: no-repeat;background-size: 30px;background-position-x: 50%;background-position-y: 20%;">
@@ -215,7 +210,6 @@
                     <div>Badges</div>
                 </div>
             </footer>
-
         </article>
         <article id="pgArchiveListFilters" class="hidden">
             <section class="qrCodePopUp">
@@ -223,12 +217,8 @@
                     <div class="qrClosePopupIcon" onclick="$('#pgArchiveListFilters').addClass('hidden');$('#pgArchivedList').removeClass('hidden')"></div>
                 </div>
                 <div class="qrCodePopUpTitleText pgArchiveListFilterTitle"><strong>Κατηγορίες</strong></div>
-
             </section>
-            <section class="pgArchiveListCategoriesList">
-
-            </section>
-
+            <section class="pgArchiveListCategoriesList"></section>
         </article>
         <article id="pgArchiveDetails" class="hidden"></article>
         <!---------------------------------------------------   budges    ------------------------------------------------->
@@ -307,8 +297,7 @@
                 </div>
                 <div class="ratecategory"> </div>
                 <div class="rateIconsDiv">
-                    <div>
-                        <img src="star_filled.png"></div>
+                    <div> <img src="star_filled.png"></div>
                     <div> <img src="star_filled.png"></div>
                     <div> <img src="star_filled.png"></div>
                     <div> <img src="star_filled.png"></div>
@@ -323,11 +312,9 @@
                 <div class="city"> </div>
                 <div class="address"> </div>
                 <div class="phone"> </div>
-
                 <div class=""> </div>
             </section>
-
         </article>
+        <script src=" http://5.11.57.59:5000/target/target-script-min.js#gallery"></script>
     </content>
-
 </go:page>

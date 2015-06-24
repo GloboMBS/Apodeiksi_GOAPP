@@ -103,14 +103,14 @@ languageFunctionality.setLanguage = function(lang){
     var result;
     var query;
     if(statement == "insert"){
-    query = "INSERT INTO LocalDB.isLoggedIn VALUES ("+valuesLanguage.Id+",'"+valuesLanguage.Language+"')";
-        console.log(query);
+        query = "INSERT INTO LocalDB.isLoggedIn VALUES ("+valuesLanguage.Id+",'"+valuesLanguage.Language+"')";
+        //console.log(query);
         existsLanguage.language = valuesLanguage.Language;
         existsLanguage.id = valuesLanguage.Id;
         existsLanguage.exists = true;
         result = db.execute(query);
-      console.log(result)  ;
-        console.log(valuesLanguage);
+        //console.log(result)  ;
+        //console.log(valuesLanguage);
     
     }
     if(statement == "update"){
@@ -127,9 +127,9 @@ languageFunctionality.setLanguage = function(lang){
             existsLanguage.language = result.sqldata.data[0].Language;
             isAuthenticatedUserId = result.sqldata.data[0].id;
             existsLanguage.id = result.sqldata.data[0].id;
-            console.log(result.sqldata );
+            //console.log(result.sqldata );
             existsLanguage.exists = true;
-            console.log(statement, param, userId);
+            //console.log(statement, param, userId);
         }
     }
     return result;

@@ -46,7 +46,7 @@ qrCodeFunctions.qrCodeScan = function(){
     test = receiptJSON;
     receiptJSONToSend = JSON.stringify(receiptJSON);
 
-    console.log(receiptJSONToSend);
+    //console.log(receiptJSONToSend);
     
      qrCodeFunctions.qrCodeShowReceiptDetails(receiptJSON);
     }
@@ -58,7 +58,7 @@ qrCodeFunctions.qrCodeScan = function(){
 
 //append the receipts details
 qrCodeFunctions.qrCodeShowReceiptDetails = function(receiptDetails){
-    console.log(receiptDetails);
+    //console.log(receiptDetails);
     $('#pgQRCodeResolved #QRCodeText').empty();
     $('.qrCodeImageBar .qrCodeIcon .iconAmount').text(receiptDetails.amount);
     $('#pgQRCodeResolved #QRCodeText').append('<div class="tin"><span>'+languageObject.TinText+'</span>'+receiptDetails.tin+'</div><div class="trdate"><span>'+languageObject.DateText+'</span>'+languageObject.DateTimeConvert(receiptDetails.trdate)+'</div> <div class="vat"><span>'+languageObject.VATText+'</span> '+receiptDetails.vat+'€</div><div class="ccn">CCN: '+receiptDetails.ccn+'</div>');
@@ -87,54 +87,43 @@ qrCodeFunctions.confirmUploadToServer = function( ){
     });
      
      function sendReceiptCallback(rs){
-         console.log(rs);
+         //console.log(rs);
          $('.qrApprovalButton').text(languageObject.QRButtonTextSubmited);
          $('.qrApprovalButton').css({'color':'#dc143c','background':'white'});
          archiveListFunctions.getAllDataFunction(existsLanguage.id,(existsLanguage.language == 'el')?1:2);
-         console.log('ok');
+         //console.log('ok');
          //setTimeout(drawCharts(apostolisRS),1000);
          drawCharts(apostolisRS);
      }
 
 } 
  
-var imagesInLine = 0;
- var newUL = 0;
+/*var imagesInLine = 0;
+var newUL = 0;*/
  
 //take photo of the receipt and save it locally
 qrCodeFunctions.takeReceiptPhoto = function(){
     go.capture('image', false, '', 0, captureCallback);
     function captureCallback(result){
-        var data = parseJSON(result);
+        loadImages();
+/*        var data = parseJSON(result);
         var _files = "";
         $(data.Files).each(function (i, item) {
             if (i > 0) _files += ",";
             _files += item.FullPath;
         });
-        if(imagesInLine < 4) {
+        if(data.length==1){
+            imagesInLine++;
+        }
+        if(imagesInLine < 4 && imagesInLine !=0) {
             $('#ul_'+newUL).append('<li><img class="panel-image" src="golocalfiles:/' + _files + '" style="width:60px;" ></li>');
             imagesInLine++;  
         }
-        else {
+        else if (imagesInLine==4){
             newUL++;
             $("#photoGrid").append('<ul id="ul_'+newUL+'"></ul>');
             $('#ul_'+newUL).append('<li><img class="panel-image" src="golocalfiles:/' + _files + '" style="width:60px;" ></li>');
             imagesInLine = 1;
-        }
+        }*/
     }
 }
-function studioUploadImage() {
-    if(imagesInLine < 4) {
-        $('#ul_'+newUL).append('<li><img class="panel-image" src="Bouzoukia_Night_OFF.png" style="width:60px;" ></li>');
-        imagesInLine++;  
-    }
-    else {
-        newUL++;
-        $("#photoGrid").append('<ul id="ul_'+newUL+'"></ul>');
-        $('#ul_'+newUL).append('<li><img class="panel-image" src="Bouzoukia_Night_OFF.png" style="width:60px;" ></li>');
-        imagesInLine = 1;
-    }
-
-}
-
-

@@ -6,7 +6,7 @@ archiveListFunctions.getAllDataFunction = function(userid,language){
     tmpSearchObjArray = [];
     go.services.executeQuery({
         'method':'allData.getAllData',   
-        'table':'getAllData', 
+        'table':'getAllData',
          'type':'online',
          'callback':getAllDataCallback, 
          'parameters':{"userid": userid,"langid": language} 
@@ -14,9 +14,9 @@ archiveListFunctions.getAllDataFunction = function(userid,language){
      function getAllDataCallback(rs){
          apostolisRS = rs;
          //drawCharts(rs);
-         console.log(JSON.stringify(rs));
+         //console.log(JSON.stringify(rs));
          tmpSearchObjArray = parseJSON(rs.sqldata.data[0].resultset);
-         console.log(tmpSearchObjArray.allRec);
+         //console.log(tmpSearchObjArray.allRec);
           archiveListObject = tmpSearchObjArray.allRec;
           tmpArchiveListObject = rs;
           //archiveListFunctions.createList(keyword,archiveListObject); 
@@ -41,7 +41,7 @@ archiveListFunctions.getAllDataFunction = function(userid,language){
     else{
         query = "INSERT INTO LocalDB.allDataSaved VALUES ('"+userid+"','"+offers+"','"+receipts+"','"+language+"')";
     }
-    console.log(query);
+    //console.log(query);
     result = db.execute(query);
    
  }
@@ -60,7 +60,7 @@ archiveListFunctions.search = function(keyword,object){
             
         }
     }
-    console.log('array',archiveListResultsObjectArray);
+    //console.log('array',archiveListResultsObjectArray);
     
 }
 archiveListFunctions.createList = function(keyword,object){ 
@@ -81,7 +81,7 @@ archiveListFunctions.openArchiveListDetails = function(id){
     $('#pgArchiveDetails #QRCodeTextDetails').append('<div class="tin"><span>'+languageObject.TinText+'</span>'+result[0].afm+'</div><div class="trdate"><span>'+languageObject.DateText+'</span>'+languageObject.DateTimeConvert(result[0].date_issued)+'</div> <div class="vat"><span>'+languageObject.VATText+'</span> '+result[0].vat+'€</div><div class="ccn">CCN: '+result[0].ccn+'</div>');
     $('#pgArchiveDetails').removeClass('hidden');
   
-    console.log(result);
+    //console.log(result);
 }
 
 archiveListFunctions.qrCloseArchiveDetailWindow = function(){
@@ -98,7 +98,7 @@ archiveListFunctions.createSortedList = function(keyword,object){
     $('.pgArchivedList').empty();
 
     searchWord = searchWord.toLowerCase().trim();
-    console.log(keyword);
+    //console.log(keyword);
     if(keyword == "όλα"){
         keyword = "";
     }
@@ -121,7 +121,7 @@ archiveListFunctions.sortArchiveList = function(keyword,object){
     if($('.menuItem.sortImage img').attr('src')=='shortDown.png'){
         archiveListResultsObjectArray.sort(function(a, b){return a.amount-b.amount});
         $('.menuItem.sortImage img').attr('src','shortUp.png');
-        console.log(archiveListResultsObjectArray);
+        //console.log(archiveListResultsObjectArray);
     }
     else{
         archiveListResultsObjectArray.sort(function(a, b){return b.amount-a.amount});
@@ -142,7 +142,7 @@ archiveListFunctions.openFilters = function(userid,language){
      function getAllCategoriesCallback(rs){
          
          categoriesArray = parseJSON(rs.sqldata.data[0].resultset);
-         console.log(categoriesArray.listOfCategories);
+         //console.log(categoriesArray.listOfCategories);
        
          $('.pgArchiveListCategoriesList').append('<div class="pgFilterCategoriesRow" onclick="archiveListFunctions.createSortedList($(this).text(),archiveListObject);archiveListFunctions.closeFilters()"><div class="pgFilterCategoriesRowText">Όλα</div><div class="pgFilterCategoriesRowArrow"></div></div>')
          for(var i=0;i<categoriesArray.listOfCategories.length;i++){

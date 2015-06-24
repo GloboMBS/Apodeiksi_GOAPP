@@ -276,10 +276,10 @@ formFunctions.openForm = function() {
 
                            
                               function scanCompanyCallback(rs) {
-                                  console.log(rs);
+                                  //console.log(rs);
                                   var rsresult= rs.sqldata.data[0].resultset; 
                                 var result= parseJSON(rsresult);
-                                console.log(result);
+                                //console.log(result);
                                 $('.rtCodePopUpTitleText').html(result.company_name);
                                 $('.ratecategory').html(result.categoryname);
                                    $('.country').html(result.categoryname);

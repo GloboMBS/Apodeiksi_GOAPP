@@ -11,7 +11,7 @@ var offersFunctions={};
          'parameters':{
          userid:id,
          langid:(existsLanguage.language)=='el'?1:2 
-         }  
+         }
  });
 }
 
